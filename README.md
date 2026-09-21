@@ -251,7 +251,88 @@ En esta sección se establecen los lineamientos visuales y comunicativos que gui
 
 #### 4.1.1 General Style Guidelines
 
-> _Pendiente — completar en `feature/style-guidelines`._
+**Branding:**
+
+Kinemo está enfocado, fundamentalmente, en familias, cuidadores y profesionales que acompañan a niños y niñas de 3 a 12 años con condiciones del neurodesarrollo como TEA, TDAH y síndrome de Down. Por esto mismo, la identidad visual del mismo busca transmitir confianza, cercanía, accesibilidad y acompañamiento.
+
+La identidad de Kinemo intenta representar una herramienta de apoyo de la organización de rutinas y continuidad del cuidado del niño, facilitando la comunicación entre padres, familiares, cuidadores y profesionales. En consecuencia el diseño evita elementos gráficos complejos o sobrecargados y prioriza una interfaz clara, intuitiva y de fácil comprensión y lenguaje.
+
+Con ello se busca generar la sensación de seguridad y tranquilidad, considerando que los
+usuarios pueden consultar la plataforma en situaciones de la vida cotidiana, en las cuales requieren acceder rápidamente a información sobre rutinas, estrategias de apoyo o pautas personalizadas para el niño.
+
+**Typography:**
+
+Para la escritura de la tipografía se ha optado por una sin serifa debido a su buena legibilidad en formatos digitales, y su facilidad para ser leída por los diferentes perfiles de usuario de Kinemo. La tipografía jerárquica se organiza de la siguiente forma:
+
+* Títulos: tamaño grande, peso bold, para marcar las secciones de contenido principal.
+* Subtítulos: tamaño medio, peso semi-bold.
+* Texto general: tamaño estándar, peso regular.
+* Botones y etiquetas: tamaño medio, matiz visual. Esta estructura se traduce en una lectura fácil, lo cual resulta especialmente importante para los padres de familia, que necesitan asimilar rápidamente la información, así como para usuarios con distintas capacidades cognitivas.
+
+Con esta estructura, se puede presentar la información de forma clara y permitir practicar una lectura rápida, sobre todo si se trata de guías prácticas, rutinas visuales, recomendaciones que puedan llegar a consultar los cuidadores del niño, durante los momentos de atención diaria a él.
+
+**Colors:**
+
+La paleta de colores de Kinemo incluye colores principales, secundarios, de acento y neutros. El objetivo es tener una interfaz clara, accesible y coherente.
+
+* Morado (Color principal): El morado es el que representa mayor empatía, sensibilidad y apoyo. El morado es el color sin lugar a dudas, apropiado para un entorno relacionado con la atención y el desarrollo de personas con necesidades especiales, pues transmite la proximidad y comprensión necesarias.
+* Azul (Color secundario): Refuerza la confianza, la seguridad y el profesionalismo. El azul será clave para que los padres de familia se sientan tranquilos y tengan credibilidad de que los servicios que ofrece la plataforma son verdaderos.
+* Amarillo (Color de acento): Brinda energía, optimismo y dinamismo. Se utiliza en elementos interactivos o enfatizados (botones o notificaciones) para llamar la atención proporcionando una señal de alerta pero sin saturación visual.
+* Colores neutros (blanco y grises): Se utilizan como base para los fondos y las estructuras así que permiten que la interfaz sea limpia, legible y fácil de navegar.
+
+**Spacing:**
+
+Se aplica un sistema de espaciado basado en una cuadrícula modular (8px) para poder conseguir una uniformidad visual en toda la interfaz. El espaciado correcto entre los elementos permite:
+
+* Mejorar la legibilidad.
+* Evitar la saturación visual.
+* Facilitar la navegación.
+
+| **Token** | **Valor (px)** | **Valor (DXA/rem)** | **Aplicación**                                  |
+|-----------|----------------|---------------------|-------------------------------------------------|
+| space-1   | 4px            | 0.25rem             | Separación interna mínima (icono + texto)       |
+| space-2   | 8px            | 0.5rem              | Padding interno de chips y badges               |
+| space-3   | 12px           | 0.75rem             | Padding de campos de texto (input)              |
+| space-4   | 16px           | 1rem                | Padding estándar de tarjetas y botones          |
+| space-5   | 20px           | 1.25rem             | Separación entre componentes relacionados       |
+| space-6   | 24px           | 1.5rem              | Margen entre secciones de formulario            |
+| space-8   | 32px           | 2rem                | Separación entre secciones de contenido         |
+| space-10  | 40px           | 2.5rem              | Padding de secciones principales (contenedores) |
+| space-12  | 48px           | 3rem                | Espaciado entre bloques de página               |
+| space-16  | 64px           | 4rem                | Margen vertical entre secciones de página       |
+| space-24  | 96px           | 6rem                | Hero sections y márgenes de pantalla completa   |
+
+Dado que la plataforma incluye una multitud de funcionalidades (calendario, sesiones, marketplace, etc.), los espacios en blanco se convierten en un aspecto clave para conseguir una interfaz ordenada y que el usuario pueda entender.
+
+**Dimensiones a adoptar:**
+
+El tono de comunicación:
+
+| Dimensión                | Posición            | Justificación                                                                  |
+|--------------------------|---------------------|--------------------------------------------------------------------------------|
+| Divertido / Serio        | Balanceado (50/50)  | Se usa humor con moderación; no trivializa situaciones sensibles de los niños. |
+| Formal / Casual          | Semi-formal (40/60) | Tono cercano y accesible para padres, sin perder credibilidad profesional.     |
+| Respetuoso / Irreverente | Respetuoso (90/10)  | Siempre empático y sensible a las necesidades especiales.                      |
+| Entusiasta / Sereno      | Sereno (30/70)      | Transmite tranquilidad y confianza; evita generar ansiedad en los padres.      |
+
+Lenguaje aplicado: Claro, empático y directo.
+
+Se excluye el empleo del léxico técnico complicado, preponderando mensajes fáciles de entender para los padres de familia. A la vez, se mantiene un tono respetuoso por la sensibilidad que esta problemática conlleva (niños con necesidades especiales).
+
+**Accesibilidad:**
+
+Kinemo se adapta a las distintas capacidades visuales, cognitivas y motrices de los usuarios. Además, dado que la plataforma iba a ser usada por familiares, cuidadores y profesionales, se tuvo en cuenta el diseño de una interfaz sencilla, clara y accesible para el acceso a la información sobre las rutinas, guías y recomendaciones del niño.
+
+Las Web Content Accessibility Guidelines (WCAG) sirvieron de base para el diseño, considerando el nivel AA como mínimo objetivo de accesibilidad. Entre los criterios considerados, cabe destacar:
+* Contraste de color: ratio mínimo 4.5:1 para texto normal y 3:1 para texto grande. Todos los colores de la paleta han sido verificados.
+* Tamaños táctiles: todos los elementos interactivos tienen un área mínima de 44×44px (WCAG 2.5.5).
+* Navegación por teclado: todos los flujos críticos son completamente navegables sin ratón.
+* Etiquetas ARIA: todos los componentes interactivos incluyen atributos aria-label, aria-describedby o roles semánticos correctos.
+* Texto alternativo: todas las imágenes informativas incluyen atributo alt descriptivo.
+* Indicador de foco visible: se muestra un outline claro (#5B2D8E, 3px) al navegar con teclado.
+* Compatibilidad multiplataforma: web (Chrome, Firefox, Safari, Edge), iOS y Android.
+* Modo de alto contraste: se respetan las preferencias del sistema operativo (prefers-contrast: more).
+* Reducción de movimiento: las animaciones se desactivan si el usuario tiene activado prefers-reduced-motion.
 
 #### 4.1.2 Web Style Guidelines
 

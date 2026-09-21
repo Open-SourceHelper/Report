@@ -205,9 +205,21 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 ### 2.3 Needfinding
 
-#### 2.3.1 User Personas
+### 2.3.1. User Personas
 
-> _Pendiente — completar en `feature/user-personas`._
+Los User Personas son representaciones ficticias de usuarios que reúnen características, objetivos, motivaciones, necesidades y frustraciones de un segmento específico. Esta herramienta permite comprender a quién está dirigida una solución y facilita la toma de decisiones durante el diseño de la experiencia de usuario.
+
+Para NeuroSync, se desarrollan perfiles representativos de los segmentos objetivo: familias y cuidadores, quienes necesitan organizar el acompañamiento cotidiano del niño y mantener una comunicación coordinada con su red de apoyo; y psicólogos o terapeutas infantiles, quienes requieren compartir pautas de orientación y consultar información relevante sobre el seguimiento de sus pacientes. Estos perfiles permiten identificar las necesidades particulares de cada grupo y orientar el desarrollo de funcionalidades que respondan a sus responsabilidades y objetivos.
+
+A continuación, se presentan los User Personas elaborados para el proyecto.
+
+**User Persona: Andrea Ramírez**
+
+![User Persona de Andrea Ramírez](imagenes/Andrea%20Ram%C3%ADrez.png)
+
+**User Persona: María Fernández**
+
+![User Persona de María Fernández](imagenes/Mar%C3%ADa%20Fern%C3%A1ndez.png)
 
 #### 2.3.2 User Task Matrix
 

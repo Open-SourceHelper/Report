@@ -331,7 +331,116 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 #### 4.7.1 Class Diagrams
 
-> _Pendiente — completar en `feature/class-diagrams`._
+Los diagramas de clases de Kinemo representan la estructura orientada a objetos de los ocho Bounded Contexts identificados en el proyecto. Cada diagrama presenta las clases, atributos, métodos y relaciones correspondientes a su contexto, manteniendo la separación de responsabilidades establecida en el diseño del sistema.
+
+A continuación, se presentan los diagramas de clases organizados desde BC01 hasta BC08.
+
+##### Identity & Access Management
+
+El diagrama de clases del Bounded Context Identity & Access Management representa la estructura orientada a objetos encargada de gestionar la identidad y el acceso de los usuarios de Kinemo. La clase User constituye la entidad principal, ya que administra las credenciales, el rol y el estado de validación de cada cuenta.
+
+La clase UserProfile almacena la información personal del usuario y mantiene una relación de composición de uno a uno con User. Por otro lado, PasswordRecovery permite gestionar las solicitudes de recuperación de contraseñas mediante tokens temporales, mientras que UserSession registra el inicio, la validación y el cierre de las sesiones. Ambas clases mantienen relaciones de uno a muchos con User, debido a que una cuenta puede generar múltiples solicitudes de recuperación y sesiones durante su ciclo de vida.
+
+Los métodos definidos responden a los procesos identificados en el Design-Level EventStorming, incluyendo el registro de cuentas, la autenticación, la actualización del perfil, la recuperación de contraseñas y el cierre de sesión. De esta manera, el diagrama establece una estructura coherente con los requerimientos funcionales y el diseño de base de datos de Kinemo.
+
+
+
+![Diagrama de clases BC01](imagenes/BC1.png)
+
+##### Child Profile Management
+
+El diagrama de clases del Bounded Context Child Profile Management representa la estructura orientada a objetos encargada de administrar la información personal y el perfil de apoyo de los niños registrados en Kinemo. La clase Child constituye la entidad principal, ya que almacena los datos básicos del menor y mantiene una referencia al padre o tutor responsable mediante el atributo parentId.
+
+La clase ClinicalProfile mantiene una relación de composición de uno a uno con Child y permite registrar las necesidades particulares, detonantes y reguladores del niño. Asimismo, incorpora operaciones para configurar, actualizar y consultar dicha información. Por otro lado, CaregiverAuthorization gestiona los permisos de consulta mediante una relación de uno a muchos con Child, permitiendo registrar y revocar autorizaciones de acceso para distintos cuidadores.
+
+Los métodos definidos responden a los procesos de configuración, actualización y consulta identificados en el Design-Level EventStorming. De esta manera, el diagrama establece una estructura coherente con los requerimientos funcionales y el diseño de base de datos de Kinemo, manteniendo la información del niño separada de la gestión de identidades y de la administración de la red de cuidado.
+
+
+![Diagrama de clases BC02](imagenes/BC2.png)
+
+##### Care Network Management
+
+Para mantener la separación entre los Bounded Contexts, no incluimos la clase User del BC01 ni duplicamos CaregiverAuthorization del BC02. Utilizamos parentId y caregiverId como referencias a usuarios de otros contextos.
+
+Además, el modelo mantiene el historial de integrantes revocados mediante los atributos status y revokedAt, en lugar de eliminar necesariamente sus registros. Esto coincide con el diseño descrito para Care_network_members.
+
+
+![Diagrama de clases BC03](imagenes/BC3.png)
+
+##### Routine Management
+
+No incluimos la clase Child, porque pertenece al BC02 — Child Profile Management. El atributo childId permite mantener la referencia al niño sin duplicar su información.
+
+No agregamos una clase independiente para el temporizador o las alertas, porque el diseño de base de datos existente contempla los campos transition_duration_minutes y alert_type dentro de Routine_activities.
+
+La duplicación no debe modificar la rutina original. El método duplicarRutina() devuelve una nueva rutina y la relación recursiva permite conservar la trazabilidad de su origen. Esto responde a las reglas establecidas en el EventStorming.
+
+La ejecución automática del temporizador y la emisión de alertas podrían requerir un servicio de aplicación durante la implementación. En este diagrama se representan como operaciones de RoutineActivity para mantener el modelo solicitado con las tres entidades existentes.
+
+
+![Diagrama de clases BC04](imagenes/BC4.png)
+
+##### Clinical Guidance Management
+
+No incluimos las clases User ni Child, porque pertenecen al BC01 y BC02, respectivamente. Utilizamos sus identificadores para mantener la separación entre contextos.
+
+PatientAssignment representa una relación profesional activa. Su método verificarAsignacion() permite comprobar la autorización antes de registrar o actualizar pautas.
+
+Las guías prácticas no dependen de que exista una pauta clínica individualizada. El EventStorming las presenta como un repositorio independiente y establece que su búsqueda y consulta son Queries.
+
+El método habilitarParaCuidadores() representa la disponibilidad de la pauta, pero no reemplaza las verificaciones de permisos correspondientes al cuidador. La implementación deberá comprobar esos permisos antes de entregar información clínica.
+
+No agregamos una clase ClinicalGuidelineVersion, porque el diseño actual contempla la actualización de las instrucciones mediante updated_at, pero no define una entidad independiente para almacenar un historial de versiones.
+
+
+![Diagrama de clases BC05](imagenes/BC5.png)
+
+##### Observation Management
+
+Para mantener la separación de Bounded Contexts, no incluimos las clases User ni Child, porque pertenecen a BC01 y BC02. Los atributos caregiverId, psychologistId y childId permiten referenciar estas entidades sin duplicarlas.
+
+El EventStorming establece los niveles de intensidad Leve, Moderado y Severo. Por ello, validarIntensidad() debe comprobar que el valor ingresado pertenezca a ese conjunto.
+
+Antes de registrar un comentario, debe verificarse que el psicólogo esté autorizado para revisar la observación. Esta regla aparece expresamente en el EventStorming.
+
+El registro de un comentario genera una notificación para los padres. No agregamos una clase Notification porque no aparece entre las entidades de base de datos de BC06. Su implementación deberá definirse en el componente correspondiente.
+
+El psicólogo debe poder filtrar observaciones por tipo de evento y rango temporal. En el código se representa el rango de fechas; para implementar todos los filtros, también deberá contemplarse el tipo de evento en la consulta.
+
+
+![Diagrama de clases BC06](imagenes/BC6.png)
+
+##### Reporting & Monitoring
+
+Para mantener la separación de contextos, no incluimos las clases Child, RoutineActivity ni Observation. BC07 utiliza información producida por BC02, BC04 y BC06, pero no debe duplicar sus responsabilidades.
+
+DailySummary consolida indicadores para su consulta. El registro y la modificación de actividades continúan siendo responsabilidad del BC04.
+
+GeneratedReport conserva la URL del archivo generado mediante pdfFileUrl. El método exportarPDF() debe comprobar que el archivo esté disponible antes de permitir su descarga.
+
+ReportObservation permite identificar qué observaciones se incluyeron en cada reporte. Esto resulta útil para relacionar los reportes con los registros originales del BC06.
+
+Antes de generar o consultar un reporte, la implementación debe verificar que el psicólogo tenga acceso al niño correspondiente. Esta comprobación puede utilizar la asignación profesional definida en BC05.
+
+
+![Diagrama de clases BC07](imagenes/BC7.png)
+
+##### Subscription & Payment Management
+
+El modelo contempla exclusivamente planes de pago familiares y profesionales. No agregamos funcionalidades de prueba gratuita ni planes freemium.
+
+La activación está condicionada al pago. El método activarSuscripcion() solo debe ejecutarse después de recibir y validar la confirmación del proveedor externo. Una transacción rechazada no debe activar la suscripción.
+
+El método solicitarCancelacion() registra la intención del usuario, mientras que aplicarCancelacion() cambia el estado cuando llega la fecha efectiva. Son operaciones distintas.
+
+Para mantener la separación de contextos, no incluimos la clase User porque pertenece al BC01. El atributo userId permite asociar la suscripción a la cuenta correspondiente.
+
+El atributo externalTransactionId permite identificar la operación procesada fuera de Kinemo. La validación de las confirmaciones del proveedor debe resolverse en la implementación de la integración de pagos.
+
+Una suscripción puede tener varias transacciones, por lo que el modelo conserva los pagos confirmados y rechazados en lugar de sobrescribirlos.
+
+
+![Diagrama de clases BC08](imagenes/BC8.png)
 
 ### 4.8 Database Design
 

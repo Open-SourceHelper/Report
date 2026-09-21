@@ -336,7 +336,53 @@ Las Web Content Accessibility Guidelines (WCAG) sirvieron de base para el diseñ
 
 #### 4.1.2 Web Style Guidelines
 
-> _Pendiente — completar en `feature/style-guidelines`._
+En esta sección se explican e ilustran las decisiones sobre los estándares visuales y de interacción para las interfaces web responsivas de la plataforma. Se definen los componentes, patrones de interacción y especificaciones técnicas para el desarrollo front-end web.
+
+**Breakpoints y Diseño Responsivo:**
+
+La interfaz web adopta un enfoque mobile-first, escalando progresivamente hacia pantallas más grandes. Se definen los siguientes breakpoints:
+
+* xs — < 480px: Móviles pequeños (diseño base).
+* sm — 480px – 767px: Móviles grandes y phablets.
+* md — 768px – 1023px: Tablets en orientación vertical.
+* lg — 1024px – 1279px: Tablets en horizontal y laptops pequeñas.
+* xl — 1280px – 1535px: Desktops estándar.
+* 2xl — ≥ 1536px: Pantallas grandes y monitores 4K.
+
+**Componentes Base:**
+
+Los componentes de la interfaz web siguen el sistema de componentes de Material Design 3, adaptados a la identidad visual de la plataforma. A continuación se documentan los principales:
+
+Botones:
+* Primario (Filled): Fondo #F5A623 texto blanco, border-radius 8px, padding 12px 24px. Hover: #7B4DB0. Active: #4A2070.
+* Acento (Filled Tonal): Fondo #F5A623, texto #111827, border-radius 8px. Para CTAs de alta visibilidad.
+* Ghost / Text: Sin borde ni fondo. Texto #5B2D8E. Para acciones de baja prioridad.
+* Destructivo: Fondo #C62828, texto blanco. Solo para acciones irreversibles (eliminar, cancelar sesión). Todos los botones incluyen: estado disabled (opacidad 38%), indicador de foco visible, estado loading con spinner, y mínimo 44px de altura para accesibilidad táctil.
+
+Inputs y Formularios:
+* Campo de texto: border 1px #5B2D8E, border-radius 6px, padding 12px 16px. Focus: border 2px #5B2D8E + box-shadow 0 0 0 3px #EDE5F7.
+* Estado de error: border 2px #C62828, mensaje de error en #C62828 debajo del campo.
+* Estado de éxito: border 2px #2E7D32 + icono de check en el campo.
+* Labels: siempre visibles (no dependen del placeholder). Texto #343A40, Body Medium.
+* Helper text: texto secundario debajo del campo, Color #6C757D, Body Small.
+
+Tarjetas (Cards):
+* Fondo: #FFFFFF, border-radius 12px, box-shadow 0 2px 8px rgba(0,0,0,0.08).
+* Borde opcional: 1px #DEE2E6 para tarjetas en fondos de mismo color.
+* Padding interno: 24px (space-6).
+* Hover interactivo: box-shadow 0 4px 16px rgba(91,45,142,0.12), transform translateY(-2px), transición 200ms ease.
+
+Navegación:
+* Top App Bar (desktop): altura 64px, fondo #FFFFFF, sombra sutil. Logo a la izquierda, navegación principal centrada, acciones de usuario a la derecha.
+* Sidebar (dashboard): ancho 260px colapsado a 72px en tablet. Fondo #F8F9FA, íconos + labels. Ítem activo: fondo #EDE5F7, texto #5B2D8E, borde izquierdo 3px #5B2D8E.
+* Bottom Navigation (mobile): 4–5 destinos, íconos + labels cortos, ítem activo en #5B2D8E.
+* Breadcrumbs: separador /, texto #111827, ítem activo #343A40, Body Medium.
+
+Iconografía:
+* Biblioteca base: Material Symbols (Google) en variante Rounded.
+* Tamaños: 20px (inline/label), 24px (estándar), 32px (destacado), 48px (hero/vacío).
+* Color por defecto: hereda del contexto. En superficies claras: #343A40. En superficies de color: #FFFFFF.
+* Íconos de estado: siempre acompañados de texto (no dependen del ícono solo para transmitir información).
 
 ### 4.2 Information Architecture
 

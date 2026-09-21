@@ -247,6 +247,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 ### 4.1 Style Guidelines
 
+En esta sección se establecen los lineamientos visuales y comunicativos que guiarán el diseño de la plataforma, con el objetivo de garantizar una experiencia consistente, accesible y alineada al dominio terapéutico. Las decisiones de diseño se fundamentan en principios de claridad, accesibilidad y confianza, tomando como referencia buenas prácticas de sistemas de diseño como Material Design.
+
 #### 4.1.1 General Style Guidelines
 
 > _Pendiente — completar en `feature/style-guidelines`._

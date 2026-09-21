@@ -211,7 +211,15 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 #### 2.3.2 User Task Matrix
 
-> _Pendiente — completar en `feature/user-task-matrix`._
+En NeuroSync, esta herramienta permite analizar las actividades de las familias y cuidadores, como organizar rutinas, consultar pautas de acompañamiento, registrar observaciones y compartir información con otros integrantes de la red de cuidado. Asimismo, contempla las tareas de los psicólogos o terapeutas infantiles, como registrar indicaciones clínicas, revisar observaciones y consultar reportes de seguimiento.
+
+La matriz contribuye a identificar las funcionalidades necesarias para cada tipo de usuario y establecer una base para la definición de historias de usuario y requerimientos funcionales.
+
+A continuación, se presenta la User Task Matrix correspondiente a los segmentos objetivo de NeuroSync.
+
+**Figura 3. User Task Matrix de NeuroSync**
+
+![User Task Matrix de NeuroSync](imagenes/User%20Task%20Matrix.png)
 
 #### 2.3.3 User Journey Mapping
 

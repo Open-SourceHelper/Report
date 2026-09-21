@@ -241,7 +241,64 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 ### 3.3 Product Backlog
 
-> _Pendiente — completar en `feature/product-backlog`._
+El Product Backlog de NeuroSync reúne las historias de usuario que describen las funcionalidades necesarias para desarrollar la plataforma. Cada historia identifica una necesidad específica desde la perspectiva del usuario o del equipo de desarrollo y cuenta con una estimación en Story Points.
+
+A continuación, se presenta el Product Backlog del proyecto.
+
+| **#** | **User Story ID** | **Título** | **Descripción** | **Story Points** |
+|---|---|---|---|---|
+| 1 | US01 | Visualización de propuesta de valor | Como visitante, deseo visualizar el propósito general de NeuroSync para entender cómo ayuda al cuidado de niños neurodivergentes. | 3 |
+| 2 | US02 | Beneficios por segmento | Como visitante, deseo leer los beneficios segmentados para identificar la utilidad de la plataforma según mi rol (padre, cuidador o psicólogo). | 3 |
+| 3 | US37 | Visualización de planes | Como usuario, quiero ver la tabla de precios (familiar vs. profesional) para elegir el esquema de suscripción adecuado. | 3 |
+| 4 | US04 | Redirección a la aplicación web | Como visitante, deseo acceder a los enlaces de inicio de sesión o registro para transicionar desde la página informativa hacia el sistema operativo. | 2 |
+| 5 | US38 | Pago de suscripción | Como usuario, quiero ingresar los datos de mi tarjeta para adquirir una suscripción premium mediante un servicio de terceros. | 8 |
+| 6 | US09 | Perfil clínico del niño | Como cuidador autorizado, deseo consultar las necesidades y detonantes del niño para actuar correctamente frente a una desregulación. | 5 |
+| 7 | US12 | Consulta de guía rápida | Como cuidador autorizado, deseo acceder a instrucciones paso a paso durante una crisis para intervenir de forma segura e inmediata. | 5 |
+| 8 | US19 | Redacción de pautas clínicas | Como psicólogo autorizado, deseo redactar instrucciones formales de intervención para estandarizar la atención que brinda la familia. | 5 |
+| 9 | US23 | Invitación a red de cuidado | Como padre o tutor, quiero invitar a un cuidador secundario mediante su correo para que acceda al perfil del niño. | 5 |
+| 10 | US24 | Aceptación de invitación | Como cuidador secundario, quiero aceptar una invitación recibida para integrarme a la red de cuidado de un niño. | 3 |
+| 11 | US15 | Creación de rutina | Como padre o psicólogo, deseo configurar una nueva secuencia de actividades asignando duración y orden para estructurar el día. | 5 |
+| 12 | US13 | Visualización de rutina | Como cuidador, deseo visualizar la secuencia diaria con apoyos visuales para guiar al niño a través de sus actividades. | 5 |
+| 13 | US17 | Registro de observación | Como cuidador, deseo registrar una observación o incidente ocurrido durante el día para notificar al psicólogo y a la familia. | 5 |
+| 14 | US10 | Edición del perfil del niño | Como padre o tutor, deseo modificar el perfil clínico del menor para mantener los datos de apoyo actualizados para toda la red. | 5 |
+| 15 | US18 | Visualización de red de cuidado | Como padre o tutor, deseo visualizar el listado de personas con acceso al perfil de mi hijo para auditar la privacidad de la información. | 3 |
+| 16 | US25 | Revocación de accesos | Como padre o tutor, quiero eliminar a un integrante de la red de cuidado para proteger la privacidad del menor. | 5 |
+| 17 | US26 | Visualización de pacientes | Como psicólogo, quiero visualizar un listado de todos mis pacientes vinculados para acceder rápidamente a sus pautas. | 3 |
+| 18 | US08 | Panel principal (Dashboard) | Como cuidador autorizado, deseo visualizar un resumen de las rutinas diarias para identificar rápidamente las actividades programadas. | 5 |
+| 19 | US11 | Búsqueda de guías prácticas | Como cuidador autorizado, deseo buscar pautas por categoría o situación para encontrar rápidamente la estrategia de apoyo necesaria. | 3 |
+| 20 | US14 | Marcado de actividad completada | Como cuidador, deseo marcar una tarea como completada para registrar el progreso del niño a lo largo de su jornada. | 3 |
+| 21 | US16 | Temporizador de transición | Como cuidador, deseo activar un temporizador visual para ayudar al niño a anticipar la transición hacia la siguiente tarea de la rutina. | 3 |
+| 22 | US34 | Comentarios del psicólogo | Como psicólogo autorizado, quiero añadir un comentario en una observación registrada por la familia para brindar retroalimentación clínica. | 5 |
+| 23 | US35 | Filtro de observaciones | Como psicólogo, quiero filtrar el historial de observaciones por tipo de evento (crisis, rutina, hito) para agilizar mi análisis. | 3 |
+| 24 | US27 | Subida de apoyos visuales | Como padre o terapeuta, quiero subir imágenes o pictogramas personalizados para utilizarlos en las actividades de la rutina. | 5 |
+| 25 | US32 | Categorización de crisis | Como cuidador, quiero etiquetar el nivel de intensidad de una desregulación sensorial registrada para generar un historial preciso. | 3 |
+| 26 | US36 | Exportación de reporte | Como psicólogo, quiero exportar el historial de observaciones a un archivo PDF para adjuntarlo a la historia clínica del paciente. | 5 |
+| 27 | US03 | Preguntas frecuentes | Como visitante, deseo consultar una sección de preguntas frecuentes para resolver dudas básicas sobre el manejo de la plataforma. | 2 |
+| 28 | US39 | Cancelación de suscripción | Como usuario premium, quiero cancelar mi plan de pago mensual para evitar futuros cobros automatizados. | 5 |
+| 29 | US05 | Formulario de registro | Como usuario no registrado, deseo crear una cuenta seleccionando mi rol para integrarme a la plataforma NeuroSync. | 5 |
+| 30 | US06 | Validación de registro | Como usuario no registrado, deseo que el sistema valide mis datos de entrada para evitar errores en la creación de mi cuenta. | 3 |
+| 31 | US07 | Inicio de sesión | Como usuario registrado, deseo autenticarme con mis credenciales para acceder a la información confidencial de la red de cuidado. | 5 |
+| 32 | US22 | Cierre de sesión seguro | Como usuario autenticado, quiero cerrar mi sesión para proteger la privacidad de la información clínica. | 2 |
+| 33 | US20 | Recuperación de contraseña | Como usuario registrado, quiero solicitar el restablecimiento de mi contraseña para recuperar el acceso a mi cuenta. | 5 |
+| 34 | US21 | Edición de perfil de usuario | Como cuidador o psicólogo, quiero modificar mis datos personales para mantener mi información de contacto actualizada. | 3 |
+| 35 | US28 | Duplicación de rutinas | Como padre o tutor, quiero duplicar una rutina existente para crear variaciones para diferentes días sin configurarla desde cero. | 3 |
+| 36 | US29 | Eliminación de rutinas | Como padre o tutor, quiero eliminar una rutina que ya no se utiliza para mantener el panel organizado. | 3 |
+| 37 | US30 | Marcado de actividad omitida | Como cuidador, quiero marcar una actividad como omitida para reflejar variaciones reales en el día del niño. | 2 |
+| 38 | US31 | Configuración de alertas visuales | Como cuidador, quiero elegir el tipo de alerta del temporizador (solo visual o sonora leve) para evitar sobreestimulación. | 3 |
+| 39 | US33 | Adjuntar evidencia visual | Como cuidador, quiero adjuntar una fotografía al registrar una observación para brindar mejor contexto al psicólogo. | 5 |
+| 40 | US42 | Endpoint GET Perfil del Niño | Como Developer, deseo contar con un servicio REST para recuperar los datos terapéuticos del paciente. | 5 |
+| 41 | US43 | Endpoint PUT Actualización Perfil | Como Developer, deseo tener un endpoint PUT para sobrescribir las preferencias y pautas de un perfil existente. | 5 |
+| 42 | US49 | Endpoint POST Pautas Clínicas | Como Developer, deseo un endpoint para que el especialista guarde las directrices formales de intervención. | 5 |
+| 43 | US50 | Endpoint POST Invitación Red | Como Developer, deseo un servicio que procese la lógica de vinculación entre un usuario nuevo y el paciente. | 8 |
+| 44 | US51 | Endpoint DELETE Integrante Red | Como Developer, deseo un endpoint DELETE para eliminar los privilegios de un cuidador sobre un perfil. | 5 |
+| 45 | US45 | Endpoint POST Crear Rutina | Como Developer, deseo un endpoint POST para registrar una nueva secuencia de actividades visuales en la base de datos. | 5 |
+| 46 | US44 | Endpoint GET Rutinas | Como Developer, deseo implementar un servicio GET para listar las actividades diarias programadas. | 3 |
+| 47 | US47 | Endpoint POST Observaciones | Como Developer, deseo un endpoint para insertar nuevos registros de observación en el historial clínico. | 5 |
+| 48 | US48 | Endpoint GET Filtro de Observaciones | Como Developer, deseo implementar un servicio GET parametrizado para recuperar observaciones por rango de fechas. | 5 |
+| 49 | US40 | Endpoint POST Registro de Usuario | Como Developer, deseo contar con un endpoint POST para almacenar de manera segura los datos del nuevo usuario en el sistema. | 5 |
+| 50 | US41 | Endpoint POST Autenticación | Como Developer, deseo implementar un endpoint de login que genere un token de sesión seguro (JWT). | 8 |
+| 51 | US46 | Endpoint DELETE Eliminar Rutina | Como Developer, deseo habilitar un endpoint DELETE para inactivar rutinas obsoletas. | 3 |
+| 52 | US52 | Integración API Terceros | Como Developer, deseo conectar el sistema con un API de notificaciones push o mensajería. | 8 |
 
 ## Capítulo IV: Product Design
 

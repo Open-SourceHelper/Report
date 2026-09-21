@@ -215,7 +215,19 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 #### 2.3.3 User Journey Mapping
 
-> _Pendiente — completar en `feature/journey-maps`._
+En NeuroSync, esta herramienta permite analizar la experiencia de las familias y cuidadores durante la búsqueda de orientación, la organización de rutinas y la coordinación con otros responsables del cuidado del niño. De igual manera, permite comprender el recorrido de los psicólogos o terapeutas infantiles al proporcionar pautas de acompañamiento y realizar el seguimiento de sus pacientes.
+
+La representación de estos recorridos facilita la identificación de puntos de fricción y oportunidades de mejora, proporcionando información para diseñar una experiencia de usuario más clara, accesible y adaptada a las necesidades de cada segmento.
+
+A continuación, se presentan los User Journey Maps elaborados para el proyecto.
+
+**User Journey Map As-Is de Andrea Ramírez**
+
+![User Journey Map As-Is de Andrea Ramírez](imagenes/User%20Journey%20Map%20As-Is%20de%20Andrea%20Ram%C3%ADrez.png)
+
+**User Journey Map As-Is de María Fernández**
+
+![User Journey Map As-Is de María Fernández](imagenes/User%20Journey%20Map%20As-Is%20de%20Mar%C3%ADa%20Fern%C3%A1ndez.png)
 
 #### 2.3.4 Empathy Mapping
 

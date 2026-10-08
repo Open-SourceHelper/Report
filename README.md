@@ -210,9 +210,21 @@ En el proyecto NeuroSync, este proceso se enfoca en dos segmentos objetivo: las 
 A partir de la información recopilada durante las entrevistas, se emplean cuatro herramientas de análisis: **User Personas, User Task Matrix, User Journey Mapping y Empathy Mapping**. Estas permiten representar las características de los usuarios, identificar sus principales actividades, analizar las dificultades que enfrentan y comprender sus experiencias, emociones y expectativas.
 Los resultados obtenidos servirán como base para identificar oportunidades de mejora y definir los requerimientos funcionales de Kinemo, una plataforma web orientada a facilitar la organización de rutinas, el acceso a guías prácticas y la coordinación entre familias, cuidadores y profesionales autorizados.
 
-#### 2.3.1 User Personas
+### 2.3.1. User Personas
 
-> _Pendiente — completar en `feature/user-personas`._
+Los User Personas son representaciones ficticias de usuarios que reúnen características, objetivos, motivaciones, necesidades y frustraciones de un segmento específico. Esta herramienta permite comprender a quién está dirigida una solución y facilita la toma de decisiones durante el diseño de la experiencia de usuario.
+
+Para NeuroSync, se desarrollan perfiles representativos de los segmentos objetivo: familias y cuidadores, quienes necesitan organizar el acompañamiento cotidiano del niño y mantener una comunicación coordinada con su red de apoyo; y psicólogos o terapeutas infantiles, quienes requieren compartir pautas de orientación y consultar información relevante sobre el seguimiento de sus pacientes. Estos perfiles permiten identificar las necesidades particulares de cada grupo y orientar el desarrollo de funcionalidades que respondan a sus responsabilidades y objetivos.
+
+A continuación, se presentan los User Personas elaborados para el proyecto.
+
+**User Persona 1: Andrea Ramírez **
+
+![User Persona de Andrea Ramírez](imagenes/Andrea%20Ram%C3%ADrez.png)
+
+**User Persona 2: María Fernández **
+
+![User Persona de María Fernández](imagenes/Mar%C3%ADa%20Fern%C3%A1ndez.png)
 
 #### 2.3.2 User Task Matrix
 

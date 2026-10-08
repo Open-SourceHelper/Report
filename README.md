@@ -248,9 +248,17 @@ A continuación, se presentan los User Journey Maps elaborados para el proyecto.
 
 ![User Journey Map As-Is de María Fernández](imagenes/User%20Journey%20Map%20As-Is%20de%20Mar%C3%ADa%20Fern%C3%A1ndez.png)
 
-#### 2.3.4 Empathy Mapping
+### 2.3.4. Empathy Mapping
 
-> _Pendiente — completar en `feature/empathy-maps`._
+En NeuroSync, esta herramienta se utiliza para representar las perspectivas de las familias y cuidadores, quienes deben coordinar diferentes responsabilidades relacionadas con el acompañamiento cotidiano del niño, así como las de los psicólogos o terapeutas infantiles, quienes necesitan proporcionar orientación y mantener un seguimiento organizado de sus pacientes.
+
+Los mapas de empatía permiten reconocer posibles preocupaciones, expectativas y oportunidades de mejora para cada segmento. Esta información contribuye a orientar el diseño de una plataforma que facilite la organización de rutinas, el acceso a pautas de acompañamiento y la coordinación entre los integrantes de la red de cuidado.
+
+A continuación, se presentan los Empathy Maps correspondientes a los perfiles de usuario definidos para NeuroSync.
+
+![Empathy Map de Andrea Ramírez](imagenes/Empathy%20Map%20%E2%80%94%20Andrea%20Ram%C3%ADrez.png)
+
+![Empathy Map de María Fernández](imagenes/Empathy%20Map%20de%20Mar%C3%ADa%20Fern%C3%A1ndez.png)
 
 ### 2.4 Big Picture EventStorming
 

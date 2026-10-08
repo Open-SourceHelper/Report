@@ -217,7 +217,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 > _Pendiente — completar en `feature/journey-maps`._
 
-#### 2.3.4 Empathy Mapping
+### 2.3.4. Empathy Mapping
 
 En NeuroSync, esta herramienta se utiliza para representar las perspectivas de las familias y cuidadores, quienes deben coordinar diferentes responsabilidades relacionadas con el acompañamiento cotidiano del niño, así como las de los psicólogos o terapeutas infantiles, quienes necesitan proporcionar orientación y mantener un seguimiento organizado de sus pacientes.
 
@@ -225,11 +225,7 @@ Los mapas de empatía permiten reconocer posibles preocupaciones, expectativas y
 
 A continuación, se presentan los Empathy Maps correspondientes a los perfiles de usuario definidos para NeuroSync.
 
-**Empathy Map de Andrea Ramírez**
-
 ![Empathy Map de Andrea Ramírez](imagenes/Empathy%20Map%20%E2%80%94%20Andrea%20Ram%C3%ADrez.png)
-
-**Empathy Map de María Fernández**
 
 ![Empathy Map de María Fernández](imagenes/Empathy%20Map%20de%20Mar%C3%ADa%20Fern%C3%A1ndez.png)
 

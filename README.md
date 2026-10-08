@@ -368,9 +368,57 @@ A continuación, se presentan los Empathy Maps correspondientes a los perfiles d
 
 ### 4.7 Software Object-Oriented Design
 
-#### 4.7.1 Class Diagrams
 
-> _Pendiente — completar en `feature/class-diagrams`._
+
+#### 4.7.1. Class Diagrams
+
+![Class Diagram BC01](imagenes/DC%201.png)
+
+El diagrama de clases del Bounded Context Identity & Access Management representa la estructura encargada de gestionar la identidad, autenticación y acceso de los usuarios de Kinemo. User se define como Aggregate Root, ya que centraliza las principales operaciones relacionadas con el registro, autenticación, asignación de roles y administración de la cuenta.
+
+Dentro del agregado se encuentran entidades como UserProfile, PasswordRecovery y UserSession, responsables de gestionar la información personal, la recuperación de contraseñas y las sesiones del usuario. Asimismo, se incorpora Email como Value Object y enumeraciones para representar los roles y estados definidos por el dominio. Los Domain Events, como UserRegistered y PasswordChanged, permiten representar acontecimientos relevantes producidos durante el ciclo de vida de una cuenta.
+
+![Class Diagram BC02](imagenes/DC%202.png)
+
+El diagrama de clases del Bounded Context Child Profile Management representa la administración de la información del niño y su perfil de apoyo. Child se establece como Aggregate Root, siendo responsable de mantener los datos principales del menor y controlar los elementos asociados a su perfil.
+
+ClinicalProfile permite registrar las necesidades particulares, detonantes y reguladores del niño, mientras que CaregiverAuthorization administra las autorizaciones de acceso. Se utilizan referencias mediante identificadores para evitar duplicar entidades pertenecientes a otros Bounded Contexts. Además, se incorporan un Value Object para representar el nombre del niño, enumeraciones para controlar los estados de autorización y Domain Events relacionados con el registro del niño y la actualización de su perfil clínico.
+
+![Class Diagram BC03](imagenes/DC%203.png)
+
+El diagrama de clases del Bounded Context Care Network Management representa la gestión de la red de personas autorizadas para participar en el cuidado del niño. CareNetwork funciona como Aggregate Root y administra tanto las invitaciones como los integrantes pertenecientes a la red.
+
+CareNetworkInvitation representa las invitaciones enviadas a nuevos cuidadores, mientras que CareNetworkMember mantiene la información de los integrantes incorporados, sus roles, permisos y estado de acceso. Se utilizan enumeraciones para controlar los estados de las invitaciones y miembros, y PermissionSet representa los permisos como Value Object. Los Domain Events permiten representar situaciones relevantes como el envío de una invitación o la revocación del acceso de un cuidador. Las entidades de otros contextos no son duplicadas y se referencian mediante sus identificadores.
+
+![Class Diagram BC04](imagenes/DC%204.png)
+
+El diagrama de clases del Bounded Context Routine & Activity Management representa la creación, organización y ejecución de las rutinas utilizadas en el acompañamiento cotidiano del niño. Routine se define como Aggregate Root y administra el conjunto de actividades que conforman cada rutina.
+
+RoutineActivity representa las actividades individuales y permite registrar su orden, duración, estado, temporizador y tipo de alerta. VisualSupport permite asociar imágenes o recursos visuales a las actividades. Las enumeraciones controlan los estados de rutinas y actividades, así como los tipos de alerta, mientras que Duration se representa como Value Object. También se mantiene una relación recursiva entre rutinas para conservar la trazabilidad cuando una rutina es duplicada. Los Domain Events representan acontecimientos como la creación y duplicación de una rutina o la finalización de una actividad.
+
+![Class Diagram BC05](imagenes/DC%205.png)
+
+El diagrama de clases del Bounded Context Clinical Guidance Management representa la gestión de las pautas clínicas y orientaciones utilizadas para apoyar el cuidado del niño. ClinicalGuideline se establece como Aggregate Root, encargándose del registro, actualización, validación y disponibilidad de las pautas creadas por los profesionales.
+
+PatientAssignment permite comprobar que exista una asignación profesional activa antes de gestionar una pauta, mientras que PracticalGuide representa el repositorio independiente de guías prácticas que pueden consultarse por categoría o situación. Las instrucciones de una pauta se representan mediante un Value Object, y las enumeraciones permiten controlar estados y categorías. Los Domain Events registran acontecimientos relevantes como la creación o actualización de una pauta clínica. Las referencias a psicólogos y niños se mantienen mediante identificadores para respetar los límites entre Bounded Contexts.
+
+![Class Diagram BC06](imagenes/DC%206.png)
+
+El diagrama de clases del Bounded Context Observation & Crisis Management representa el registro y seguimiento de observaciones relacionadas con el comportamiento, rutinas y situaciones de crisis del niño. Observation se define como Aggregate Root y concentra las operaciones principales relacionadas con el registro, validación, consulta y filtrado del historial.
+
+CrisisClassification permite clasificar una crisis según su nivel de intensidad, mientras que ObservationEvidence permite adjuntar evidencia y PsychologistComment almacena la retroalimentación profesional. Los niveles de intensidad se representan mediante una Enumeration con los valores leve, moderado y severo, evitando manejar esta regla únicamente como texto. También se incorporan Domain Events para representar el registro de observaciones, la clasificación de crisis y la incorporación de comentarios profesionales.
+
+![Class Diagram BC07](imagenes/DC%207.png)
+
+El diagrama de clases del Bounded Context Dashboard & Reporting representa la consulta de información consolidada y la generación de reportes sobre el seguimiento del niño. GeneratedReport se establece como Aggregate Root, ya que administra el proceso de solicitud, generación, almacenamiento y exportación de los reportes.
+
+DailySummary se identifica como Read Model, debido a que consolida información proveniente de otros contextos para mostrar indicadores sin asumir la responsabilidad de modificar los registros originales. ReportObservation permite conservar la trazabilidad de las observaciones incluidas en cada reporte y ReportPeriod representa el intervalo temporal como Value Object. Asimismo, los estados del reporte se controlan mediante una enumeración y ReportGenerated representa el Domain Event producido cuando un reporte es generado correctamente.
+
+![Class Diagram BC08](imagenes/DC%208.png)
+
+El diagrama de clases del Bounded Context Subscription & Payment Management representa la administración de los planes, suscripciones, pagos y solicitudes de cancelación de Kinemo. Subscription se define como Aggregate Root, controlando el ciclo de vida de la suscripción y su relación con las operaciones de pago y cancelación.
+
+SubscriptionPlan representa los planes familiares y profesionales disponibles, mientras que Payment mantiene el historial de las transacciones realizadas y CancellationRequest gestiona las solicitudes de cancelación al finalizar el ciclo correspondiente. El precio se representa mediante Money como Value Object, y diferentes enumeraciones controlan los tipos de plan y los estados de planes, suscripciones y pagos. Los Domain Events representan acontecimientos relevantes como la confirmación de un pago, la activación de una suscripción y la solicitud de cancelación. La activación de una suscripción se encuentra condicionada a la confirmación válida del pago, manteniendo además la separación con Identity & Access mediante la referencia userId.
 
 ### 4.8 Database Design
 

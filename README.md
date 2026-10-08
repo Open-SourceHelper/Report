@@ -213,11 +213,11 @@ Para NeuroSync, se desarrollan perfiles representativos de los segmentos objetiv
 
 A continuación, se presentan los User Personas elaborados para el proyecto.
 
-**User Persona: Andrea Ramírez**
+**User Persona 1: Andrea Ramírez **
 
 ![User Persona de Andrea Ramírez](imagenes/Andrea%20Ram%C3%ADrez.png)
 
-**User Persona: María Fernández**
+**User Persona 2: María Fernández **
 
 ![User Persona de María Fernández](imagenes/Mar%C3%ADa%20Fern%C3%A1ndez.png)
 

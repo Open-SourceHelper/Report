@@ -276,7 +276,13 @@ A continuación, se presentan los Empathy Maps correspondientes a los perfiles d
 
 ### 3.2 Impact Mapping
 
-> _Pendiente — completar en `feature/impact-mapping`._
+El Impact Mapping es una herramienta que permite relacionar los objetivos del negocio con los actores involucrados, los cambios de comportamiento esperados y las funcionalidades necesarias para alcanzarlos.
+
+En NeuroSync, esta herramienta permite identificar cómo las familias y cuidadores, así como los psicólogos o terapeutas infantiles, contribuyen al objetivo de mejorar la organización del acompañamiento y la coordinación de la red de cuidado del niño.
+
+**Impact Mapping de NeuroSync**
+
+![Impact Mapping de NeuroSync](imagenes/Impact%20map.png)
 
 ### 3.3 Product Backlog
 

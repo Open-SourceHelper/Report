@@ -439,9 +439,115 @@ El diseño de entrevistas tiene como finalidad recopilar información directa y 
 1. ¿Estaría dispuesto(a) a recomendar a las familias una solución digital que centralice las pautas que usted define en consulta?
 2. ¿Qué valor añadido aportaría a su labor profesional que toda la red de apoyo del paciente maneje exactamente el mismo lenguaje y protocolo de actuación validado por usted?
 
-#### 2.2.2 Registro de entrevistas
 
-> _Bloqueado — depende de realizar las entrevistas reales a ambos segmentos objetivo._
+#### 2.2.2. Registro de entrevistas
+
+**Segmento 2: Profesionales de la Salud Mental y Terapeutas Infantiles**
+
+**Entrevista N°1:**
+
+**Nombre:** Tiziano
+
+**Apellido:** Pertile
+
+**Edad:** 26 años
+
+**Distrito:** Miraflores
+
+**URL:** [Ver entrevista](https://1drv.ms/v/c/bae01487dfb322d2/IQD2SZF5KQz1RZkcJk_2BOfrASuUFUo7-JZc3-CKW2IeR1M?e=sWEitI)
+
+**Inicia:** 00:21  
+**Fin:** 04:57
+
+**Resumen:**
+
+El entrevistado es Tiziano Pertile, psicólogo de 26 años especializado en terapia infantil y orientado a familias. Trabaja principalmente de forma presencial en un consultorio de Miraflores y utiliza Google Calendar para agendar, WhatsApp para comunicarse con los padres y documentos digitales para sus registros. Utiliza principalmente una laptop para sus actividades clínicas y un iPhone para comunicarse y coordinar citas, siendo Google Chrome su navegador preferido.
+
+Señala que las pautas terapéuticas suelen perder continuidad en el hogar por falta de tiempo, cambios en las rutinas o diferencias entre cuidadores. Para realizar el seguimiento, recoge información de los padres y solicita registros de los episodios cuando es necesario. También identifica dificultades para mantener actualizados y en uso constante los materiales visuales. Está dispuesto a recomendar una solución digital que centralice las pautas, siempre que sea sencilla, personalizable, segura y facilite que todos los cuidadores sigan las mismas indicaciones.
+
+---
+
+**Entrevista N°2:**
+
+**Nombre:** Miguel Guillermo
+
+**Apellido:** Málaga Gómez
+
+**Edad:** 27 años
+
+**Distrito:** Miraflores
+
+**URL:** Entrevista2-ProfesionalSaludMental.mp4
+
+**Inicia:** 00:22  
+**Fin:** 04:18
+
+**Resumen:**
+
+El entrevistado es Miguel Guillermo Málaga Gómez, psicólogo de 27 años especializado en terapia infantil y orientación a familias. Desarrolla su trabajo de manera presencial en un consultorio de Miraflores, complementándolo con sesiones virtuales. En su actividad profesional utiliza Google Calendar para organizar sus citas, WhatsApp para mantener contacto con los padres y documentos digitales para gestionar los registros. Trabaja principalmente desde una laptop y utiliza un iPhone para la comunicación; también prefiere Google Chrome.
+
+Desde su experiencia, identifica dificultades para mantener las estrategias terapéuticas de manera constante en el hogar, especialmente cuando existen cambios en la rutina o diferentes criterios entre los cuidadores. Para conocer lo que ocurre fuera del consultorio, se apoya en la información proporcionada por los padres y en registros de los episodios. También observa dificultades para conservar y actualizar materiales visuales como pictogramas y agendas. Considera viable una solución digital que centralice las indicaciones y facilite su seguimiento entre los distintos cuidadores, siempre que sea segura, sencilla y adaptable a las necesidades de cada paciente.
+
+---
+
+**Entrevista N°3:**
+
+**Nombre:** Ximena Fernanda
+
+**Apellido:** Castillo Herrera
+
+**Edad:** 30 años
+
+**Distrito:** Magdalena del Mar
+
+**URL:** Entrevista3 a Ximena.mp4
+
+**Inicia:** 00:00  
+**Fin:** 07:18
+
+**Resumen:**
+
+Se entrevistó a Ximena Fernanda Castillo Herrera, psicóloga de 30 años especializada en psicoterapia cognitivo-conductual, quien actualmente brinda terapias virtuales. Explicó que utiliza herramientas como Google Calendar, WhatsApp y Gmail para organizar sus citas, comunicarse con las familias y recibir registros de conducta y emociones. Destacó la importancia de trabajar conjuntamente con los padres para conocer lo que ocurre con los niños fuera de las sesiones y adaptar las recomendaciones según sus necesidades.
+
+Asimismo, señaló que, ante situaciones de crisis, mantiene contacto con las familias mediante llamadas o videollamadas y, en algunos casos, realiza visitas presenciales. Manifestó interés en una aplicación que permita a los padres acceder rápidamente a herramientas y estrategias de apoyo según la situación que presente el niño, especialmente cuando el psicólogo no se encuentra disponible. Esta necesidad se relaciona con la propuesta de Kinemo de centralizar recomendaciones y facilitar la coordinación entre familias y profesionales.
+
+---
+
+**Entrevista N°4:**
+
+**Nombre:** Rosa Angelica
+
+**Apellido:** Vite Lujan
+
+**Edad:** 71 años
+
+**Distrito:** Santa Beatriz
+
+**URL:** Pendiente
+
+**Resumen:**
+
+Pendiente de completar.
+
+---
+
+**Entrevista N°5:**
+
+**Nombre:** Fidia Mercedes
+
+**Apellido:** Diaz Principe
+
+**Edad:** 48 años
+
+**Distrito:** Jesus Maria
+
+**URL:** Entrevista5-ProfesionalSaludMental.mp4
+
+**Resumen:**
+
+La entrevistada es una profesional de psicología especializada en atención infantil y adolescente, orientada al trabajo con familias. Desarrolla sus sesiones principalmente de manera presencial, complementándose con atención virtual cuando es necesario. Utiliza WhatsApp para comunicarse con los padres, Google Calendar para organizar sus citas, Google Meet o Zoom para sesiones virtuales y documentos digitales para registrar información de sus pacientes.
+
+Desde su experiencia, señala que las pautas terapéuticas suelen perder continuidad en el hogar cuando existen varios cuidadores que aplican estrategias diferentes. Para realizar el seguimiento, obtiene información de los padres y solicita registros de las crisis o episodios de desregulación cuando es necesario. También identifica dificultades para mantener el uso constante de materiales visuales como pictogramas y agendas. Considera útil una solución digital que centralice las recomendaciones y permita que todos los cuidadores sigan las mismas indicaciones de manera sencilla y organizada.
 
 #### 2.2.3 Análisis de entrevistas
 

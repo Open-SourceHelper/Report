@@ -1,4 +1,4 @@
-# Informe de AV1 — Kinemo
+# Informe de TB1 — Kinemo
 
 ## Carátula
 
@@ -36,7 +36,7 @@
 
 Repositorio del Project Report: 
 
-> _Pendiente — a partir de AV1, agregar explicación del proceso de elaboración del informe y capturas de los analíticos de colaboración/commits de GitHub._
+> _Pendiente — a partir de TB1, agregar explicación del proceso de elaboración del informe y capturas de los analíticos de colaboración/commits de GitHub._
 
 ## Contenido
 
@@ -158,8 +158,6 @@ NeuroSync es una startup tecnológica orientada al sector de la salud digital y 
 
 **Misión:** Empoderar a familias y cuidadores mediante soluciones digitales accesibles e intuitivas, proporcionando herramientas operativas basadas en evidencia para garantizar entornos seguros, predecibles y comprensivos para niños con condiciones del neurodesarrollo.
 
-
-
 #### 1.1.2. Perfiles de integrantes del equipo
 
 | Ingeniería de Software | Fabricio Flores Chavez <br> U202212327 |
@@ -275,9 +273,44 @@ Confiamos en que las familias y los profesionales percibirán un valor suficient
 
 **Link:**<br>https://miro.com/welcomeonboard/enhWbkZGTENCK1YrbVprOVdhRXVWTExwZUx1QU9ESDE0VXlUbThndElveW1vM0FYTzN5UnlSR25JS3YvMHpHdnhXNnJrZEl6UHBZTUo1bWZqSHo1T2VqaGJ0MnIwcDR3MmlVUVpKNCtLYUV4YWVHTWR3MEJFVjNCc1lxZHk4YWphWWluRVAxeXRuUUgwWDl3Mk1qRGVRPT0hdjE=?share_link_id=860740998056
 
-### 1.3 Segmentos objetivo
 
-> _Pendiente — completar en `feature/target-segments`._
+### 1.3. Segmentos objetivo
+
+Para el desarrollo del proyecto se han identificado dos segmentos objetivos principales, los cuales interactúan de manera complementaria dentro de la solución web:
+
+**Segmento 1: Familias y red de cuidado cercano (Padres y Cuidadores)**
+
+**Descripción:** Padres de familia, abuelos, tíos y cuidadores directos a cargo de niños de 3 años a 12 años con condiciones del neurodesarrollo (TEA, TDAH o Síndrome de Down). Representan a los usuarios que atienden el día a día del menor y necesitan instrucciones prácticas y claras para actuar ante crisis sensoriales o transiciones de rutina sin depender exclusivamente de una llamada de emergencia al especialista.
+
+**Características demográficas:**
+
+- **Edad:** 25 a 65 años (abarca desde padres jóvenes hasta abuelos cuidadores).
+- **Ubicación:** Lima Metropolitana.
+- **Nivel educativo:** Secundaria completa, técnico o superior.
+- **Uso tecnológico:** Nivel básico a intermedio; utilizan principalmente teléfonos (smartphones) y navegadores web para mensajería y consulta de información cotidiana.
+
+**Sustento estadístico:**
+
+Según el Instituto Nacional de Estadística e Informática (INEI), en el Perú existen más de 3.2 millones de personas con alguna dificultad o limitación permanente, de las cuales el 30.7% reside en hogares extendidos (familias nucleares acompañadas por abuelos u otros parientes a cargo del cuidado del hogar).
+
+De acuerdo con el Registro Nacional de CONADIS, más del 82% de las personas registradas presentan limitaciones directas en el cuidado personal y un 61% en la conducta, lo que exige una constante coordinación entre múltiples miembros del hogar.
+
+**Segmento 2: Profesionales de la Salud Mental y Terapeutas Infantiles**
+
+**Descripción:** Psicólogos clínicos infantiles, terapeutas ocupacionales y especialistas en neurodesarrollo que atienden a niños en consultorios privados o centros especializados. Requieren una herramienta digital para configurar pautas personalizadas, estructurar rutinas con apoyos visuales y monitorear la evolución del paciente fuera del consultorio.
+
+**Características demográficas:**
+
+- **Edad:** 26 a 55 años.
+- **Ubicación:** Principales centros urbanos del país.
+- **Nivel educativo:** Licenciatura universitaria en Psicología o Terapia Ocupacional, con colegiatura vigente y especializaciones en neurodiversidad.
+- **Uso tecnológico:** Nivel intermedio; acostumbran gestionar agendas, historiales clínicos y comunicación con pacientes a través de computadoras portátiles y aplicaciones web.
+
+**Sustento estadístico:**
+
+Según el Colegio de Psicólogos del Perú (CPsP) y datos del Ministerio de Salud (MINSA), la demanda de consultas psicológicas infantiles y neurodesarrollo se ha incrementado en más de un 40% en los últimos años.
+
+Cerca del 70% de especialistas independientes indican que sus mayores obstáculos son la falta de continuidad de las pautas terapéuticas en casa y la dificultad de que cuidadores secundarios (distintos a los padres) repliquen correctamente las técnicas de regulación.
 
 ## Capítulo II: Requirements Elicitation & Analysis
 

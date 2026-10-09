@@ -152,9 +152,6 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 ### 1.1 Startup Profile
 
-#### 1.1.1 Descripción de la Startup
-
-
 #### 1.1.1. Descripción de la Startup
 
 NeuroSync es una startup tecnológica orientada al sector de la salud digital y la inclusión social. Nace con el propósito de transformar la manera en que el entorno cercano de niños y niñas con condiciones del neurodesarrollo (tales como el Trastorno del Espectro Autista - TEA, Trastorno por Déficit de Atención e Hiperactividad - TDAH y Síndrome de Down) aborda el cuidado cotidiano, el manejo de desregulaciones sensoriales y la continuidad de sus rutinas.
@@ -162,9 +159,28 @@ NeuroSync es una startup tecnológica orientada al sector de la salud digital y 
 **Misión:** Empoderar a familias y cuidadores mediante soluciones digitales accesibles e intuitivas, proporcionando herramientas operativas basadas en evidencia para garantizar entornos seguros, predecibles y comprensivos para niños con condiciones del neurodesarrollo.
 
 
-#### 1.1.2 Perfiles de integrantes del equipo
 
-> _Pendiente — completar en `feature/startup-profile` (foto, nombres, código, carrera, conocimientos técnicos por integrante)._
+#### 1.1.2. Perfiles de integrantes del equipo
+
+| Ingeniería de Software | Fabricio Flores Chavez <br> U202212327 |
+|---|---|
+| **Descripción:** Me gusta mucho seguir aprendiendo cosas nuevas y poder ser un gran profesional, y siempre poder ayudar a los demás en lo que necesiten. | ![Fabricio Flores Chavez](imagenes/fabricio-flores.png) |
+
+| Ingeniería de Software | Felipe Marcelo Huamanchumo Chicchon <br> U20241B932 |
+|---|---|
+| **Descripción:** Soy una persona que le busca la vuelta a los problemas, con ganas de salir adelante y de seguir aprendiendo cosas nuevas, siempre dando lo mejor de mí para alcanzar mis metas. | ![Felipe Marcelo Huamanchumo Chicchon](imagenes/felipe-huamanchumo.png) |
+
+| Ingeniería de Software | Gabriel Alejandro Vilchez Vite <br> U202416903 |
+|---|---|
+| **Descripción:** Actualmente estudio la carrera de ingeniería de software y me considero una persona que no deja todos sus trabajos pendientes a última hora y que siempre trata de terminar todos sus trabajos a tiempo. Actualmente tengo conocimientos en matemáticas y en algunos lenguajes de programación como C++ y Matlab. Actualmente estoy estudiando Java. | ![Gabriel Alejandro Vilchez Vite](imagenes/gabriel-vilchez.png) |
+
+| Ingeniería de Software | Matthew Shinko Okuhama Diaz <br> U202419311 |
+|---|---|
+| **Descripción:** Soy estudiante de ingeniería de software y me considero una persona estudiosa y trabajadora muy enfocado en sus estudios. Tengo conocimientos en programación (C++ y HTML). | ![Matthew Shinko Okuhama Diaz](imagenes/matthew-okuhama.png) |
+
+| Ingeniería de Software | Cristian Joseph Trigoso Garrido <br> U202318865 |
+|---|---|
+| **Descripción:** Me gusta la superación personal y el aprendizaje continuo en el ámbito del desarrollo de software. Me motiva explorar y dominar nuevas herramientas tecnológicas para aportar soluciones creativas y de impacto en proyectos colaborativos. | ![Cristian Joseph Trigoso Garrido](imagenes/cristian-trigoso.png) |
 
 ### 1.2 Solution Profile
 

@@ -384,9 +384,60 @@ Tácticas generales:
 
 ### 2.2 Entrevistas
 
-#### 2.2.1 Diseño de entrevistas
 
-> _Pendiente — completar en `feature/interview-design`._
+#### 2.2.1. Diseño de entrevistas
+
+El diseño de entrevistas tiene como finalidad recopilar información directa y cualitativa de representantes de los dos segmentos objetivo identificados: Familias/Cuidadores y Especialistas en Salud Mental. La estructura de las entrevistas se organiza en preguntas demográficas preliminares, preguntas sobre hábitos digitales y canales de interacción, y preguntas principales orientadas a descubrir necesidades, frustraciones y dinámicas de cuidado diario.
+
+**Segmento 1: Familias y Red de Cuidado Cercano (Padres y Cuidadores)**
+
+**Objetivo de la entrevista:** Identificar las dificultades operativas, emocionales y de comunicación que experimentan los padres y cuidadores secundarios (abuelos, tíos o niñeras) al coordinar rutinas y atender desregulaciones sensoriales de niños neurodivergentes, así como revelar sus canales de interacción digital y hábitos tecnológicos para diseñar la experiencia de usuario.
+
+**Preguntas demográficas y de caracterización:**
+
+1. ¿Cuál es su nombre completo, edad, ocupación y distrito de residencia?
+2. ¿Cuál es su relación o parentesco con el menor bajo su cuidado y qué condición diagnosticada presenta (TEA, TDAH, Síndrome de Down)?
+3. ¿Quiénes más componen el núcleo familiar o participan activamente en el cuidado del niño cuando usted no se encuentra disponible?
+4. ¿Qué dispositivos utiliza cotidianamente (laptop, tablet o teléfono) y qué sistema operativo maneja con mayor frecuencia (Android, iOS, Windows)?
+5. ¿Qué canales de mensajería, redes sociales o aplicaciones web consulta diariamente para coordinar tareas familiares (WhatsApp o navegador web)?
+
+**Preguntas principales:**
+
+1. ¿Cómo se transfieren las instrucciones y cuidados del menor cuando usted debe ausentarse y otra persona asume su atención temporal?
+2. ¿Cómo registran y consultan las recomendaciones brindadas por el psicólogo o terapeuta del niño para su aplicación en el hogar?
+3. Ante un episodio de crisis sensorial o bloqueo de conducta, ¿qué pasos sigue la persona a cargo para lograr que el menor recupere la calma?
+4. ¿Qué situaciones de conflicto o desorientación ocurren si el cuidador de turno desconoce los detonantes o los reguladores sensoriales específicos del infante?
+5. ¿Utilizan actualmente algún sistema de apoyos visuales o secuencias de rutinas en casa (pictogramas impresos, pizarras, notas manuales) y qué limitaciones presenta?
+
+**Preguntas complementarias:**
+
+1. ¿Cuál es su principal temor o frustración al momento de delegar la supervisión del niño a un familiar cercano o cuidador secundario?
+2. Si dispusiera de una plataforma web con un manual interactivo accesible que guíe paso a paso ante emergencias y muestre la rutina del día, ¿qué aspectos esenciales le garantizarían que sea fácil de entender para cualquier persona de la familia?
+3. ¿Qué disposición tendría su hogar para emplear una herramienta digital conectada con las indicaciones del especialista del menor?
+
+**Segmento 2: Profesionales de la Salud Mental y Terapeutas Infantiles**
+
+**Objetivo de la entrevista:** Explorar los métodos actuales de prescripción psicoeducativa y seguimiento extra consultorio empleados por los profesionales, identificando los puntos críticos donde se pierde la adherencia terapéutica en el entorno del paciente y sus requisitos para una solución digital de soporte.
+
+**Preguntas demográficas y de caracterización:**
+
+1. ¿Cuál es su nombre completo, edad y especialidad profesional?
+2. ¿En qué modalidad (presencial, virtual o mixta) y en qué distrito o centro clínico brinda sus servicios terapéuticos?
+3. ¿Qué plataformas o herramientas digitales utiliza actualmente en su práctica diaria para agendar, llevar registros o comunicarse con las familias consultantes?
+4. ¿Qué tipo de dispositivos y navegadores web prefiere utilizar en su jornada de trabajo clínico?
+
+**Preguntas principales:**
+
+1. ¿De qué forma transmite habitualmente a los padres los planes de rutina y las estrategias de autorregulación acordadas en consulta?
+2. ¿Con qué regularidad observa que las pautas brindadas en sesión se desvirtúan o dejan de aplicarse de forma continua en el hogar?
+3. ¿Cómo evalúa el impacto en la evolución del menor cuando los cuidadores secundarios (abuelos, niñeras) actúan bajo criterios opuestos o empíricos?
+4. ¿Qué mecanismo utiliza para enterarse de la frecuencia, intensidad y contexto de las desregulaciones o crisis que sufre el paciente fuera del consultorio?
+5. ¿Qué dificultades encuentra en el diseño y entrega de materiales de apoyo visual (pictogramas, agendas) para que las familias los sostengan en el tiempo?
+
+**Preguntas complementarias:**
+
+1. ¿Estaría dispuesto(a) a recomendar a las familias una solución digital que centralice las pautas que usted define en consulta?
+2. ¿Qué valor añadido aportaría a su labor profesional que toda la red de apoyo del paciente maneje exactamente el mismo lenguaje y protocolo de actuación validado por usted?
 
 #### 2.2.2 Registro de entrevistas
 

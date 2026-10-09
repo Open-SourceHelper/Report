@@ -762,6 +762,65 @@ SubscriptionPlan representa los planes familiares y profesionales disponibles, m
 #### 5.2.2 Sprint 2 (TB1)
 
 > _A completar a partir de la entrega TB1. Misma estructura que Sprint 1 (Planning, Aspect Leaders, Backlog, Development/Execution/Services/Deployment Evidence, Team Collaboration Insights)._
+> 
+##### 5.2.2.6 Services Documentation Evidence for Sprint Review
+
+**BC06 — Observation & Crisis Management**
+
+Durante el Sprint 2 se implementaron y probaron los servicios del bounded context Observation & Crisis Management, utilizando Angular para el frontend y json-server como API REST simulada.
+
+Se realizaron solicitudes HTTP GET y POST para verificar el registro y la consulta de observaciones, los comentarios de psicólogos y los enlaces de evidencias asociados a cada observación.
+
+Las siguientes capturas muestran las pruebas realizadas mediante las herramientas de desarrollo del navegador.
+
+**Evidencia 1. Consulta de evidencias de observación**
+
+![Consulta de evidencias de observación](imagenes/1.JPG)
+
+*Figura 1. Consulta de evidencias asociadas a una observación mediante GET /observationEvidences.*
+
+Se muestra la respuesta de la API simulada, incluyendo el identificador de la evidencia, nombre, enlace URL y fecha de registro.
+
+**Evidencia 2. Registro de observaciones mediante HTTP POST**
+
+![Registro de observaciones](imagenes/2.JPG)
+
+*Figura 2. Solicitud POST /observations.*
+
+La respuesta HTTP 201 Created confirma que json-server creó correctamente una nueva observación.
+
+**Evidencia 3. Datos enviados en la solicitud POST**
+
+![Datos de la solicitud POST](imagenes/3.JPG)
+
+*Figura 3. Cuerpo JSON enviado para registrar una observación.*
+
+La solicitud contiene los identificadores del niño y del cuidador, la descripción, fecha de ocurrencia e intensidad de crisis.
+
+**Evidencia 4. Evidencia adicional del servicio**
+
+![Evidencia adicional del servicio](imagenes/4.JPG)
+
+*Figura 4. Evidencia de ejecución de los servicios del BC06.*
+
+**Evidencia 5. Evidencia complementaria**
+
+![Evidencia complementaria](imagenes/4.1.JPG)
+
+*Figura 5. Evidencia complementaria de las pruebas HTTP del BC06.*
+
+**Evidencia 6. Verificación de servicios**
+
+![Verificación de servicios](imagenes/5.JPG)
+
+*Figura 6. Verificación de las operaciones del BC06 mediante la API simulada.*
+
+**Resultado de las pruebas**
+
+Las pruebas realizadas permitieron verificar la comunicación HTTP entre Angular y json-server, así como las operaciones de consulta y registro de información correspondientes al BC06.
+
+Estas evidencias corresponden a un entorno local de desarrollo. No representan pruebas de un backend Spring Boot desplegado ni de autenticación real de usuarios.
+
 
 #### 5.2.3 Sprint 3 (AV2)
 

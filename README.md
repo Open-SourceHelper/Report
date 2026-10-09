@@ -134,19 +134,20 @@ Repositorio del Project Report:
 
 > Nota: estos enlaces se generaron manualmente siguiendo la convención de anchors de GitHub. Verifícalos una vez renderizado el archivo (clic en el ícono de enlace de cada título) y corrígelos si alguno no coincide, tal como pide el enunciado antes de cada entrega.
 
-## Student Outcome
 
-El curso contribuye al cumplimiento del Student Outcome ABET:
+
+## Student Outcome
 
 **ABET – EAC - Student Outcome 5**
 
-Criterio: Capacidad de comunicarse efectivamente con un rango de audiencias.
+**Capacidad de comunicarse efectivamente con un rango de audiencias.**
 
-En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 5.
+En el siguiente cuadro se describen las acciones realizadas y las conclusiones obtenidas durante el desarrollo del proyecto NeuroSync – Kinemo, las cuales permiten evidenciar el cumplimiento del Student Outcome 5.
 
 | Criterio específico | Acciones realizadas | Conclusiones |
-|--|---|---|
-|  |  |  |
+|---|---|---|
+| **Comunica oralmente con efectividad a diferentes rangos de audiencia.** | **Huamanchumo Chicchon, Felipe Marcelo**<br><br>**AV1:** Participé en la comunicación y coordinación con los integrantes del equipo durante el desarrollo del Capítulo I y las secciones de entrevistas del Capítulo II. Compartí información sobre la problemática, los segmentos objetivo y los resultados de las entrevistas para contribuir a una comprensión común de las necesidades de los usuarios de Kinemo.<br><br>**TB1:** Participé en la coordinación de las actividades relacionadas con la implementación frontend de los Bounded Contexts 3 (Care Network) y 7, comunicando los avances y las correcciones realizadas en las funcionalidades y en el reporte del proyecto. | **AV1:** Fortalecí mis habilidades de comunicación oral al compartir ideas y resultados de investigación con los integrantes del equipo, facilitando la coordinación y comprensión de los objetivos del proyecto.<br><br>**TB1:** Mejoré mi capacidad para comunicar avances técnicos y explicar las funcionalidades desarrolladas, contribuyendo a una mejor organización y coordinación del trabajo en equipo. |
+| **Comunica por escrito con efectividad a diferentes rangos de audiencia.** | **Huamanchumo Chicchon, Felipe Marcelo**<br><br>**AV1:** Desarrollé el Capítulo I del informe, incluyendo la descripción de la startup, los perfiles del equipo, los antecedentes y la problemática, el proceso Lean UX y los segmentos objetivo. Asimismo, elaboré las secciones correspondientes al diseño, registro y análisis de entrevistas del Capítulo II. También participé en la elaboración del diagrama de base de datos, representando las entidades y relaciones necesarias para la solución propuesta.<br><br>**TB1:** Desarrollé funcionalidades frontend de los Bounded Contexts 3 (Care Network) y 7, siguiendo la estructura y arquitectura establecida para el proyecto. Además, realicé correcciones y actualizaciones en el reporte, incorporando y organizando información en formato Markdown, mejorando la redacción y manteniendo la coherencia de la documentación con el desarrollo de la aplicación. | **AV1:** Fortalecí mis habilidades de comunicación escrita mediante la elaboración de documentación técnica y de investigación, organizando de manera clara la información de la startup, la problemática, las entrevistas y el diseño de la base de datos.<br><br>**TB1:** Mejoré mi capacidad para estructurar y documentar información técnica, relacionando las funcionalidades implementadas con la arquitectura del sistema. Asimismo, las correcciones del reporte me permitieron desarrollar mayor precisión y claridad en la presentación escrita de los avances del proyecto. |
 
 ## Capítulo I: Introducción
 

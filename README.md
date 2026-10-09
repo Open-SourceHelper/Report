@@ -262,9 +262,142 @@ Como resultado de este refinamiento, los eventos válidos quedaron agrupados en 
 
 [Ver diagrama en Miro](https://miro.com/app/board/uXjVHkkYYow=/?share_link_id=268152052434)
 
-### 2.5 Ubiquitous Language
 
-> _Pendiente — completar en `feature/ubiquitous-language`._
+### 2.5. Ubiquitous Language
+
+El Ubiquitous Language de Kinemo establece un vocabulario común para representar los principales conceptos del dominio de NeuroSync. Los términos definidos a continuación serán utilizados de manera consistente por los integrantes del equipo para describir las necesidades del negocio, las historias de usuario, los procesos identificados mediante Event Storming y, posteriormente, el diseño de la solución.
+
+**Neurodivergent Child**
+
+Niño de entre 3 y 12 años que forma parte del contexto de atención de Kinemo y presenta una condición del neurodesarrollo como TEA, TDAH o síndrome de Down.
+
+**Child Profile**
+
+Conjunto de información del niño que permite a la red de cuidado conocer sus características, necesidades y formas de apoyo. Incluye información como preferencias, reguladores y detonantes.
+
+**Parent / Guardian**
+
+Padre o tutor responsable del niño dentro de Kinemo. Puede administrar información del perfil, gestionar integrantes de la red de cuidado y configurar determinados recursos utilizados para el acompañamiento.
+
+**Caregiver**
+
+Persona que participa directamente en el cuidado cotidiano del niño. Puede consultar el perfil autorizado, ejecutar rutinas, utilizar guías de apoyo y registrar observaciones sobre situaciones ocurridas durante el día.
+
+**Psychologist**
+
+Profesional autorizado que acompaña al niño desde el ámbito psicológico y puede consultar pacientes vinculados, redactar pautas clínicas, revisar observaciones y proporcionar retroalimentación a la familia.
+
+**Care Network**
+
+Conjunto de personas vinculadas al perfil de un niño que participan en su cuidado. Puede estar conformada por padres, tutores, cuidadores secundarios y profesionales autorizados.
+
+**Care Network Member**
+
+Persona que forma parte de la red de cuidado de un niño y posee determinados permisos para acceder a su información de acuerdo con su participación en el cuidado.
+
+**Care Invitation**
+
+Invitación enviada por un padre o tutor a otra persona para incorporarla a la red de cuidado del niño.
+
+**Care Access**
+
+Permiso otorgado a un integrante de la red de cuidado para acceder a la información del perfil del niño. Este acceso puede ser otorgado o revocado por el responsable correspondiente.
+
+**Patient**
+
+Niño vinculado a la cuenta de un psicólogo dentro de su relación profesional de atención. El profesional puede consultar los pacientes asociados para acceder a sus pautas y observaciones.
+
+**Trigger**
+
+Detonante identificado en el perfil del niño que puede provocar o contribuir a una situación de desregulación. Su conocimiento permite a los cuidadores anticipar determinadas situaciones y actuar de acuerdo con las pautas establecidas.
+
+**Regulator**
+
+Recurso, estrategia o elemento identificado como útil para favorecer la regulación del niño frente a determinadas situaciones.
+
+**Sensory Dysregulation**
+
+Situación en la que el niño presenta dificultades para regularse frente a determinados estímulos o circunstancias y requiere la aplicación de estrategias de apoyo.
+
+**Crisis**
+
+Situación de desregulación que requiere que el cuidador consulte y aplique una guía de intervención adecuada según las características y necesidades del niño.
+
+**Crisis Severity**
+
+Nivel de intensidad asignado a una desregulación registrada. Kinemo contempla los niveles Leve, Moderado y Severo para organizar el historial de observaciones y facilitar su análisis posterior.
+
+**Practical Guide**
+
+Guía de apoyo que contiene instrucciones organizadas para orientar al cuidador frente a una determinada situación o necesidad del niño.
+
+**Clinical Guideline**
+
+Directriz formal de intervención redactada por un psicólogo o profesional autorizado y asociada al niño para que pueda ser consultada por los cuidadores responsables de su acompañamiento.
+
+**Routine**
+
+Secuencia estructurada de actividades organizada para establecer y mantener la jornada cotidiana del niño.
+
+**Activity**
+
+Acción individual que forma parte de una rutina. Cada actividad puede tener un orden y una duración estimada dentro de la secuencia diaria.
+
+**Visual Support**
+
+Imagen o pictograma personalizado utilizado para representar una actividad y facilitar su comprensión durante la ejecución de una rutina.
+
+**Transition**
+
+Cambio de una actividad hacia la siguiente dentro de una rutina. Kinemo permite anticipar este cambio mediante un temporizador.
+
+**Transition Timer**
+
+Temporizador utilizado durante una rutina para ayudar al niño a anticipar el cambio hacia la siguiente actividad.
+
+**Visual Alert**
+
+Señal utilizada para comunicar al cuidador o al niño la finalización de un temporizador sin generar una sobreestimulación innecesaria. Puede configurarse para utilizar únicamente señales visuales o incluir una señal sonora leve.
+
+**Observation**
+
+Registro realizado por un cuidador sobre una situación, incidente o hecho relevante ocurrido durante el cuidado cotidiano del niño. La observación queda asociada al niño, al autor y a la fecha correspondiente.
+
+**Incident**
+
+Situación ocurrida durante el día del niño que puede ser registrada mediante una observación para dejar constancia de lo sucedido y facilitar su seguimiento.
+
+**Evidence**
+
+Fotografía u otro soporte visual asociado a una observación para aportar mayor contexto sobre la situación registrada.
+
+**Psychologist Comment**
+
+Retroalimentación registrada por un psicólogo autorizado sobre una observación realizada por la familia o los cuidadores.
+
+**Observation History**
+
+Conjunto de observaciones registradas sobre el niño que permite consultar y analizar situaciones ocurridas a lo largo del tiempo.
+
+**Premium Subscription**
+
+Modalidad de suscripción de pago que permite acceder a las funcionalidades premium de Kinemo.
+
+**Subscription Plan**
+
+Esquema de suscripción ofrecido por Kinemo que define las características y condiciones asociadas al servicio. El usuario puede revisar las opciones disponibles antes de seleccionar una.
+
+**Payment**
+
+Transacción realizada por el usuario para adquirir o mantener una suscripción premium mediante un servicio de terceros.
+
+**Billing Cycle**
+
+Periodo asociado a la vigencia de una suscripción. En una cancelación, el servicio permanece disponible hasta finalizar el ciclo de facturación vigente.
+
+**Subscription Cancellation**
+
+Solicitud realizada por un usuario premium para finalizar su suscripción y evitar futuros cobros automatizados al terminar el ciclo de facturación actual.
 
 ## Capítulo III: Requirements Specification
 

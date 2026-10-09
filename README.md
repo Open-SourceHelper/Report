@@ -184,7 +184,36 @@ NeuroSync es una startup tecnológica orientada al sector de la salud digital y 
 
 ### 1.2 Solution Profile
 
-#### 1.2.1 Antecedentes y problemática
+
+#### 1.2.1. Antecedentes y problemática
+
+**Antecedentes**
+
+Muchos niños diagnosticados con Trastorno del Espectro Autista (TEA), TDAH o Síndrome de Down reciben terapia psicológica para mejorar su conducta, rutinas y manejo sensorial. Sin embargo, las recomendaciones del psicólogo suelen quedarse en un cuaderno o en indicaciones verbales que solo conocen los padres. En el día a día, el niño también se queda a cargo de abuelos, tíos o niñeras, quienes muchas veces no saben cómo actuar ante una crisis sensorial o cómo seguir las rutinas establecidas, generando retrocesos en la terapia y estrés en la familia.
+
+**Análisis de la problemática (5W + 2H)**
+
+- **Who:** Familias (padres, abuelos, tíos) y psicólogos o terapeutas infantiles.
+
+- **What:** Falta de una herramienta accesible que permita compartir de forma rápida y clara las pautas de cuidado y rutinas del niño a todo su entorno.
+
+- **Where:** En los hogares familiares, visitas y entornos cotidianos donde cuidan al niño.
+
+- **When:** En momentos de cambio de actividad, cumplimiento de rutinas y, especialmente, durante desregulaciones o crisis sensoriales.
+
+- **Why:** Porque la información terapéutica está centralizada sólo en los padres y no hay guías prácticas adaptadas para cuidadores que no son especialistas.
+
+- **How:** Los cuidadores sienten frustración por no saber qué hacer, los padres no pueden delegar el cuidado con tranquilidad y se rompe la continuidad de la terapia.
+
+- **How Much:** Afecta de forma recurrente el bienestar familiar cada semana y retrasa el progreso que el niño logra en sus sesiones psicológicas.
+
+**Puntos que debe resolver la solución:**
+
+- Crear una ficha de perfil del niño con sus detonantes de crisis y reguladores sensoriales.
+- Proveer guías de acción rápida paso a paso que cualquier cuidador sepa cómo intervenir en una crisis.
+- Ofrecer un organizador de rutinas diarias con apoyos visuales y temporizadores.
+
+**Objetivo General:** Desarrollar una aplicación web SaaS que permita a psicólogos y padres crear y compartir un manual práctico de cuidado y rutinas para el entorno cercano de niños neurodivergentes.
 
 #### 1.2.2 Lean UX Process
 

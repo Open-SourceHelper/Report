@@ -154,7 +154,13 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 #### 1.1.1 Descripción de la Startup
 
-> _Pendiente — completar en `feature/startup-profile`._
+
+#### 1.1.1. Descripción de la Startup
+
+NeuroSync es una startup tecnológica orientada al sector de la salud digital y la inclusión social. Nace con el propósito de transformar la manera en que el entorno cercano de niños y niñas con condiciones del neurodesarrollo (tales como el Trastorno del Espectro Autista - TEA, Trastorno por Déficit de Atención e Hiperactividad - TDAH y Síndrome de Down) aborda el cuidado cotidiano, el manejo de desregulaciones sensoriales y la continuidad de sus rutinas.
+
+**Misión:** Empoderar a familias y cuidadores mediante soluciones digitales accesibles e intuitivas, proporcionando herramientas operativas basadas en evidencia para garantizar entornos seguros, predecibles y comprensivos para niños con condiciones del neurodesarrollo.
+
 
 #### 1.1.2 Perfiles de integrantes del equipo
 

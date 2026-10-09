@@ -1138,9 +1138,14 @@ Iconografía:
 
 > _Pendiente — completar en `feature/web-app-ux`._
 
-#### 4.4.2 Web Applications Wireflow Diagrams
 
-> _Pendiente — completar en `feature/web-app-ux`._
+#### 4.4.2. Web Applications Wireflow Diagrams
+
+El Wireflow Diagram representa la relación entre las principales interfaces de Kinemo y las acciones que permiten pasar de una pantalla a otra. El flujo comienza con los procesos de autenticación y registro y, una vez iniciada la sesión, conduce al Panel principal.
+
+Desde el Dashboard, el usuario puede acceder a las funcionalidades correspondientes a su rol, como Perfil del niño, Guías prácticas, Rutinas, Observaciones y Red de cuidado. En el caso del psicólogo, se habilita adicionalmente el acceso a Pacientes y a la creación de pautas clínicas. El flujo permite visualizar de manera conjunta la interfaz y la navegación esperada dentro del sistema.
+
+![Web Applications Wireflow Diagram](imagenes/Web_Applications_Wireflow_Diagram.png)
 
 #### 4.4.3 Web Applications Mock-ups
 

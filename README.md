@@ -226,9 +226,41 @@ Los resultados obtenidos servirán como base para identificar oportunidades de m
 
 > _Pendiente — completar en `feature/empathy-maps`._
 
-### 2.4 Big Picture EventStorming
 
-> _Pendiente — completar en `feature/event-storming-big-picture`._
+### 2.4. Big Picture Event Storming
+
+El equipo llevó a cabo una sesión colaborativa de Big Picture Event Storming con el objetivo de comprender de manera integral el dominio de negocio de NeuroSync y los principales procesos que soportará la plataforma Kinemo. La dinámica se realizó de forma remota utilizando un board colaborativo en Miro, donde los miembros del equipo, tomando como insumo las necesidades identificadas previamente en las User Stories, fueron colocando notas de color naranja representando los hechos relevantes (Domain Events) que ocurren dentro del negocio, redactados en pasado y sin orden predefinido, siguiendo la técnica de "storm" característica de esta dinámica.
+
+La sesión se organizó en dos pasos principales: primero la recopilación libre de eventos y, posteriormente, el refinamiento de los mismos para distinguir los verdaderos eventos de dominio de acciones de consulta.
+
+**Paso 1 – Recopilación de Domain Events**
+
+Durante esta primera etapa, el equipo se enfocó en generar la mayor cantidad de eventos posibles sin filtrar ni discutir su validez, cubriendo las principales funcionalidades identificadas en el backlog: identidad y acceso, perfil del niño, red de cuidado, rutinas y actividades, orientación clínica, observaciones y crisis, dashboard y reportes, y suscripciones y pagos.
+
+Como resultado de esta recopilación libre se identificaron 42 eventos distribuidos en las ocho áreas funcionales mencionadas, agrupados visualmente en el board mediante clusters horizontales por color de post-it.
+
+**Paso 2 – Refinamiento de Domain Events**
+
+En la segunda etapa, el equipo revisó cada uno de los eventos recopilados para diferenciar los verdaderos Domain Events (cambios de estado relevantes para el negocio) de acciones que en realidad correspondían a consultas (Queries), como visualizar un perfil, visualizar una rutina, consultar una guía o filtrar observaciones.
+
+Estos últimos fueron descartados del listado de eventos y quedaron marcados para ser retomados posteriormente como Queries en el Design-Level Event Storming.
+
+Asimismo, se discutió y acordó que la Landing Page y la API RESTful no constituyen Bounded Contexts independientes, sino una superficie pública de interacción y una interfaz técnica de acceso a las capacidades del dominio, respectivamente.
+
+Como resultado de este refinamiento, los eventos válidos quedaron agrupados en ocho clusters que sentaron la base para la posterior identificación de Bounded Contexts en el Design-Level Event Storming:
+
+1. Identity & Access Management
+2. Child Profile Management
+3. Care Network Management
+4. Routine & Activity Management
+5. Clinical Guidance Management
+6. Observation & Crisis Management
+7. Dashboard & Reporting
+8. Subscription & Payment Management
+
+**Enlace del Big Picture Event Storming:**
+
+[Ver diagrama en Miro](https://miro.com/app/board/uXjVHkkYYow=/?share_link_id=268152052434)
 
 ### 2.5 Ubiquitous Language
 

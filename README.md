@@ -132,10 +132,6 @@ Repositorio del Project Report:
 - [Anexos](#anexos)
 
 
-> Nota: estos enlaces se generaron manualmente siguiendo la convención de anchors de GitHub. Verifícalos una vez renderizado el archivo (clic en el ícono de enlace de cada título) y corrígelos si alguno no coincide, tal como pide el enunciado antes de cada entrega.
-
-
-
 ## Student Outcome
 
 **ABET – EAC - Student Outcome 5**

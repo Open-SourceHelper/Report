@@ -549,9 +549,37 @@ La entrevistada es una profesional de psicología especializada en atención inf
 
 Desde su experiencia, señala que las pautas terapéuticas suelen perder continuidad en el hogar cuando existen varios cuidadores que aplican estrategias diferentes. Para realizar el seguimiento, obtiene información de los padres y solicita registros de las crisis o episodios de desregulación cuando es necesario. También identifica dificultades para mantener el uso constante de materiales visuales como pictogramas y agendas. Considera útil una solución digital que centralice las recomendaciones y permita que todos los cuidadores sigan las mismas indicaciones de manera sencilla y organizada.
 
-#### 2.2.3 Análisis de entrevistas
 
-> _Bloqueado — depende de 2.2.2._
+#### 2.2.3. Análisis de entrevistas
+
+**Segmento 2: Profesionales de la Salud Mental y Terapeutas Infantiles**
+
+De las tres entrevistas realizadas, el 100% de los entrevistados son psicólogos y utilizan herramientas digitales en su práctica profesional. El 100% utiliza Google Calendar para organizar o gestionar sus citas y WhatsApp como medio de comunicación con las familias. Asimismo, los tres entrevistados utilizan herramientas o documentos digitales para gestionar información relacionada con sus pacientes.
+
+En cuanto a los dispositivos, el 67% (2 de 3) trabaja principalmente con una laptop, mientras que el 67% (2 de 3) utiliza un iPhone para comunicarse y coordinar actividades. Respecto al navegador, el 67% (2 de 3) manifestó utilizar Google Chrome.
+
+Respecto al seguimiento fuera de las sesiones, el 100% considera importante obtener información proporcionada por los padres o las familias para conocer lo que ocurre con el menor. Además, el 67% (2 de 3) menciona específicamente el uso de registros de episodios o conductas como mecanismo de seguimiento. El 100% identifica dificultades relacionadas con la continuidad de las estrategias terapéuticas en el hogar, asociadas principalmente a cambios en las rutinas, falta de continuidad o diferencias entre los cuidadores.
+
+En relación con los materiales de apoyo, el 67% (2 de 3) señala dificultades para mantener materiales visuales o estrategias de apoyo actualizadas y utilizarlas de manera constante. Por otro lado, el 100% muestra una actitud favorable hacia una solución digital de apoyo, siempre que esta facilite el seguimiento y la comunicación con las familias. Entre las características mencionadas se encuentran la sencillez de uso (100%), la seguridad de la información (67%), la personalización según cada paciente (67%) y la posibilidad de facilitar la coordinación entre padres, cuidadores y profesionales (100%).
+
+**Características principales para el arquetipo**
+
+| Características | Resultado |
+|---|---|
+| Uso de herramientas digitales | 100% |
+| Uso de Google Calendar | 100% |
+| Uso de WhatsApp | 100% |
+| Seguimiento mediante información de los padres | 100% |
+| Dificultades con la continuidad en el hogar | 100% |
+| Interés en una solución digital | 100% |
+| Uso de laptop | 67% |
+| Uso de iPhone | 67% |
+| Uso de Google Chrome | 67% |
+| Uso de registros de episodios | 67% |
+| Dificultades con materiales de apoyo | 67% |
+| Necesidad de personalización | 67% |
+| Importancia de la seguridad | 67% |
+| Necesidad de coordinación entre cuidadores | 100% |
 
 ### 2.3. Needfinding
 

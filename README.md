@@ -216,15 +216,33 @@ En el presente apartado se implementa el procedimiento Lean UX para determinar l
 
 ##### 1.2.2.1 Lean UX Problem Statements
 
-En el contexto del cuidado de niños de 3 a 12 años con condiciones del neurodesarrollo como TEA, TDAH y síndrome de Down, las familias suelen contar con recomendaciones proporcionadas por psicólogos y otros profesionales para manejar rutinas, comportamiento y situaciones de desregulación. Sin embargo, estas indicaciones pueden mantenerse principalmente en cuadernos, mensajes o explicaciones verbales dirigidas a los padres, dificultando que otros miembros de la red de cuidado puedan acceder a ellas y aplicarlas correctamente.
+**Propuesta de actualización para Kinemo Alert (pendiente de validación con el equipo y el docente).**
 
-Esto genera que abuelos, tíos, niñeras y otros cuidadores puedan no conocer las estrategias adecuadas para responder ante una situación de desregulación, un cambio de rutina o una transición. Como consecuencia, los padres pueden tener dificultades para delegar el cuidado con tranquilidad y puede verse afectada la continuidad de las estrategias trabajadas durante el acompañamiento profesional.
+Las familias y cuidadores de niños de 6 a 9 años con Trastorno del Espectro Autista (TEA) pueden enfrentar dificultades para coordinar una respuesta oportuna y adecuada durante episodios de desregulación emocional o conductual, especialmente cuando el niño se encuentra bajo el cuidado de diferentes personas.
 
-Actualmente, las familias y profesionales cuentan con diferentes herramientas digitales para organizar actividades, rutinas o información, pero existe una oportunidad de integrar en un mismo espacio el perfil del niño, sus rutinas, guías prácticas, observaciones y la participación de los miembros autorizados de su red de cuidado.
+Esta problemática se relaciona con la falta de mecanismos accesibles para comunicar rápidamente una situación de crisis, la dificultad para consultar pautas de actuación individualizadas y previamente validadas por profesionales y la ausencia de un registro centralizado que permita dar seguimiento a los episodios.
 
-Por ello, se busca mejorar la continuidad y coordinación del cuidado mediante una herramienta digital accesible que permita organizar rutinas, consultar guías prácticas y compartir recomendaciones personalizadas entre las familias, cuidadores y profesionales involucrados.
+Como consecuencia, los cuidadores pueden experimentar incertidumbre sobre cómo actuar, mientras que los familiares y profesionales responsables pueden recibir información incompleta o tardía, dificultando la continuidad del acompañamiento y la identificación de situaciones recurrentes.
 
-Para comenzar, el enfoque estará en las familias y personas cercanas que participan directamente en el cuidado de niños de 3 a 12 años con TEA, TDAH o síndrome de Down, considerando también la participación de psicólogos y otros profesionales relacionados con su acompañamiento.
+Por ello, se identifica la necesidad de una solución digital que facilite la comunicación entre cuidadores autorizados, el acceso oportuno a pautas de actuación y el registro de observaciones, contribuyendo a una mejor coordinación del cuidado y seguimiento del niño.
+
+**How Might We (HMW):** ¿Cómo podríamos facilitar la comunicación, coordinación y acceso a pautas de actuación entre familiares y cuidadores de niños con TEA durante episodios de desregulación, permitiendo además registrar y dar seguimiento a estas situaciones de manera sencilla, segura y oportuna?
+
+**Delimitación del público objetivo (hipótesis por validar):** familias y cuidadores de niños de 6 a 9 años con TEA. La delimitación debe sustentarse con entrevistas y pruebas de usabilidad.
+
+**Propuesta de reorganización de ocho a cinco Bounded Contexts:**
+
+| Bounded Context | Responsabilidad |
+|---|---|
+| BC01 — Identity & Access Management | Autenticación, roles y permisos. |
+| BC02 — Child Profile & Care Network Management | Perfiles infantiles, cuidadores autorizados y revocación de accesos. |
+| BC03 — Crisis Alert Management | Activación de alertas SOS digitales, notificación a personas autorizadas y gestión del estado de la alerta. |
+| BC04 — Clinical Guidance & Routine Management | Pautas individualizadas previamente validadas y rutinas de apoyo. |
+| BC05 — Observation & Crisis History Management | Observaciones, historial de episodios y seguimiento profesional. |
+
+El botón SOS digital constituye una **hipótesis de solución**, no una función ya implementada, una herramienta diagnóstica ni un sustituto de los servicios de emergencia. Una pulsera física queda fuera del alcance inicial propuesto.
+
+**Nota de consistencia:** las siguientes secciones del informe (Lean UX Assumptions, Hypothesis Statements, segmentos, User Stories, EventStorming, diagramas y backlog) conservan contenidos del alcance TB1 y requieren actualización coordinada. La reducción a cinco contextos no es una exigencia expresa del profesor.
 
 ##### 1.2.2.2 Lean UX Assumptions
 

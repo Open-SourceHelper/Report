@@ -1,8 +1,6 @@
-# Informe de AV2 — Kinemo
+# Informe de AV2 — NeuroSync
 
-## Carátula
-
-![Logo UPC](imagenes/upc-logo.png)
+![Logo UPC](NeuroSync/assets/cover/logo-upc.png)
 
 | Campo | Valor                                           |
 |---|-------------------------------------------------|

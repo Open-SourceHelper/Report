@@ -149,31 +149,33 @@ En el siguiente cuadro se describen las acciones realizadas y las conclusiones o
 
 #### 1.1.1. Descripción de la Startup
 
-NeuroSync es una startup tecnológica orientada al sector de la salud digital y la inclusión social. Nace con el propósito de transformar la manera en que el entorno cercano de niños y niñas con condiciones del neurodesarrollo (tales como el Trastorno del Espectro Autista - TEA, Trastorno por Déficit de Atención e Hiperactividad - TDAH y Síndrome de Down) aborda el cuidado cotidiano, el manejo de desregulaciones sensoriales y la continuidad de sus rutinas.
+NeuroSync es una startup tecnológica orientada al desarrollo de soluciones digitales que faciliten la comunicación y coordinación entre familiares, cuidadores y profesionales que acompañan a niños con condiciones del neurodesarrollo, como el Trastorno del Espectro Autista (TEA), el Trastorno por Déficit de Atención e Hiperactividad (TDAH) y el síndrome de Down.
+La startup busca atender las dificultades que enfrentan las redes de cuidado para compartir información relevante, acceder a pautas de actuación individualizadas y responder de manera coordinada durante episodios de desregulación emocional, conductual o sensorial.
+Su propuesta contempla el desarrollo de Kinemo, una plataforma web que permitirá gestionar perfiles infantiles, organizar redes de cuidadores autorizados, comunicar alertas, consultar recomendaciones profesionales y registrar observaciones sobre los episodios.
 
-**Misión:** Empoderar a familias y cuidadores mediante soluciones digitales accesibles e intuitivas, proporcionando herramientas operativas basadas en evidencia para garantizar entornos seguros, predecibles y comprensivos para niños con condiciones del neurodesarrollo.
+Misión: Facilitar la comunicación y coordinación entre familias, cuidadores y profesionales mediante soluciones digitales accesibles que contribuyan a un acompañamiento informado, organizado y continuo de niños con condiciones del neurodesarrollo.
 
 #### 1.1.2. Perfiles de integrantes del equipo
 
 | Ingeniería de Software | Fabricio Flores Chavez <br> U202212327 |
 |---|---|
-| **Descripción:** Me gusta mucho seguir aprendiendo cosas nuevas y poder ser un gran profesional, y siempre poder ayudar a los demás en lo que necesiten. | ![Fabricio Flores Chavez](imagenes/fabricio-flores.png) |
+| **Descripción:** Me gusta mucho seguir aprendiendo cosas nuevas y poder ser un gran profesional, y siempre poder ayudar a los demás en lo que necesiten. | ![Fabricio Flores Chavez](NeuroSync/assets/img/1_1_2-perfiles-de-integrantes-del-equipo/Fabricio.png) |
 
 | Ingeniería de Software | Felipe Marcelo Huamanchumo Chicchon <br> U20241B932 |
 |---|---|
-| **Descripción:** Soy una persona que le busca la vuelta a los problemas, con ganas de salir adelante y de seguir aprendiendo cosas nuevas, siempre dando lo mejor de mí para alcanzar mis metas. | ![Felipe Marcelo Huamanchumo Chicchon](imagenes/felipe-huamanchumo.png) |
+| **Descripción:** Soy una persona que le busca la vuelta a los problemas, con ganas de salir adelante y de seguir aprendiendo cosas nuevas, siempre dando lo mejor de mí para alcanzar mis metas. | ![Felipe Marcelo Huamanchumo Chicchon](NeuroSync/assets/img/1_1_2-perfiles-de-integrantes-del-equipo/Felipe.png) |
 
 | Ingeniería de Software | Gabriel Alejandro Vilchez Vite <br> U202416903 |
 |---|---|
-| **Descripción:** Actualmente estudio la carrera de ingeniería de software y me considero una persona que no deja todos sus trabajos pendientes a última hora y que siempre trata de terminar todos sus trabajos a tiempo. Actualmente tengo conocimientos en matemáticas y en algunos lenguajes de programación como C++ y Matlab. Actualmente estoy estudiando Java. | ![Gabriel Alejandro Vilchez Vite](imagenes/gabriel-vilchez.png) |
+| **Descripción:** Actualmente estudio la carrera de ingeniería de software y me considero una persona que no deja todos sus trabajos pendientes a última hora y que siempre trata de terminar todos sus trabajos a tiempo. Actualmente tengo conocimientos en matemáticas y en algunos lenguajes de programación como C++ y Matlab. Actualmente estoy estudiando Java. | ![Gabriel Alejandro Vilchez Vite](NeuroSync/assets/img/1_1_2-perfiles-de-integrantes-del-equipo/Gabriel.png) |
 
 | Ingeniería de Software | Matthew Shinko Okuhama Diaz <br> U202419311 |
 |---|---|
-| **Descripción:** Soy estudiante de ingeniería de software y me considero una persona estudiosa y trabajadora muy enfocado en sus estudios. Tengo conocimientos en programación (C++ y HTML). | ![Matthew Shinko Okuhama Diaz](imagenes/matthew-okuhama.png) |
+| **Descripción:** Soy estudiante de ingeniería de software y me considero una persona estudiosa y trabajadora muy enfocado en sus estudios. Tengo conocimientos en programación (C++ y HTML). | ![Matthew Shinko Okuhama Diaz](NeuroSync/assets/img/1_1_2-perfiles-de-integrantes-del-equipo/Matthew.png) |
 
 | Ingeniería de Software | Cristian Joseph Trigoso Garrido <br> U202318865 |
 |---|---|
-| **Descripción:** Me gusta la superación personal y el aprendizaje continuo en el ámbito del desarrollo de software. Me motiva explorar y dominar nuevas herramientas tecnológicas para aportar soluciones creativas y de impacto en proyectos colaborativos. | ![Cristian Joseph Trigoso Garrido](imagenes/cristian-trigoso.png) |
+| **Descripción:** Me gusta la superación personal y el aprendizaje continuo en el ámbito del desarrollo de software. Me motiva explorar y dominar nuevas herramientas tecnológicas para aportar soluciones creativas y de impacto en proyectos colaborativos. | ![Cristian Joseph Trigoso Garrido](NeuroSync/assets/img/1_1_2-perfiles-de-integrantes-del-equipo/Cristian.png) |
 
 ### 1.2 Solution Profile
 
@@ -182,91 +184,156 @@ NeuroSync es una startup tecnológica orientada al sector de la salud digital y 
 
 **Antecedentes**
 
-Muchos niños diagnosticados con Trastorno del Espectro Autista (TEA), TDAH o Síndrome de Down reciben terapia psicológica para mejorar su conducta, rutinas y manejo sensorial. Sin embargo, las recomendaciones del psicólogo suelen quedarse en un cuaderno o en indicaciones verbales que solo conocen los padres. En el día a día, el niño también se queda a cargo de abuelos, tíos o niñeras, quienes muchas veces no saben cómo actuar ante una crisis sensorial o cómo seguir las rutinas establecidas, generando retrocesos en la terapia y estrés en la familia.
+El acompañamiento cotidiano de niños con condiciones del neurodesarrollo, como TEA, TDAH y síndrome de Down, puede involucrar a diferentes familiares, cuidadores y profesionales. Cada niño presenta necesidades particulares, por lo que resulta importante que las personas responsables de su cuidado conozcan las recomendaciones y pautas de actuación correspondientes.
+
+Durante los episodios de desregulación emocional, conductual o sensorial, la comunicación entre los integrantes de la red de cuidado adquiere especial importancia. Sin embargo, cuando las indicaciones se transmiten únicamente mediante conversaciones, mensajes dispersos o anotaciones personales, pueden presentarse dificultades para acceder oportunamente a información relevante y coordinar las acciones de los cuidadores.
+
+Asimismo, la ausencia de un registro compartido de observaciones puede dificultar que familiares y profesionales conozcan lo ocurrido durante estos episodios y mantengan un seguimiento organizado.
 
 **Análisis de la problemática (5W + 2H)**
 
-- **Who:** Familias (padres, abuelos, tíos) y psicólogos o terapeutas infantiles.
+- **Who:** Padres, familiares, cuidadores autorizados y profesionales que participan en el acompañamiento de niños con condiciones del neurodesarrollo.
 
-- **What:** Falta de una herramienta accesible que permita compartir de forma rápida y clara las pautas de cuidado y rutinas del niño a todo su entorno.
+- **What:** Dificultades para comunicar episodios de desregulación, coordinar la respuesta de los cuidadores, consultar pautas individualizadas y compartir información para el seguimiento.
 
-- **Where:** En los hogares familiares, visitas y entornos cotidianos donde cuidan al niño.
+- **Where:** Hogares, espacios familiares y otros entornos cotidianos en los que diferentes personas asumen el cuidado del niño.
 
-- **When:** En momentos de cambio de actividad, cumplimiento de rutinas y, especialmente, durante desregulaciones o crisis sensoriales.
+- **When:** Principalmente durante episodios de desregulación y en los momentos posteriores que requieren comunicación y seguimiento.
 
-- **Why:** Porque la información terapéutica está centralizada sólo en los padres y no hay guías prácticas adaptadas para cuidadores que no son especialistas.
+- **Why:** La información relevante puede encontrarse dispersa entre distintos medios, dificultando su disponibilidad y consulta por parte de toda la red de cuidado autorizada.
 
-- **How:** Los cuidadores sienten frustración por no saber qué hacer, los padres no pueden delegar el cuidado con tranquilidad y se rompe la continuidad de la terapia.
+- **How:** Los cuidadores recurren a llamadas, mensajes o indicaciones previas para comunicar lo ocurrido y decidir cómo actuar, lo que puede generar demoras o información incompleta.
 
-- **How Much:** Afecta de forma recurrente el bienestar familiar cada semana y retrasa el progreso que el niño logra en sus sesiones psicológicas.
+- **How Much:** La frecuencia e impacto de estas dificultades pueden variar según las necesidades del niño, la cantidad de cuidadores involucrados y los mecanismos de comunicación utilizados. Su magnitud deberá evaluarse mediante entrevistas a los segmentos objetivo.
 
 **Puntos que debe resolver la solución:**
 
-- Crear una ficha de perfil del niño con sus detonantes de crisis y reguladores sensoriales.
-- Proveer guías de acción rápida paso a paso que cualquier cuidador sepa cómo intervenir en una crisis.
-- Ofrecer un organizador de rutinas diarias con apoyos visuales y temporizadores.
+- Facilitar la comunicación de alertas sobre episodios de desregulación a los cuidadores autorizados.
+- Permitir la gestión de perfiles infantiles y redes de cuidado con permisos diferenciados.
+- Facilitar el acceso a pautas individualizadas previamente proporcionadas o validadas por profesionales.
+- Permitir el registro de observaciones y el seguimiento de los episodios.
+- Apoyar la continuidad de las rutinas acordadas entre familiares, cuidadores y profesionales.
 
-**Objetivo General:** Desarrollar una aplicación web SaaS que permita a psicólogos y padres crear y compartir un manual práctico de cuidado y rutinas para el entorno cercano de niños neurodivergentes.
+**Objetivo General:** Desarrollar Kinemo, una plataforma web que facilite la comunicación, coordinación y seguimiento entre familiares, cuidadores autorizados y profesionales durante episodios de desregulación en niños con condiciones del neurodesarrollo, mediante alertas digitales, acceso a pautas individualizadas, gestión de rutinas y registro de observaciones.
 
 #### 1.2.2 Lean UX Process
 
-En el presente apartado se implementa el procedimiento Lean UX para determinar la propuesta de valor de NeuroSync y Kinemo, en tanto que Brand new initiative. A partir de las necesidades del usuario y de la brecha definida, se desarrollan los Problem Statements, Assumptions e Hypothesis Statements. Y estos se incorporan, finalmente, en el Lean UX Canvas para definir la propuesta en su conjunto.
+En esta sección se aplica el proceso Lean UX para identificar las necesidades de los segmentos objetivo, establecer los problemas que NeuroSync busca resolver y definir los supuestos que orientan el desarrollo de Kinemo.
+
+Debido a que se trata de una nueva iniciativa, se utiliza el enfoque Brand New Initiative para formular el Lean UX Problem Statement. Posteriormente, se establecen los Assumptions y Hypothesis Statements, que permitirán evaluar las principales decisiones relacionadas con la solución propuesta. Finalmente, estos elementos se integran en el Lean UX Canvas.
 
 ##### 1.2.2.1 Lean UX Problem Statements
 
-En el contexto del cuidado de niños de 3 a 12 años con condiciones del neurodesarrollo como TEA, TDAH y síndrome de Down, las familias suelen contar con recomendaciones proporcionadas por psicólogos y otros profesionales para manejar rutinas, comportamiento y situaciones de desregulación. Sin embargo, estas indicaciones pueden mantenerse principalmente en cuadernos, mensajes o explicaciones verbales dirigidas a los padres, dificultando que otros miembros de la red de cuidado puedan acceder a ellas y aplicarlas correctamente.
+Actualmente, el acompañamiento de niños con condiciones del neurodesarrollo, como TEA, TDAH y síndrome de Down, puede involucrar a padres, familiares, cuidadores y profesionales que necesitan compartir información y coordinar acciones durante situaciones de desregulación emocional, conductual o sensorial. Esta coordinación suele apoyarse en llamadas telefónicas, mensajes y recomendaciones compartidas por diferentes medios, lo que puede dificultar el acceso oportuno a información relevante.
 
-Esto genera que abuelos, tíos, niñeras y otros cuidadores puedan no conocer las estrategias adecuadas para responder ante una situación de desregulación, un cambio de rutina o una transición. Como consecuencia, los padres pueden tener dificultades para delegar el cuidado con tranquilidad y puede verse afectada la continuidad de las estrategias trabajadas durante el acompañamiento profesional.
+Las herramientas de comunicación y organización utilizadas habitualmente no siempre permiten integrar en un mismo entorno la gestión de cuidadores autorizados, la comunicación de alertas, el acceso a pautas individualizadas y el seguimiento de episodios de desregulación. Esto representa una oportunidad para mejorar la coordinación y continuidad del acompañamiento entre los integrantes de la red de cuidado.
 
-Actualmente, las familias y profesionales cuentan con diferentes herramientas digitales para organizar actividades, rutinas o información, pero existe una oportunidad de integrar en un mismo espacio el perfil del niño, sus rutinas, guías prácticas, observaciones y la participación de los miembros autorizados de su red de cuidado.
+Kinemo buscará atender esta necesidad mediante una plataforma web que permita administrar perfiles infantiles, gestionar redes de cuidadores autorizados, comunicar alertas digitales, consultar pautas de actuación proporcionadas o validadas por profesionales y registrar observaciones para el seguimiento de los episodios. La plataforma también incorporará herramientas para organizar rutinas de apoyo.
 
-Por ello, se busca mejorar la continuidad y coordinación del cuidado mediante una herramienta digital accesible que permita organizar rutinas, consultar guías prácticas y compartir recomendaciones personalizadas entre las familias, cuidadores y profesionales involucrados.
+La propuesta se enfocará inicialmente en familias y cuidadores de niños de 3 a 12 años con condiciones del neurodesarrollo, así como en los profesionales que participan en su acompañamiento, considerando a Lima Metropolitana como ámbito inicial de investigación y validación.
 
-Para comenzar, el enfoque estará en las familias y personas cercanas que participan directamente en el cuidado de niños de 3 a 12 años con TEA, TDAH o síndrome de Down, considerando también la participación de psicólogos y otros profesionales relacionados con su acompañamiento.
+Se considerará que la propuesta está obteniendo resultados favorables cuando los cuidadores participantes puedan localizar oportunamente las pautas correspondientes, comunicar situaciones de desregulación a su red autorizada y registrar observaciones de manera satisfactoria. Asimismo, se evaluará si los profesionales participantes consideran útil la información compartida para dar continuidad al seguimiento de los niños.
 
 ##### 1.2.2.2 Lean UX Assumptions
 
-* **¿Quién o quiénes son los usuarios?**<br>Pensamos que los principales son las familias y personas de referencia que forman parte de la red de cuidado de niños y niñas de 3 a 12 años de edad con TEA, TDAH o síndrome de Down. Este colectivo puede estar formado por padres, abuelos, tíos y otros cuidadores que necesitan conocer las rutinas y estrategias recomendadas para la atención del niño.<br><br>También consideramos como usuarios a psicólogos u otros profesionales de los que acompañan al niño, dado que pueden proporcionar indicaciones personalizadas, así como consultar información relevante para la atención del niño.
-<br><br>
-* **¿Cuál es el problema real?**<br>Pensamos que el principal obstáculo es que no siempre se pueden establecer y mantener de forma suficiente y clara las recomendaciones educativas del cuidado del niño a toda la red de cuidado y entre los cuidadores de ese niño.<br><br>Si la información aparece, pues, en las conversaciones, las anotaciones en cuadernos o derivada de las indicaciones dadas a los padres, entonces otros cuidadores pueden no estar al corriente de las instrucciones para saber cómo deben actuar ante un comportamiento de desregulación, cambios de la rutina o necesidades específicas del niño.
-<br><br>
-* **¿Cúal solución podría funcionar contra el problema?**<br>Pensamos que una plataforma web, como Kinemo, puede ayudar a centralizar la información más relevante del niño/a y facilitar el acceso de los miembros acreditados de su red de cuidado.<br><br>La solución permitirá tener un perfil del niño/a, gestionar rutinas visuales, consultar guías prácticas para situaciones de desregulación, usar temporizadores, registrar observaciones, etc. Y los o las profesionales podrán ofrecer pautas concretas para poder enriquecer el acompañamiento del niño/a.
-<br><br>
-* **¿Cuáles son sus beneficios?**<br>Nuestro convencimiento es que la solución es capaz de ayudar a la comunicación y a la coordinación entre padres, familiares, cuidadores y profesionales.<br><br>Asimismo, también puede ayudar a que los cuidadores tengan instrucciones prácticas y explícitas cuando deban actuar ante situaciones cotidianas y de esta forma permitir una mayor continuidad en estrategias de acompañamiento del niño.<br><br>Por último, para los profesionales puede facilitar la posibilidad de poder dar seguimiento a la información que la familia puede presentar y dar lugar a recomendaciones personalizadas.
-<br><br>
-* **¿Esta plataforma es viable?**<br>Pensamos que Kinemo (la aplicación en función de la tecnología y la disponibilidad) podría llegar a ser un software SaaS dirigido a familias y profesionales. El modelo de negocio considera diferentes planes asociados al tipo de usuario, permitiendo poder ofrecer funcionalidades que vayan ligadas a cada tipo de usuario.<br><br>La viabilidad de la propuesta debe ser validada en un proceso de prueba con familias, cuidadores y profesionales, buscando, sobre todo, la valoración de la utilidad de las funcionalidades, de la facilidad de uso y de la disponibilidad de uso y pago por el servicio.
-<br><br>
-* **¿Qué cosas pueden salir mal con la plataforma?**<br>Estamos convencidos de que uno de los principales riesgos es que las familias o profesionales no vean suficiente valor en la plataforma y prefieran seguir usando herramientas de las que ya tienen conocimiento para ir organizando poco a poco sus rutinas o para ir compartiendo información.<br><br>Asimismo, se establece el riesgo de que los usuarios no mantengan actualizados los perfiles, rutinas, observaciones o recomendaciones del niño, disminuyendo la utilidad de la información que hay disponible.<br><br>Por último, la aparición de nuevas soluciones digitales con funcionalidades semejantes podría hacer aumentar la competencia. Así pues, Kinemo deberá continuar validando las necesidades de sus usuarios y reforzando su propuesta de valor centrada en la coordinación de la red de cuidado y la continuidad de las recomendaciones.
+#### Business Assumptions
+- BA01: Creemos que existe una oportunidad para ofrecer una plataforma digital especializada en la coordinación de redes de cuidado de niños con condiciones del neurodesarrollo.
+
+- BA02: Creemos que las familias y los profesionales pueden encontrar valor en una herramienta que centralice la comunicación, las pautas de actuación y el seguimiento de episodios.
+
+- BA03: Creemos que Kinemo puede desarrollarse como una plataforma web SaaS que permita ampliar progresivamente su alcance y cantidad de usuarios.
+
+#### Business Outcome Assumptions
+
+- BOA01: Creemos que una experiencia sencilla para comunicar episodios de desregulación favorecerá la adopción inicial de Kinemo por parte de las familias.
+
+- BOA02: Creemos que facilitar el acceso a información relevante contribuirá a aumentar el uso recurrente de la plataforma por parte de los cuidadores.
+
+- BOA03: Creemos que la participación de profesionales en la gestión de pautas y observaciones contribuirá a mejorar la percepción de utilidad y la continuidad de uso de Kinemo.
+
+#### User Assumptions
+
+- UA01: Creemos que los padres y familiares responsables del cuidado necesitan mantener informados a los demás cuidadores autorizados.
+
+- UA02: Creemos que los cuidadores secundarios necesitan consultar información clara sobre las necesidades del niño y las pautas de actuación correspondientes.
+
+- UA03: Creemos que los profesionales requieren recibir observaciones sobre situaciones ocurridas fuera de las sesiones de atención.
+
+#### User Outcome and Benefit Assumptions
+
+- UOBA01: Creemos que los cuidadores desean comunicar oportunamente los episodios de desregulación y conocer las acciones recomendadas para cada niño.
+
+- UOBA02: Creemos que las familias buscan mejorar la coordinación entre las personas que participan en el cuidado del niño.
+
+- UOBA03: Creemos que los cuidadores necesitan acceder a pautas individualizadas para aplicar las recomendaciones profesionales de manera consistente.
+
+- UOBA04: Creemos que las familias y los profesionales desean mantener un historial organizado de observaciones que facilite el seguimiento de los episodios.
+
+#### Feature Assumptions
+
+- FA01: Creemos que una funcionalidad de alertas digitales permitirá a los cuidadores comunicar episodios de desregulación a los integrantes autorizados de la red de cuidado.
+
+- FA02: Creemos que la gestión de perfiles infantiles y redes de cuidado permitirá organizar la información del niño y controlar quiénes pueden acceder a ella.
+
+- FA03: Creemos que el acceso a pautas de actuación individualizadas y rutinas de apoyo facilitará la consulta de recomendaciones durante el cuidado cotidiano.
+
+- FA04: Creemos que el registro de observaciones y el historial de episodios facilitarán el intercambio de información entre cuidadores y profesionales.
 
 ##### 1.2.2.3 Lean UX Hypothesis Statements
 
-**Hypothesis Statement 1: Acceso rápido a guías mejora la respuesta de los cuidadores**
+**Hypothesis Statement 1: Comunicación de alertas digitales**
 
-Estamos convencidos de que permitir a los cuidadores el acceso rápido a guías prácticas y personalizadas para saber cómo actuar ante situaciones de desregulación comentadas les ayudará a aplicar las recomendaciones del profesional. Sabremos que lo hemos conseguido cuando al menos el 70% de los cuidadores participantes haya sido capaz de localizar una guía y comprenderla en un tiempo inferior a los 2 minutos y al menos el 80% indique que le resulta útil la información para actuar ante situaciones cotidianas.
+Creemos que lograremos incrementar la adopción inicial de Kinemo por parte de las familias
 
-**Hypothesis Statement 2: Organización de rutinas favorece la continuidad del cuidado**
+si los padres y cuidadores autorizados
 
-Nuestra intención es que al concentrar las rutinas visuales, las actividades y los temporizadores del niño de manera central mediante Kinemo, se considere también que se da la posibilidad de que los diferentes cuidadores hagan uso de las mismas directrices a nivel diario. Sabríamos que hemos llegado a esta consecución en el momento en que al menos el 70% de los usuarios participantes efectúe un uso frecuente de las rutinas digitales cada día de forma recurrente durante las 4 primeras semanas , más del 75% indiquen que Kinemo permite llevar la coordinación de las rutinas del niño.
+consiguen comunicar oportunamente un episodio de desregulación a los integrantes de su red de cuidado
 
-**Hypothesis Statement 3: Coordinación de la red de cuidado mejora la comunicación**
+mediante la funcionalidad de alertas digitales de Kinemo.
 
-Entendemos que permitir a los padres, familiares, cuidadores y profesionales autorizados compartir información sobre el niño contribuirá a la coordinación de su cuidado y evitará la dependencia exclusivamente de la vía verbal del intercambio de instrucciones. Sabríamos que estaríamos en ese punto cuando al menos el 70% de las familias que participan introduzcan a uno o más cuidadores a su red de cuidados y que al menos el 75% de los usuarios consideren que compartir las recomendaciones desde Kinemo ayuda a coordinar a las personas de la red.
+Criterio de validación: Al menos el 80 % de los cuidadores participantes completa correctamente un escenario simulado de activación y comunicación de una alerta durante las pruebas de usabilidad.
 
-**Hypothesis Statement 4: Participación profesional aumenta el valor percibido de Kinemo**
+**Hypothesis Statement 2: Gestión de perfiles y redes de cuidado**
 
-A nuestro entender, el realizar el registro de recomendaciones particulares por parte de los psicólogos y/o profesionales implicados y la posible consulta de aquellas observaciones que pudieron ser realizadas por los cuidadores, sin lugar a dudas ayudará a incrementar el valor percibido de Kinemo como herramienta de acompañamiento.
+Creemos que lograremos incrementar el uso recurrente de Kinemo
 
-Sabríamos que hemos alcanzado el objetivo si, durante la evaluación, al menos el 70% de los profesionales de la muestra registran o consultan información del niño que están evaluando y se obtiene una percepción positiva, al menos del 80%, a propósito de Kinemo como ayuda para la supervisión y el intercambio de información con la familia.
+si los padres y familiares responsables
 
-**Hypothesis Statement 5: Existe interés suficiente en el modelo SaaS de Kinemo**
+consiguen organizar la información del niño y compartirla únicamente con las personas autorizadas para participar en su cuidado
 
-Confiamos en que las familias y los profesionales percibirán un valor suficiente en las funcionalidades de Kinemo como para valorar el uso de un servicio digital especializado. Sabríamos que lo habríamos conseguido cuando al menos el 60% de los usuarios que han participado en el piloto digan que tienen intención de seguir usando la aplicación después del periodo de prueba y una proporción suficientemente alta de los usuarios que son el objetivo digan que están dispuestos a adquirir los planes que se proponen para familias y profesionales.
+mediante la gestión de perfiles infantiles y redes de cuidadores de Kinemo.
+
+Criterio de validación: Al menos el 80 % de los padres participantes consigue agregar un cuidador autorizado y configurar sus permisos durante las pruebas de usabilidad.
+
+**Hypothesis Statement 3: Acceso a pautas individualizadas y rutinas de apoyo**
+
+Creemos que lograremos incrementar el uso recurrente de Kinemo por parte de los cuidadores
+
+si los familiares y cuidadores autorizados
+
+consiguen consultar las recomendaciones y rutinas correspondientes a las necesidades individuales del niño
+
+mediante las funcionalidades de pautas de actuación y gestión de rutinas de Kinemo.
+
+Criterio de validación: Al menos el 80 % de los cuidadores participantes consigue localizar la pauta correspondiente en un escenario de prueba y declara que la información resulta clara y útil.
+
+**Hypothesis Statement 4: Registro de observaciones y seguimiento**
+
+Creemos que lograremos mejorar la percepción de utilidad de Kinemo entre los profesionales y favorecer su continuidad de uso
+
+si los profesionales que acompañan al niño
+
+consiguen consultar observaciones registradas por los cuidadores y acceder a información organizada sobre episodios anteriores
+
+mediante las funcionalidades de registro de observaciones e historial de episodios de Kinemo.
+
+Criterio de validación: Al menos el 80 % de los profesionales participantes consigue consultar el historial de un niño y considera que la información presentada resulta útil para el seguimiento de las situaciones reportadas.
 
 ##### 1.2.2.4 Lean UX Canvas
 
-<img src="imagenes/Lean_UX_Canvas.jpeg">
+<img src="NeuroSync/assets/img/1_2_2_4-lean-ux-canvas/Lean_UX_Canvas.jpg">
 
-**Link:**<br>https://miro.com/welcomeonboard/enhWbkZGTENCK1YrbVprOVdhRXVWTExwZUx1QU9ESDE0VXlUbThndElveW1vM0FYTzN5UnlSR25JS3YvMHpHdnhXNnJrZEl6UHBZTUo1bWZqSHo1T2VqaGJ0MnIwcDR3MmlVUVpKNCtLYUV4YWVHTWR3MEJFVjNCc1lxZHk4YWphWWluRVAxeXRuUUgwWDl3Mk1qRGVRPT0hdjE=?share_link_id=860740998056
+**Link:**<br>https://miro.com/welcomeonboard/U1c5M2RpZDN6L211eTVJd2tCQXk4b2xDQk5LUVc2WmQ0c2ZkS1o4bHlNQ3FrTU4zQ052bkxkQTM4eFR2dDZJdzNOOFVpaC95UmwxTzkxRGdOeWNoWDF0RXpCbmQ0NHZBOWF3cWtMVmZhelRPam92WkV0Vm51cUJHL09seXBUMHF0R2lncW1vRmFBVnlLcVJzTmdFdlNRPT0hdjE=?share_link_id=680292650527
 
 
 ### 1.3. Segmentos objetivo
@@ -275,11 +342,13 @@ Para el desarrollo del proyecto se han identificado dos segmentos objetivos prin
 
 **Segmento 1: Familias y red de cuidado cercano (Padres y Cuidadores)**
 
-**Descripción:** Padres de familia, abuelos, tíos y cuidadores directos a cargo de niños de 3 años a 12 años con condiciones del neurodesarrollo (TEA, TDAH o Síndrome de Down). Representan a los usuarios que atienden el día a día del menor y necesitan instrucciones prácticas y claras para actuar ante crisis sensoriales o transiciones de rutina sin depender exclusivamente de una llamada de emergencia al especialista.
+**Descripción:** Padres, familiares y cuidadores responsables del acompañamiento cotidiano de niños de 3 a 12 años con condiciones del neurodesarrollo, como TEA, TDAH o síndrome de Down. Este segmento necesita compartir información relevante sobre las necesidades individuales del niño, coordinar las acciones de las personas autorizadas y disponer de pautas de actuación durante episodios de desregulación emocional, conductual o sensorial.
+
+Entre sus principales necesidades se encuentran la comunicación oportuna de alertas, el acceso a recomendaciones individualizadas, la organización de rutinas de apoyo y el registro de observaciones que permitan mantener informados a los integrantes de la red de cuidado.
 
 **Características demográficas:**
 
-- **Edad:** 25 a 65 años (abarca desde padres jóvenes hasta abuelos cuidadores).
+- **Edad:** 25 a 65 años.
 - **Ubicación:** Lima Metropolitana.
 - **Nivel educativo:** Secundaria completa, técnico o superior.
 - **Uso tecnológico:** Nivel básico a intermedio; utilizan principalmente teléfonos (smartphones) y navegadores web para mensajería y consulta de información cotidiana.
@@ -292,7 +361,11 @@ De acuerdo con el Registro Nacional de CONADIS, más del 82% de las personas reg
 
 **Segmento 2: Profesionales de la Salud Mental y Terapeutas Infantiles**
 
-**Descripción:** Psicólogos clínicos infantiles, terapeutas ocupacionales y especialistas en neurodesarrollo que atienden a niños en consultorios privados o centros especializados. Requieren una herramienta digital para configurar pautas personalizadas, estructurar rutinas con apoyos visuales y monitorear la evolución del paciente fuera del consultorio.
+**Descripción:** Psicólogos infantiles, terapeutas ocupacionales y otros profesionales especializados en el acompañamiento de niños con condiciones del neurodesarrollo. Este segmento participa en la orientación de las familias y puede proporcionar pautas individualizadas para el cuidado cotidiano y el manejo de episodios de desregulación.
+
+Los profesionales necesitan contar con información organizada sobre las situaciones observadas por los cuidadores fuera de las sesiones de atención, con el propósito de facilitar la comunicación con las familias y dar continuidad al acompañamiento del niño.
+
+Kinemo busca facilitar la consulta de observaciones e historiales de episodios y la disponibilidad de recomendaciones profesionales para los integrantes autorizados de la red de cuidado, sin sustituir la evaluación ni la intervención clínica.
 
 **Características demográficas:**
 

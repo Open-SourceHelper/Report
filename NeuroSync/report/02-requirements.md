@@ -179,7 +179,7 @@ Señala que las pautas terapéuticas suelen perder continuidad en el hogar por f
 
 ![miguel](NeuroSync/assets/img/2_2_2-registro-de-entrevistas/miguel.png)
 
-**URL:** Entrevista2-ProfesionalSaludMental.mp4
+**URL:** [Ver entrevista](https://1drv.ms/v/c/bae01487dfb322d2/IQCvUu83WappTJ25-IVsZLBJAav_mtNpggBzPM1XTL5VIA0?e=hCRrjk)
 
 **Inicia:** 00:22  
 **Fin:** 04:18
@@ -204,7 +204,7 @@ Desde su experiencia, identifica dificultades para mantener las estrategias tera
 
 ![ximena](NeuroSync/assets/img/2_2_2-registro-de-entrevistas/ximena.png)
 
-**URL:** Entrevista3 a Ximena.mp4
+**URL:** [Ver entrevista](https://1drv.ms/v/c/bae01487dfb322d2/IQAAM_Go3yUDT4n1yY5gcZhkAWRun0XjnmObSGcRQKVWXVw?e=JpaED9)
 
 **Inicia:** 00:00  
 **Fin:** 07:18
@@ -229,7 +229,7 @@ Asimismo, señaló que, ante situaciones de crisis, mantiene contacto con las fa
 
 ![fidia](NeuroSync/assets/img/2_2_2-registro-de-entrevistas/fidia.png)
 
-**URL:** Entrevista5-ProfesionalSaludMental.mp4
+**URL:** [Ver entrevista](https://1drv.ms/v/c/bae01487dfb322d2/IQCod4d90d-rSIC_KtIIQLKDARTZk5GCU4g64wltZdlu_uw?e=IqqYrc)
 
 **Resumen:**
 

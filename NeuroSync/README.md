@@ -1,4 +1,4 @@
-# Informe de TB1 — Kinemo
+# Informe de AV2 — Kinemo
 
 ## Carátula
 

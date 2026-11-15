@@ -396,7 +396,7 @@ En esta sección, se analizan y explican los principales competidores que están
 
 En esta sección se ejecuta un análisis de los competidores más relevantes identificados, con la intención de conocer mejor sus características, funcionalidades y propuestas de valor, con el cual se busca realizar una comparación entre la percepción inicial que se tenía de estas soluciones con sus verdaderas características, así como identificar el potencial de mejora, las características que refuercen nuestra propuesta y también los elementos diferenciadores de nuestra propuesta.
 
-|                     |                                                       | Kinemo                                                                                                                                                                                                                                                                                                | Tiimo                                                                                                                                                                          | Brili                                                                                                                                                      | AutismDock                                                                                                                                                      |
+|                     |                                                       | Kinemo <br/>![Kinemo](NeuroSync/assets/img/2_1_1-analisis-competitivo/kinemo.png)                                                                                                                                                                                                                                                                                                | Tiimo ![tiimo](NeuroSync/assets/img/2_1_1-analisis-competitivo/tiimo.jpg)                                                                                                                                                                         | Brili ![brili](NeuroSync/assets/img/2_1_1-analisis-competitivo/brili.png)                                                                                                                                                      | AutismDock ![autism](NeuroSync/assets/img/2_1_1-analisis-competitivo/autism.png)                                                                                                                                                     |
 |---------------------|-------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Perfil              | Overview                                              | Startup que desarrolla Kinemo, una plataforma web SaaS dirigida a familias, cuidadores y profesionales que acompañan a niños de 3 a 12 años con TEA, TDAH o síndrome de Down. Permite organizar rutinas, registrar observaciones y compartir pautas de cuidado.                                       | Aplicación de planificación visual diseñada para facilitar la organización de actividades, la gestión del tiempo y las rutinas, especialmente para personas neuro divergentes. | Aplicación especializada en la creación y ejecución de rutinas mediante actividades organizadas, temporizadores y herramientas de seguimiento.             | Plataforma digital orientada al apoyo de personas autistas, sus familias y profesionales mediante herramientas de comunicación, rutinas visuales y seguimiento. |
 |                     | Ventaja competitiva ¿Qué valor ofrece a los clientes? | Propone centralizar en una sola plataforma las rutinas del niño, sus necesidades particulares, las estrategias de apoyo y las observaciones compartidas entre familiares, cuidadores y profesionales autorizados. Su valor propuesto es facilitar la continuidad y coordinación del cuidado infantil. | Ofrece una experiencia de planificación visual y personalizable que ayuda a los usuarios a estructurar sus actividades y gestionar su tiempo de acuerdo con sus necesidades.   | Permite transformar las actividades diarias en rutinas estructuradas y guiadas por temporizadores, ayudando a mantener la organización y completar tareas. | Permite transformar las actividades diarias en rutinas estructuradas y guiadas por temporizadores, ayudando a mantener la organización y completar tareas.      |
@@ -408,7 +408,7 @@ En esta sección se ejecuta un análisis de los competidores más relevantes ide
 |                     | Precios & Costos                                      | Propuesta: S/19.90 familiar y S/49.90 profesional al mes.                                                                                                                                                                                                                                             | La versión Pro de Tiimo cuesta $7.99 al mes o $79.99 al año                                                                                                                    | US$7.99 mensual, US$34.99 semestral o US$49.99 anual en App Store de EE. UU.                                                                               | Google Play anuncia Premium desde €3.99 mensuales.                                                                                                              |
 |                     | Canales de distribución (Web y/o Móvil)               | Aplicación web responsive y landing page.                                                                                                                                                                                                                                                             | Web, iOS, iPadOS, watchOS y Android.                                                                                                                                           | Aplicación móvil.                                                                                                                                          | Sitio web y aplicación Android.                                                                                                                                 |
 
-|               |               | Kinemo                                                                                                                                                                                                                                                                                                                                   | Tiimo                                                                                                                                                                                                                                                                                                         | Brili                                                                                                                                                                                                                                                                                                                     | AutismDock                                                                                                                                                                                                                                                                                                                                            |
+|               |               | Kinemo <br/>![Kinemo](NeuroSync/assets/img/2_1_1-analisis-competitivo/kinemo.png)                                                                                                                                                                                                                                                                                                                                  | Tiimo ![tiimo](NeuroSync/assets/img/2_1_1-analisis-competitivo/tiimo.jpg)                                                                                                                                                                                                                                                                                                       | Brili ![brili](NeuroSync/assets/img/2_1_1-analisis-competitivo/brili.png)                                                                                                                                                                                                                                                                                                                    | AutismDock ![autism](NeuroSync/assets/img/2_1_1-analisis-competitivo/autism.png)                                                                                                                                                                                                                                                                                                                                           |
 |---------------|---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Análisis SWOT | Fortalezas    | Enfoque definido en el cuidado infantil.<br>Propuesta de coordinación entre familiares y profesionales.<br>Experiencia web diseñada para distintos dispositivos.                                                                                                                                                                         | Cuenta con herramientas de planificación visual y organización de actividades.<br>Permite utilizar rutinas, temporizadores, listas de tareas y recordatorios.<br>Su propuesta está orientada a personas neurodivergentes y a la gestión de actividades cotidianas.                                            | Permite crear y personalizar rutinas estructuradas.<br>Incorpora temporizadores, notificaciones y seguimiento de actividades.<br>Cuenta con herramientas orientadas a facilitar el cumplimiento de las actividades diarias.                                                                                               | Está orientada específicamente al apoyo de personas autistas.<br>Considera dentro de su público a familias, cuidadores, terapeutas y profesionales.<br>Incluye rutinas visuales, herramientas de comunicación y seguimiento.                                                                                                                          |
 |               | Debilidades   | Es una propuesta nueva y todavía no cuenta con una base consolidada de usuarios.<br>Requiere validar con familias y profesionales que las funcionalidades propuestas respondan a sus necesidades reales.<br>La plataforma depende de que los padres y profesionales mantengan actualizada la información del niño y sus pautas de apoyo. | Su enfoque principal está relacionado con la planificación y organización personal.<br>No está centrado específicamente en la coordinación de una red de cuidadores alrededor de un niño.<br>Su propuesta no se enfoca principalmente en centralizar pautas personalizadas proporcionadas por un profesional. | Su propuesta se concentra principalmente en la organización de rutinas y la gestión del tiempo.<br>No tiene como eje principal la coordinación entre padres, cuidadores y profesionales.<br>Presenta un alcance más limitado respecto a la gestión de información específica sobre las necesidades individuales del niño. | Su enfoque está principalmente relacionado con el autismo y no necesariamente con las tres condiciones consideradas por Kinemo.<br>Existe una coincidencia importante con Kinemo en herramientas como rutinas visuales y apoyo a cuidadores.<br>Puede requerir que los usuarios se adapten a las funcionalidades disponibles dentro de su plataforma. |
@@ -455,11 +455,17 @@ Tácticas generales:
 
 #### 2.2.1. Diseño de entrevistas
 
-El diseño de entrevistas tiene como finalidad recopilar información directa y cualitativa de representantes de los dos segmentos objetivo identificados: Familias/Cuidadores y Especialistas en Salud Mental. La estructura de las entrevistas se organiza en preguntas demográficas preliminares, preguntas sobre hábitos digitales y canales de interacción, y preguntas principales orientadas a descubrir necesidades, frustraciones y dinámicas de cuidado diario.
+El diseño de entrevistas tiene como finalidad conocer las experiencias, necesidades y dificultades de los segmentos objetivo de NeuroSync: familias y cuidadores de niños con condiciones del neurodesarrollo, y profesionales de la salud mental y terapeutas infantiles.
+
+Las entrevistas se estructuraron mediante preguntas demográficas, hábitos tecnológicos, mecanismos de comunicación, organización de rutinas, aplicación de recomendaciones profesionales y seguimiento de episodios de desregulación.
+
+A través de estas preguntas se buscó comprender cómo se transmite la información entre las personas responsables del cuidado, qué dificultades pueden surgir cuando intervienen diferentes cuidadores y qué mecanismos utilizan los profesionales para conocer las situaciones ocurridas fuera de las sesiones.
+
+La información obtenida permite analizar las necesidades de comunicación, coordinación y continuidad del acompañamiento, así como identificar oportunidades para el desarrollo de Kinemo.
 
 **Segmento 1: Familias y Red de Cuidado Cercano (Padres y Cuidadores)**
 
-**Objetivo de la entrevista:** Identificar las dificultades operativas, emocionales y de comunicación que experimentan los padres y cuidadores secundarios (abuelos, tíos o niñeras) al coordinar rutinas y atender desregulaciones sensoriales de niños neurodivergentes, así como revelar sus canales de interacción digital y hábitos tecnológicos para diseñar la experiencia de usuario.
+**Objetivo de la entrevista:** Identificar cómo los padres, familiares y cuidadores comparten información sobre las necesidades del niño, coordinan responsabilidades, consultan recomendaciones profesionales y enfrentan situaciones de desregulación. Asimismo, conocer los medios tecnológicos que utilizan y las dificultades que pueden presentarse cuando diferentes personas participan en el cuidado.
 
 **Preguntas demográficas y de caracterización:**
 
@@ -485,7 +491,7 @@ El diseño de entrevistas tiene como finalidad recopilar información directa y 
 
 **Segmento 2: Profesionales de la Salud Mental y Terapeutas Infantiles**
 
-**Objetivo de la entrevista:** Explorar los métodos actuales de prescripción psicoeducativa y seguimiento extra consultorio empleados por los profesionales, identificando los puntos críticos donde se pierde la adherencia terapéutica en el entorno del paciente y sus requisitos para una solución digital de soporte.
+**Objetivo de la entrevista:** Comprender cómo los profesionales proporcionan pautas individualizadas, reciben información de las familias y realizan el seguimiento de situaciones ocurridas fuera de las sesiones. Además, identificar las dificultades relacionadas con la comunicación entre cuidadores y la continuidad de las recomendaciones profesionales.
 
 **Preguntas demográficas y de caracterización:**
 
@@ -510,6 +516,12 @@ El diseño de entrevistas tiene como finalidad recopilar información directa y 
 
 #### 2.2.2. Registro de entrevistas
 
+En esta sección se presentan los registros de las entrevistas realizadas durante la etapa de investigación de NeuroSync. Se conserva la información proporcionada por los participantes, incluyendo sus características generales, herramientas digitales utilizadas, experiencias relacionadas con el acompañamiento de niños con condiciones del neurodesarrollo y opiniones sobre las dificultades de comunicación y seguimiento.
+
+Los testimonios permiten comprender prácticas actuales relacionadas con la transmisión de recomendaciones, la participación de diferentes cuidadores y la recopilación de información sobre episodios ocurridos fuera de las sesiones profesionales.
+
+Estos registros constituyen una fuente de información para el análisis de necesidades y la elaboración de los artefactos de Needfinding.
+
 **Segmento 2: Profesionales de la Salud Mental y Terapeutas Infantiles**
 
 **Entrevista N°1:**
@@ -521,6 +533,8 @@ El diseño de entrevistas tiene como finalidad recopilar información directa y 
 **Edad:** 26 años
 
 **Distrito:** Miraflores
+
+![tiziano](NeuroSync/assets/img/2_2_2-registro-de-entrevistas/tiziano.png)
 
 **URL:** [Ver entrevista](https://1drv.ms/v/c/bae01487dfb322d2/IQD2SZF5KQz1RZkcJk_2BOfrASuUFUo7-JZc3-CKW2IeR1M?e=sWEitI)
 
@@ -545,7 +559,9 @@ Señala que las pautas terapéuticas suelen perder continuidad en el hogar por f
 
 **Distrito:** Miraflores
 
-**URL:** Entrevista2-ProfesionalSaludMental.mp4
+![miguel](NeuroSync/assets/img/2_2_2-registro-de-entrevistas/miguel.png)
+
+**URL:** [Ver entrevista](https://1drv.ms/v/c/bae01487dfb322d2/IQCvUu83WappTJ25-IVsZLBJAav_mtNpggBzPM1XTL5VIA0?e=hCRrjk)
 
 **Inicia:** 00:22  
 **Fin:** 04:18
@@ -568,7 +584,9 @@ Desde su experiencia, identifica dificultades para mantener las estrategias tera
 
 **Distrito:** Magdalena del Mar
 
-**URL:** Entrevista3 a Ximena.mp4
+![ximena](NeuroSync/assets/img/2_2_2-registro-de-entrevistas/ximena.png)
+
+**URL:** [Ver entrevista](https://1drv.ms/v/c/bae01487dfb322d2/IQAAM_Go3yUDT4n1yY5gcZhkAWRun0XjnmObSGcRQKVWXVw?e=JpaED9)
 
 **Inicia:** 00:00  
 **Fin:** 07:18
@@ -583,24 +601,6 @@ Asimismo, señaló que, ante situaciones de crisis, mantiene contacto con las fa
 
 **Entrevista N°4:**
 
-**Nombre:** Rosa Angelica
-
-**Apellido:** Vite Lujan
-
-**Edad:** 71 años
-
-**Distrito:** Santa Beatriz
-
-**URL:** Pendiente
-
-**Resumen:**
-
-Pendiente de completar.
-
----
-
-**Entrevista N°5:**
-
 **Nombre:** Fidia Mercedes
 
 **Apellido:** Diaz Principe
@@ -609,7 +609,9 @@ Pendiente de completar.
 
 **Distrito:** Jesus Maria
 
-**URL:** Entrevista5-ProfesionalSaludMental.mp4
+![fidia](NeuroSync/assets/img/2_2_2-registro-de-entrevistas/fidia.png)
+
+**URL:** [Ver entrevista](https://1drv.ms/v/c/bae01487dfb322d2/IQCod4d90d-rSIC_KtIIQLKDARTZk5GCU4g64wltZdlu_uw?e=IqqYrc)
 
 **Resumen:**
 
@@ -664,13 +666,13 @@ Para NeuroSync, se desarrollan perfiles representativos de los segmentos objetiv
 
 A continuación, se presentan los User Personas elaborados para el proyecto.
 
-**User Persona 1: Andrea Ramírez **
+### User Persona 1: Andrea Ramírez
 
-![User Persona de Andrea Ramírez](imagenes/Andrea%20Ram%C3%ADrez.png)
+![User Persona de Andrea Ramírez](NeuroSync/assets/img/2_3_1-user-personas/Andrea-ramirez.png)
 
-**User Persona 2: María Fernández **
+### User Persona 2: María Fernández
 
-![User Persona de María Fernández](imagenes/Mar%C3%ADa%20Fern%C3%A1ndez.png)
+![User Persona de María Fernández](NeuroSync/assets/img/2_3_1-user-personas/Maria-Fernandez.png)
 
 ### 2.3.2. User Task Matrix
 
@@ -680,7 +682,7 @@ La matriz contribuye a identificar las funcionalidades necesarias para cada tipo
 
 A continuación, se presenta la User Task Matrix correspondiente a los segmentos objetivo de NeuroSync.
 
-![User Task Matrix de NeuroSync](imagenes/User%20Task%20Matrix.png)
+![User Task Matrix de NeuroSync](NeuroSync/assets/img/2_3_2-user-task-matrix/user-task-matrix.png)
 
 ### 2.3.3. User Journey Mapping
 
@@ -690,9 +692,9 @@ La representación de estos recorridos facilita la identificación de puntos de 
 
 A continuación, se presentan los User Journey Maps elaborados para el proyecto.
 
-![User Journey Map As-Is de Andrea Ramírez](imagenes/User%20Journey%20Map%20As-Is%20de%20Andrea%20Ram%C3%ADrez.png)
+![User Journey Map As-Is de Andrea Ramírez](NeuroSync/assets/img/2_3_3-user-journey-mapping/journey-map-andrea-ramirez.png)
 
-![User Journey Map As-Is de María Fernández](imagenes/User%20Journey%20Map%20As-Is%20de%20Mar%C3%ADa%20Fern%C3%A1ndez.png)
+![User Journey Map As-Is de María Fernández](NeuroSync/assets/img/2_3_3-user-journey-mapping/journey-map-maria-fernandez.png)
 
 ### 2.3.4. Empathy Mapping
 
@@ -702,10 +704,9 @@ Los mapas de empatía permiten reconocer posibles preocupaciones, expectativas y
 
 A continuación, se presentan los Empathy Maps correspondientes a los perfiles de usuario definidos para NeuroSync.
 
-![Empathy Map de Andrea Ramírez](imagenes/Empathy%20Map%20%E2%80%94%20Andrea%20Ram%C3%ADrez.png)
+![Empathy Map de Andrea Ramírez](NeuroSync/assets/img/2_3_4-empathy-mapping/empathy-andrea-ramirez.png)
 
-![Empathy Map de María Fernández](imagenes/Empathy%20Map%20de%20Mar%C3%ADa%20Fern%C3%A1ndez.png)
-
+![Empathy Map de María Fernández](NeuroSync/assets/img/2_3_4-empathy-mapping/empathy-maria-fernandez.png)
 
 ### 2.4. Big Picture Event Storming
 
@@ -727,16 +728,13 @@ Estos últimos fueron descartados del listado de eventos y quedaron marcados par
 
 Asimismo, se discutió y acordó que la Landing Page y la API RESTful no constituyen Bounded Contexts independientes, sino una superficie pública de interacción y una interfaz técnica de acceso a las capacidades del dominio, respectivamente.
 
-Como resultado de este refinamiento, los eventos válidos quedaron agrupados en ocho clusters que sentaron la base para la posterior identificación de Bounded Contexts en el Design-Level Event Storming:
+Como resultado de este refinamiento, los eventos válidos quedaron agrupados en 5 clusters que sentaron la base para la posterior identificación de Bounded Contexts en el Design-Level Event Storming:
 
 1. Identity & Access Management
-2. Child Profile Management
-3. Care Network Management
-4. Routine & Activity Management
-5. Clinical Guidance Management
-6. Observation & Crisis Management
-7. Dashboard & Reporting
-8. Subscription & Payment Management
+2. Child Profile & Care Network Management
+3. Crisis Alert Management
+4. Clinical Guidance & Routine Management
+5. Observation & Crisis History Management
 
 **Enlace del Big Picture Event Storming:**
 
@@ -745,15 +743,17 @@ Como resultado de este refinamiento, los eventos válidos quedaron agrupados en 
 
 ### 2.5. Ubiquitous Language
 
-El Ubiquitous Language de Kinemo establece un vocabulario común para representar los principales conceptos del dominio de NeuroSync. Los términos definidos a continuación serán utilizados de manera consistente por los integrantes del equipo para describir las necesidades del negocio, las historias de usuario, los procesos identificados mediante Event Storming y, posteriormente, el diseño de la solución.
+El Ubiquitous Language de Kinemo establece un vocabulario común para representar los principales conceptos del dominio de NeuroSync, enfocado en la comunicación, coordinación y seguimiento del cuidado de niños con condiciones del neurodesarrollo.
+
+Los términos definidos a continuación serán utilizados de manera consistente por los integrantes del equipo para describir las necesidades del negocio, las historias de usuario, los procesos identificados mediante Event Storming y el diseño de la solución.
+
+Este vocabulario considera los cinco Bounded Contexts definidos para Kinemo: Identity & Access Management, Child Profile & Care Network Management, Crisis Alert Management, Clinical Guidance & Routine Management y Observation & Crisis History Management.
+
+### Conceptos generales del dominio
 
 **Neurodivergent Child**
 
 Niño de entre 3 y 12 años que forma parte del contexto de atención de Kinemo y presenta una condición del neurodesarrollo como TEA, TDAH o síndrome de Down.
-
-**Child Profile**
-
-Conjunto de información del niño que permite a la red de cuidado conocer sus características, necesidades y formas de apoyo. Incluye información como preferencias, reguladores y detonantes.
 
 **Parent / Guardian**
 
@@ -761,11 +761,35 @@ Padre o tutor responsable del niño dentro de Kinemo. Puede administrar informac
 
 **Caregiver**
 
-Persona que participa directamente en el cuidado cotidiano del niño. Puede consultar el perfil autorizado, ejecutar rutinas, utilizar guías de apoyo y registrar observaciones sobre situaciones ocurridas durante el día.
+Persona que participa directamente en el cuidado cotidiano del niño. Puede consultar la información autorizada, seguir rutinas, utilizar guías de apoyo, comunicar episodios de desregulación y registrar observaciones.
 
 **Psychologist**
 
 Profesional autorizado que acompaña al niño desde el ámbito psicológico y puede consultar pacientes vinculados, redactar pautas clínicas, revisar observaciones y proporcionar retroalimentación a la familia.
+
+**Patient**
+
+Niño vinculado a la cuenta de un psicólogo dentro de su relación profesional de atención. El profesional puede consultar los pacientes asociados para acceder a sus pautas y observaciones.
+
+### Identity & Access Management
+
+**User Account**
+
+Cuenta que identifica a una persona registrada en Kinemo y permite asociarla con sus responsabilidades dentro de la plataforma.
+
+**User Role**
+
+Función asignada a un usuario según su participación en el acompañamiento del niño. Permite diferenciar las responsabilidades de padres, cuidadores y profesionales.
+
+**Access Permission**
+
+Autorización que determina qué información o acciones puede consultar o realizar un usuario según su función dentro de Kinemo.
+
+### Child Profile & Care Network Management
+
+**Child Profile**
+
+Conjunto de información del niño que permite a la red de cuidado conocer sus características, necesidades y formas de apoyo. Incluye información como preferencias, reguladores y detonantes.
 
 **Care Network**
 
@@ -783,10 +807,6 @@ Invitación enviada por un padre o tutor a otra persona para incorporarla a la r
 
 Permiso otorgado a un integrante de la red de cuidado para acceder a la información del perfil del niño. Este acceso puede ser otorgado o revocado por el responsable correspondiente.
 
-**Patient**
-
-Niño vinculado a la cuenta de un psicólogo dentro de su relación profesional de atención. El profesional puede consultar los pacientes asociados para acceder a sus pautas y observaciones.
-
 **Trigger**
 
 Detonante identificado en el perfil del niño que puede provocar o contribuir a una situación de desregulación. Su conocimiento permite a los cuidadores anticipar determinadas situaciones y actuar de acuerdo con las pautas establecidas.
@@ -795,17 +815,41 @@ Detonante identificado en el perfil del niño que puede provocar o contribuir a 
 
 Recurso, estrategia o elemento identificado como útil para favorecer la regulación del niño frente a determinadas situaciones.
 
+### Crisis Alert Management
+
 **Sensory Dysregulation**
 
-Situación en la que el niño presenta dificultades para regularse frente a determinados estímulos o circunstancias y requiere la aplicación de estrategias de apoyo.
+Situación en la que el niño presenta dificultades para regularse frente a determinados estímulos o circunstancias y puede requerir estrategias de apoyo adaptadas a sus necesidades.
 
 **Crisis**
 
-Situación de desregulación que requiere que el cuidador consulte y aplique una guía de intervención adecuada según las características y necesidades del niño.
+Situación de desregulación emocional, conductual o sensorial durante la cual un cuidador puede necesitar consultar pautas individualizadas y coordinar acciones con otros integrantes autorizados de la red de cuidado.
 
-**Crisis Severity**
+**Crisis Alert**
 
-Nivel de intensidad asignado a una desregulación registrada. Kinemo contempla los niveles Leve, Moderado y Severo para organizar el historial de observaciones y facilitar su análisis posterior.
+Notificación digital generada para comunicar un episodio de desregulación a los integrantes autorizados de la red de cuidado del niño.
+
+**Alert Activation**
+
+Acción mediante la cual un cuidador inicia una alerta digital asociada al perfil del niño para informar sobre un episodio de desregulación.
+
+**Alert Recipient**
+
+Integrante autorizado de la red de cuidado que puede recibir una notificación relacionada con una alerta digital.
+
+**Alert Notification**
+
+Aviso generado a partir de una alerta digital para informar a los destinatarios autorizados sobre un episodio reportado.
+
+**Alert Status**
+
+Estado que permite identificar la situación de una alerta digital durante su gestión, desde su activación hasta su cierre.
+
+**Alert Closure**
+
+Acción mediante la cual una alerta digital se da por finalizada, dejando constancia de que ya no requiere permanecer activa.
+
+### Clinical Guidance & Routine Management
 
 **Practical Guide**
 
@@ -813,7 +857,7 @@ Guía de apoyo que contiene instrucciones organizadas para orientar al cuidador 
 
 **Clinical Guideline**
 
-Directriz formal de intervención redactada por un psicólogo o profesional autorizado y asociada al niño para que pueda ser consultada por los cuidadores responsables de su acompañamiento.
+Directriz de acompañamiento proporcionada o validada por un psicólogo o profesional autorizado y asociada al niño para que pueda ser consultada por los cuidadores responsables.
 
 **Routine**
 
@@ -829,7 +873,7 @@ Imagen o pictograma personalizado utilizado para representar una actividad y fac
 
 **Transition**
 
-Cambio de una actividad hacia la siguiente dentro de una rutina. Kinemo permite anticipar este cambio mediante un temporizador.
+Cambio de una actividad hacia la siguiente dentro de una rutina. Kinemo contempla recursos que permiten anticipar este cambio.
 
 **Transition Timer**
 
@@ -837,7 +881,9 @@ Temporizador utilizado durante una rutina para ayudar al niño a anticipar el ca
 
 **Visual Alert**
 
-Señal utilizada para comunicar al cuidador o al niño la finalización de un temporizador sin generar una sobreestimulación innecesaria. Puede configurarse para utilizar únicamente señales visuales o incluir una señal sonora leve.
+Señal utilizada para comunicar al cuidador o al niño la finalización de un temporizador. Se diferencia de Crisis Alert porque no representa una notificación sobre un episodio de desregulación dirigida a la red de cuidado.
+
+### Observation & Crisis History Management
 
 **Observation**
 
@@ -845,7 +891,15 @@ Registro realizado por un cuidador sobre una situación, incidente o hecho relev
 
 **Incident**
 
-Situación ocurrida durante el día del niño que puede ser registrada mediante una observación para dejar constancia de lo sucedido y facilitar su seguimiento.
+Situación ocurrida durante el día del niño que puede registrarse mediante una observación para dejar constancia de lo sucedido y facilitar su seguimiento.
+
+**Crisis Episode**
+
+Episodio de desregulación emocional, conductual o sensorial que puede ser documentado para conservar información relevante sobre lo ocurrido y facilitar su seguimiento.
+
+**Crisis Severity**
+
+Nivel de intensidad asignado a un episodio de desregulación registrado. Kinemo contempla los niveles leve, moderado y severo para organizar la información y facilitar su posterior consulta.
 
 **Evidence**
 
@@ -859,25 +913,9 @@ Retroalimentación registrada por un psicólogo autorizado sobre una observació
 
 Conjunto de observaciones registradas sobre el niño que permite consultar y analizar situaciones ocurridas a lo largo del tiempo.
 
-**Premium Subscription**
+**Crisis History**
 
-Modalidad de suscripción de pago que permite acceder a las funcionalidades premium de Kinemo.
-
-**Subscription Plan**
-
-Esquema de suscripción ofrecido por Kinemo que define las características y condiciones asociadas al servicio. El usuario puede revisar las opciones disponibles antes de seleccionar una.
-
-**Payment**
-
-Transacción realizada por el usuario para adquirir o mantener una suscripción premium mediante un servicio de terceros.
-
-**Billing Cycle**
-
-Periodo asociado a la vigencia de una suscripción. En una cancelación, el servicio permanece disponible hasta finalizar el ciclo de facturación vigente.
-
-**Subscription Cancellation**
-
-Solicitud realizada por un usuario premium para finalizar su suscripción y evitar futuros cobros automatizados al terminar el ciclo de facturación actual.
+Conjunto de episodios de desregulación registrados que permite consultar antecedentes, observaciones y otra información relevante para el seguimiento del niño.
 
 ## Capítulo III: Requirements Specification
 

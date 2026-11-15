@@ -28,7 +28,7 @@
 
 | Versión | Fecha | Autor | Descripción de modificación |
 |---|---|---|---|
-| 1.0 | |  |  |
+| AV1 | 4/20/26 | Felipe Marcelo Huamanchumo Chicchon |  |
 
 ## Project Report Collaboration Insights
 

@@ -1757,7 +1757,7 @@ El trabajo de referencia también documenta esta sección mediante ramas indepen
 
 Durante el Sprint 2, el equipo NeuroSync continuó el desarrollo de Kinemo, una plataforma destinada a facilitar la continuidad del cuidado de niños con condiciones del neurodesarrollo.
 
-El trabajo se concentró en la implementación de la aplicación web mediante Angular y TypeScript, el desarrollo de los ocho Bounded Contexts definidos en la arquitectura del producto y la integración progresiva de sus funcionalidades en el repositorio compartido.
+El trabajo se concentró en la implementación de la aplicación web mediante Angular y TypeScript, el desarrollo de los módulos del prototipo de esa iteración y la integración progresiva de sus funcionalidades en el repositorio compartido.
 
 Se empleó una arquitectura organizada en capas de dominio, aplicación, infraestructura y presentación. Para las pruebas iniciales de comunicación HTTP se utilizó una API REST simulada mediante JSON Server, permitiendo validar operaciones de consulta y registro de información antes de la integración con un backend definitivo.
 
@@ -1774,7 +1774,7 @@ Los avances se gestionaron mediante ramas de funcionalidades (feature branches),
 | Sprint 1 Review Summary | Durante el Sprint 1, el equipo NeuroSync desarrolló la primera versión funcional de la Landing Page de Kinemo utilizando HTML, CSS y JavaScript. Se implementaron secciones orientadas a presentar la propuesta de valor, los beneficios para los segmentos objetivo, los planes de suscripción y las preguntas frecuentes. Asimismo, se establecieron las bases de organización del proyecto y el control de versiones mediante GitHub. |
 | Sprint 1 Retrospective Summary | Como resultado del primer Sprint, se identificaron oportunidades de mejora relacionadas con la coordinación entre integrantes, la distribución de responsabilidades y la integración del trabajo en el repositorio. Para el Sprint 2, se propuso fortalecer la comunicación del equipo, mantener convenciones de desarrollo y organizar la implementación mediante ramas independientes por funcionalidad. |
 | Sprint Goal & User Stories | — |
-| Sprint 2 Goal | Implementar las funcionalidades principales del frontend de Kinemo mediante Angular y TypeScript, organizando el desarrollo en los ocho Bounded Contexts definidos para el producto. Se busca integrar progresivamente los módulos en la rama develop, mantener una arquitectura por capas y comprobar las operaciones principales mediante una API REST simulada con JSON Server. Como criterio de cumplimiento, se considerará la implementación e integración de las funcionalidades priorizadas en el Sprint Backlog 2. |
+| Sprint 2 Goal | Implementar las funcionalidades principales del frontend de Kinemo mediante Angular y TypeScript, organizando el desarrollo en los módulos priorizados del prototipo. Se busca integrar progresivamente los módulos en la rama develop, mantener una arquitectura por capas y comprobar las operaciones principales mediante una API REST simulada con JSON Server. Como criterio de cumplimiento, se considerará la implementación e integración de las funcionalidades priorizadas en el Sprint Backlog 2. |
 | Sprint 2 Velocity | Por definir según la suma de Story Points de las User Stories comprometidas en el Sprint Backlog 2. |
 
 Objetivo del Sprint
@@ -1783,15 +1783,15 @@ Implementar e integrar una primera versión funcional de los principales módulo
 
 Alcance del Sprint
 
-El alcance de trabajo se organizó alrededor de los siguientes Bounded Contexts:
+La arquitectura vigente de Kinemo, consolidada después del Sprint 2 y alineada con el capítulo IV, comprende los siguientes cinco Bounded Contexts. Las evidencias del Sprint 2 conservan los nombres técnicos del prototipo anterior cuando son necesarios para rastrear el código.
 
 | Bounded Context | Responsabilidad funcional |
 | --- | --- |
 | BC01 — Identity & Access Management | Registro de usuarios, inicio de sesión y gestión de perfiles. |
-| BC02 — Child Profile Management | Registro y administración de perfiles de niños e información clínica. |
-| BC03 — Care Network Management | Gestión de redes de cuidado, miembros e invitaciones. |
-| BC04 — Routine & Activity Management | Organización de rutinas y actividades. |
-| BC05 — Clinical Guidance Management | Administración de pautas clínicas y orientaciones profesionales. |
+| BC02 — Child Profile & Care Network Management | Perfiles de niños, información clínica, red de cuidado, invitaciones y permisos. |
+| BC03 — Crisis Alert Management | Activación, notificación, atención y cierre de alertas de crisis. |
+| BC04 — Clinical Guidance & Routine Management | Pautas clínicas, guías prácticas, rutinas y actividades. |
+| BC05 — Observation & Crisis History Management | Registro y consulta de episodios, historial, comentarios y revisión profesional. |
 
 Estrategia de desarrollo
 
@@ -1831,7 +1831,7 @@ Participación verificable en GitHub
 | --- | --- |
 | Felipe Huamanchumo | Commits relacionados con Dashboard & Reporting, integración de rutas y módulos en develop. |
 | Fabricio Flores | Commits relacionados con Routine & Activity Management, Subscription & Payment Management y configuración de servicios. |
-| Matthew Shinko Okuhama Diaz | Implementación e integración de Observation & Crisis Management (BC06). |
+| Matthew Shinko Okuhama Diaz | Implementación e integración del módulo histórico de observaciones y crisis, antecedente del BC05 vigente. |
 | Gabriel Vilchez | Participación en el repositorio compartido, con cambios registrados bajo el usuario GZ-99. La asignación específica de su trabajo en el Sprint 2 debe confirmarse. |
 | Cristian Trigoso | Participación en la implementación e integración registrada con el usuario Crzzz30. La distribución formal de responsabilidades debe confirmarse. |
 
@@ -1845,7 +1845,7 @@ Pendiente de validación: confirmar con el equipo la designación formal de Aspe
 
 ##### 5.2.2.3 Sprint Backlog 2
 
-El Sprint Backlog 2 reúne los trabajos identificables en los repositorios de la aplicación web, organizados según los módulos implementados y las actividades de integración realizadas.
+El Sprint Backlog 2 registra las tareas y los módulos históricos del prototipo. Sus nombres se conservan para facilitar la trazabilidad y no constituyen la lista de Bounded Contexts vigentes.
 
 | ID | Actividad | Evidencia técnica | Estado |
 | --- | --- | --- | --- |
@@ -1859,7 +1859,7 @@ El Sprint Backlog 2 reúne los trabajos identificables en los repositorios de la
 | SB2-08 | Implementación de Subscription & Payment Management | Módulo subscription-payment, componentes y rutas. | Integrado en código |
 | SB2-09 | Integración de funcionalidades en develop | Commits de integración de Bounded Contexts. | Realizado |
 | SB2-10 | Configuración de comunicación con servicios | Servicios HTTP, variables de entorno y JSON Server. | Configuración implementada |
-| SB2-11 | Verificación de compilación | Comando npm run build. | Verificado para la integración BC02–BC06 |
+| SB2-11 | Verificación de compilación | Comando npm run build. | Verificado para la integración de perfiles infantiles y observaciones del prototipo |
 | SB2-12 | Documentación de evidencias del Sprint | Capturas, descripciones y registros en el repositorio Report. | En elaboración |
 
 Los estados indicados representan avances comprobados en el código y no implican que todos los criterios de aceptación de las User Stories hayan superado pruebas funcionales completas.
@@ -1868,9 +1868,9 @@ El backlog deberá complementarse con los identificadores originales de las User
 
 ##### 5.2.2.4 Development Evidence for Sprint Review
 
-Durante el Sprint 2 se implementaron diferentes módulos de la aplicación web, siguiendo una organización modular que separa las responsabilidades funcionales de cada Bounded Context.
+Durante el Sprint 2 se implementaron distintos módulos del frontend del prototipo. La estructura registrada en ese sprint se conserva como evidencia de desarrollo.
 
-La estructura del repositorio evidencia la implementación de los siguientes directorios principales:
+La siguiente estructura corresponde a los directorios del frontend del Sprint 2 y se conserva como evidencia histórica:
 
 src/app/
 
@@ -1894,7 +1894,7 @@ src/app/
 
 Evidencia 1. Organización del código fuente
 
-La estructura de carpetas demuestra la separación de responsabilidades entre los ocho Bounded Contexts de Kinemo. Esta organización facilita el desarrollo, mantenimiento e integración progresiva del sistema.
+Los directorios del prototipo muestran cómo se organizó el frontend durante el Sprint 2. La arquitectura vigente se organiza en cinco contextos; los módulos históricos de dashboard y suscripciones no cuentan como contextos vigentes.
 
 Figura pendiente de incorporación: estructura de carpetas de la aplicación Angular.
 
@@ -1906,7 +1906,7 @@ Figura pendiente de incorporación: ejemplo de la estructura interna de un Bound
 
 Evidencia 3. Integración de rutas de la aplicación
 
-El archivo src/app/app.routes.ts registra rutas correspondientes a los diferentes Bounded Contexts, incluyendo autenticación, perfiles de niños, redes de cuidado, rutinas, pautas clínicas, observaciones, dashboard y suscripciones.
+En el prototipo del Sprint 2, el archivo src/app/app.routes.ts registraba rutas de módulos, incluyendo autenticación, perfiles de niños, redes de cuidado, rutinas, pautas clínicas, observaciones, dashboard y suscripciones.
 
 Figura pendiente de incorporación: configuración de rutas de Kinemo.
 
@@ -1951,7 +1951,7 @@ Figura pendiente de incorporación: formulario de registro de observaciones.
 
 Evidencia 5. Ejecución de otros módulos
 
-La revisión del Sprint debe incluir capturas de las funcionalidades disponibles correspondientes a Care Network Management, Routine & Activity Management, Clinical Guidance Management, Dashboard & Reporting y Subscription & Payment Management.
+Para documentar el Sprint 2, se pueden adjuntar capturas de los módulos del prototipo. Para validar el alcance vigente, priorizar identidad y acceso, perfiles y red de cuidado, alertas, guías y rutinas e historial de episodios.
 
 Estas capturas deberán ser obtenidas mediante la ejecución de cada módulo, verificando que la interfaz funcione según las User Stories correspondientes.
 
@@ -1963,7 +1963,7 @@ La presencia de un módulo en el repositorio o en el menú no demuestra por sí 
 
 ##### 5.2.2.6 Services Documentation Evidence for Sprint Review
 
-En el Sprint 2, el BC06 — Observation & Crisis Management consumió una API REST simulada con JSON Server. La URL local era http://localhost:3000. Angular utilizó datos ficticios y las colecciones se almacenaron en db.json. Esta evidencia corresponde al prototipo del Sprint 2.
+En el Sprint 2, el módulo histórico de observaciones y crisis (identificado entonces como BC06), antecedente del BC05 vigente, consumió una API REST simulada con JSON Server. La URL local era http://localhost:3000. Angular utilizó datos ficticios y las colecciones se almacenaron en db.json. Esta evidencia corresponde al prototipo del Sprint 2.
 
 - GET /observations: consulta el historial de observaciones. Respuesta esperada: 200 y arreglo JSON.
 - POST /observations: registra una observación con childId, caregiverId, description, occurredAt y crisisSeverity. Respuesta esperada: 201 y objeto creado.
@@ -2037,7 +2037,7 @@ La colaboración del equipo NeuroSync durante el Sprint 2 se desarrolló princip
 
 Organización del repositorio
 
-El repositorio Frontend-Application contiene ramas asociadas a los distintos Bounded Contexts del sistema.
+El repositorio Frontend-Application conserva ramas de los módulos del prototipo. Sus nombres históricos se mantienen para rastrear el trabajo del Sprint 2 y no representan la numeración vigente.
 
 Entre ellas se identifican:
 
@@ -2079,7 +2079,7 @@ Gestión de conflictos
 
 Durante el proceso de integración se identificaron conflictos derivados de modificaciones simultáneas en archivos compartidos.
 
-Los archivos que requirieron especial atención en la integración del BC06 fueron:
+Los archivos que requirieron especial atención al integrar el módulo histórico de observaciones fueron:
 
 db.json, por la incorporación de colecciones de distintos Bounded Contexts.
 
@@ -2141,7 +2141,7 @@ La API Java documenta los servicios en [el README del backend](https://github.co
 - BC02: GET/POST /api/v1/children para consultar y registrar perfiles.
 - BC03: GET/POST /api/v1/crisis-alerts para consultar y registrar alertas; las transiciones se gestionan con rutas de atención y cierre.
 - BC04: /api/v1/routines, /api/v1/clinical-guidelines y /api/v1/practical-guides para rutinas, pautas y guías.
-- BC05 en el backend: GET/POST /api/v1/children/{childId}/episodes para consultar y registrar episodios; POST /api/v1/children/{childId}/episodes/{id}/comments y PUT /api/v1/children/{childId}/episodes/{id}/review para comentarios y revisión. Es el contrato Java del historial y se distingue del BC06 simulado del Sprint 2.
+- BC05 — Observation & Crisis History Management: GET/POST /api/v1/children/{childId}/episodes para consultar y registrar episodios; POST /api/v1/children/{childId}/episodes/{id}/comments y PUT /api/v1/children/{childId}/episodes/{id}/review para comentarios y revisión. Este contrato Java corresponde al BC05 vigente y reemplaza, para el historial, al servicio simulado que documenta el Sprint 2.
 
 El código incluye pruebas de historial y de permisos entre contextos. La ejecución local se reproduce con mvn clean verify; adjuntar el resultado real y una captura de Swagger cuando el equipo los genere.
 

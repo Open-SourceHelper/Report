@@ -1296,59 +1296,67 @@ Desde el Dashboard, el usuario puede acceder a las funcionalidades correspondien
 
 #### 4.7.1. Class Diagrams
 
-![Class Diagram BC01](imagenes/DC%201.png)
-
-El diagrama de clases del Bounded Context Identity & Access Management representa la estructura encargada de gestionar la identidad, autenticación y acceso de los usuarios de Kinemo. User se define como Aggregate Root, ya que centraliza las principales operaciones relacionadas con el registro, autenticación, asignación de roles y administración de la cuenta.
-
-Dentro del agregado se encuentran entidades como UserProfile, PasswordRecovery y UserSession, responsables de gestionar la información personal, la recuperación de contraseñas y las sesiones del usuario. Asimismo, se incorpora Email como Value Object y enumeraciones para representar los roles y estados definidos por el dominio. Los Domain Events, como UserRegistered y PasswordChanged, permiten representar acontecimientos relevantes producidos durante el ciclo de vida de una cuenta.
-
-![Class Diagram BC02](imagenes/DC%202.png)
-
-El diagrama de clases del Bounded Context Child Profile Management representa la administración de la información del niño y su perfil de apoyo. Child se establece como Aggregate Root, siendo responsable de mantener los datos principales del menor y controlar los elementos asociados a su perfil.
-
-ClinicalProfile permite registrar las necesidades particulares, detonantes y reguladores del niño, mientras que CaregiverAuthorization administra las autorizaciones de acceso. Se utilizan referencias mediante identificadores para evitar duplicar entidades pertenecientes a otros Bounded Contexts. Además, se incorporan un Value Object para representar el nombre del niño, enumeraciones para controlar los estados de autorización y Domain Events relacionados con el registro del niño y la actualización de su perfil clínico.
-
-![Class Diagram BC03](imagenes/DC%203.png)
-
-El diagrama de clases del Bounded Context Care Network Management representa la gestión de la red de personas autorizadas para participar en el cuidado del niño. CareNetwork funciona como Aggregate Root y administra tanto las invitaciones como los integrantes pertenecientes a la red.
-
-CareNetworkInvitation representa las invitaciones enviadas a nuevos cuidadores, mientras que CareNetworkMember mantiene la información de los integrantes incorporados, sus roles, permisos y estado de acceso. Se utilizan enumeraciones para controlar los estados de las invitaciones y miembros, y PermissionSet representa los permisos como Value Object. Los Domain Events permiten representar situaciones relevantes como el envío de una invitación o la revocación del acceso de un cuidador. Las entidades de otros contextos no son duplicadas y se referencian mediante sus identificadores.
-
-![Class Diagram BC04](imagenes/DC%204.png)
-
-El diagrama de clases del Bounded Context Routine & Activity Management representa la creación, organización y ejecución de las rutinas utilizadas en el acompañamiento cotidiano del niño. Routine se define como Aggregate Root y administra el conjunto de actividades que conforman cada rutina.
-
-RoutineActivity representa las actividades individuales y permite registrar su orden, duración, estado, temporizador y tipo de alerta. VisualSupport permite asociar imágenes o recursos visuales a las actividades. Las enumeraciones controlan los estados de rutinas y actividades, así como los tipos de alerta, mientras que Duration se representa como Value Object. También se mantiene una relación recursiva entre rutinas para conservar la trazabilidad cuando una rutina es duplicada. Los Domain Events representan acontecimientos como la creación y duplicación de una rutina o la finalización de una actividad.
-
-![Class Diagram BC05](imagenes/DC%205.png)
-
-El diagrama de clases del Bounded Context Clinical Guidance Management representa la gestión de las pautas clínicas y orientaciones utilizadas para apoyar el cuidado del niño. ClinicalGuideline se establece como Aggregate Root, encargándose del registro, actualización, validación y disponibilidad de las pautas creadas por los profesionales.
-
-PatientAssignment permite comprobar que exista una asignación profesional activa antes de gestionar una pauta, mientras que PracticalGuide representa el repositorio independiente de guías prácticas que pueden consultarse por categoría o situación. Las instrucciones de una pauta se representan mediante un Value Object, y las enumeraciones permiten controlar estados y categorías. Los Domain Events registran acontecimientos relevantes como la creación o actualización de una pauta clínica. Las referencias a psicólogos y niños se mantienen mediante identificadores para respetar los límites entre Bounded Contexts.
-
-![Class Diagram BC06](imagenes/DC%206.png)
-
-El diagrama de clases del Bounded Context Observation & Crisis Management representa el registro y seguimiento de observaciones relacionadas con el comportamiento, rutinas y situaciones de crisis del niño. Observation se define como Aggregate Root y concentra las operaciones principales relacionadas con el registro, validación, consulta y filtrado del historial.
-
-CrisisClassification permite clasificar una crisis según su nivel de intensidad, mientras que ObservationEvidence permite adjuntar evidencia y PsychologistComment almacena la retroalimentación profesional. Los niveles de intensidad se representan mediante una Enumeration con los valores leve, moderado y severo, evitando manejar esta regla únicamente como texto. También se incorporan Domain Events para representar el registro de observaciones, la clasificación de crisis y la incorporación de comentarios profesionales.
-
-![Class Diagram BC07](imagenes/DC%207.png)
-
-El diagrama de clases del Bounded Context Dashboard & Reporting representa la consulta de información consolidada y la generación de reportes sobre el seguimiento del niño. GeneratedReport se establece como Aggregate Root, ya que administra el proceso de solicitud, generación, almacenamiento y exportación de los reportes.
-
-DailySummary se identifica como Read Model, debido a que consolida información proveniente de otros contextos para mostrar indicadores sin asumir la responsabilidad de modificar los registros originales. ReportObservation permite conservar la trazabilidad de las observaciones incluidas en cada reporte y ReportPeriod representa el intervalo temporal como Value Object. Asimismo, los estados del reporte se controlan mediante una enumeración y ReportGenerated representa el Domain Event producido cuando un reporte es generado correctamente.
-
-![Class Diagram BC08](imagenes/DC%208.png)
-
-El diagrama de clases del Bounded Context Subscription & Payment Management representa la administración de los planes, suscripciones, pagos y solicitudes de cancelación de Kinemo. Subscription se define como Aggregate Root, controlando el ciclo de vida de la suscripción y su relación con las operaciones de pago y cancelación.
-
-SubscriptionPlan representa los planes familiares y profesionales disponibles, mientras que Payment mantiene el historial de las transacciones realizadas y CancellationRequest gestiona las solicitudes de cancelación al finalizar el ciclo correspondiente. El precio se representa mediante Money como Value Object, y diferentes enumeraciones controlan los tipos de plan y los estados de planes, suscripciones y pagos. Los Domain Events representan acontecimientos relevantes como la confirmación de un pago, la activación de una suscripción y la solicitud de cancelación. La activación de una suscripción se encuentra condicionada a la confirmación válida del pago, manteniendo además la separación con Identity & Access mediante la referencia userId.
 
 ### 4.8 Database Design
 
 #### 4.8.1 Database Diagrams
 
-> _Pendiente — completar en `feature/database-design`._
+### BC01 — Identity & Access Management
+
+Este diagrama de base de datos aborda los flujos de la siguiente manera:
+
+- **Users:** Almacena las credenciales de acceso de los usuarios, el correo electrónico único, la contraseña cifrada mediante hash y el estado de validación de la cuenta.
+- **User_profiles:** Gestiona los datos personales del usuario, manteniendo una relación de uno a uno con `users` para separar la información personal de las credenciales.
+- **Password_recoveries:** Soporta el proceso de recuperación de contraseñas mediante tokens, controlando su estado y fecha de expiración.
+- **User_sessions:** Registra las sesiones de los usuarios, incluyendo los momentos de inicio y cierre, permitiendo controlar las sesiones activas.
+
+![Database Diagram BC01](NeuroSync/assets/img/4_8_1-database-diagrams/BC01.png)
+
+### BC02 — Child Profile & Care Network Management
+
+Este Bounded Context fusiona las responsabilidades de **Child Profile Management** y **Care Network Management**.
+
+- **Children:** Gestiona la información principal del niño, incluyendo sus datos personales y la referencia al padre o tutor responsable.
+- **Clinical_profiles:** Almacena las características clínicas y conductuales del niño, como necesidades especiales, detonantes y reguladores.
+- **Care_networks:** Representa la red de cuidado asociada al niño, permitiendo identificar a las personas que participan en su acompañamiento.
+- **Care_network_invitations:** Administra las invitaciones enviadas a nuevos integrantes de la red, incluyendo el estado, token de validación y fecha de expiración.
+- **Care_network_members:** Registra los cuidadores incorporados a cada red de cuidado, sus roles, permisos y estado de participación.
+- **Caregiver_authorizations:** Controla las autorizaciones otorgadas a los integrantes para consultar información del niño, permitiendo activar o revocar sus accesos.
+
+![Database Diagram BC02](NeuroSync/assets/img/4_8_1-database-diagrams/BC02.png)
+
+### BC03 — Crisis Alert Management
+
+Este Bounded Context está dedicado exclusivamente a la activación, notificación y seguimiento operativo de alertas de crisis. La administración de la red de cuidado corresponde al BC02.
+
+- **Crisis_alerts:** Registra las alertas activadas por cuidadores autorizados, asociándolas con el niño, el usuario que realizó la activación, su estado y fecha de creación. Permite representar los estados de alerta activa, en atención y finalizada.
+- **Alert_notifications:** Gestiona las notificaciones generadas a partir de una alerta. Registra el destinatario autorizado, canal, estado del envío y respuesta del proveedor de notificaciones.
+- **Alert_status_transitions:** Almacena los cambios de estado realizados sobre una alerta, identificando el estado anterior, el nuevo estado, el usuario responsable y la fecha de modificación.
+
+![Database Diagram BC03](NeuroSync/assets/img/4_8_1-database-diagrams/BC03.png)
+
+### BC04 — Clinical Guidance & Routine Management
+
+Este Bounded Context fusiona las capacidades de **Routine & Activity Management** y **Clinical Guidance Management**, permitiendo administrar las rutinas del niño y las orientaciones proporcionadas por profesionales autorizados.
+
+- **Routines:** Centraliza la creación, eliminación, duplicación y visualización de las rutinas asociadas al niño. Incluye `original_routine_id` para conservar la trazabilidad de las rutinas duplicadas.
+- **Routine_activities:** Administra las actividades que conforman una rutina, gestionando su orden, duración, estado y configuración de alertas y temporizadores de transición.
+- **Visual_supports:** Gestiona los apoyos visuales y pictogramas asociados a las actividades, almacenando sus URL y formatos.
+- **Patient_assignments:** Registra la vinculación profesional entre un psicólogo y un niño. Permite verificar que exista una asignación activa antes de registrar o modificar pautas clínicas.
+- **Clinical_guidelines:** Almacena las indicaciones y recomendaciones clínicas redactadas por los profesionales autorizados, permitiendo su creación, consulta y actualización.
+- **Practical_guides:** Administra un repositorio de guías prácticas organizadas por categorías, ofreciendo estrategias de acompañamiento que los cuidadores pueden consultar.
+
+![Database Diagram BC04](NeuroSync/assets/img/4_8_1-database-diagrams/BC04.png)
+
+### BC05 — Observation & Crisis History Management
+
+Este Bounded Context se encarga del registro, consulta y seguimiento histórico de observaciones e incidentes de crisis relacionados con el niño.
+
+- **Observations:** Registra las observaciones realizadas por cuidadores autorizados. Contiene la referencia al niño, autor, descripción, fecha y tipo de evento. Permite clasificar las crisis según su intensidad: leve, moderada o severa.
+- **Observation_evidences:** Gestiona los archivos adjuntos utilizados como evidencia de una observación, como fotografías u otros apoyos visuales.
+- **Psychologist_comments:** Permite a psicólogos autorizados registrar comentarios y retroalimentación sobre las observaciones, facilitando el seguimiento del niño.
+
+![Database Diagram BC05](NeuroSync/assets/img/4_8_1-database-diagrams/BC05.png)
 
 ## Capítulo V: Product Implementation, Validation & Deployment
 

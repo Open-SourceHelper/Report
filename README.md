@@ -124,7 +124,6 @@ Repositorio del Project Report:
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
 
-
 ## Student Outcome
 
 **ABET – EAC - Student Outcome 5**
@@ -647,22 +646,22 @@ En relación con los materiales de apoyo, el 67% (2 de 3) señala dificultades p
 
 **Características principales para el arquetipo**
 
-| Características | Resultado |
-|---|---|
-| Uso de herramientas digitales | 100% |
-| Uso de Google Calendar | 100% |
-| Uso de WhatsApp | 100% |
-| Seguimiento mediante información de los padres | 100% |
-| Dificultades con la continuidad en el hogar | 100% |
-| Interés en una solución digital | 100% |
-| Uso de laptop | 67% |
-| Uso de iPhone | 67% |
-| Uso de Google Chrome | 67% |
-| Uso de registros de episodios | 67% |
-| Dificultades con materiales de apoyo | 67% |
-| Necesidad de personalización | 67% |
-| Importancia de la seguridad | 67% |
-| Necesidad de coordinación entre cuidadores | 100% |
+| Características                                | Resultado |
+|------------------------------------------------|-----------|
+| Uso de herramientas digitales                  | 100%      |
+| Uso de Google Calendar                         | 100%      |
+| Uso de WhatsApp                                | 100%      |
+| Seguimiento mediante información de los padres | 100%      |
+| Dificultades con la continuidad en el hogar    | 100%      |
+| Interés en una solución digital                | 100%      |
+| Uso de laptop                                  | 67%       |
+| Uso de iPhone                                  | 67%       |
+| Uso de Google Chrome                           | 67%       |
+| Uso de registros de episodios                  | 67%       |
+| Dificultades con materiales de apoyo           | 67%       |
+| Necesidad de personalización                   | 67%       |
+| Importancia de la seguridad                    | 67%       |
+| Necesidad de coordinación entre cuidadores     | 100%      |
 
 ### 2.3. Needfinding
 
@@ -752,7 +751,6 @@ Como resultado de este refinamiento, los eventos válidos quedaron agrupados en 
 **Enlace del Big Picture Event Storming:**
 
 [Ver diagrama en Miro](https://miro.com/app/board/uXjVHkkYYow=/?share_link_id=268152052434)
-
 
 ### 2.5. Ubiquitous Language
 
@@ -941,68 +939,68 @@ Se organizan en dos grupos: historias de la landing page e historias de la inter
 Las siguientes historias constituyen una propuesta inicial que deberá validarse mediante entrevistas con representantes de los segmentos objetivo. Para la implementación del frontend, las interacciones podrán demostrarse con datos de prueba; el almacenamiento persistente, la autenticación y la autorización deberán integrarse posteriormente con el backend.
 
 
-| Epic / Story ID | Título | Descripción | Criterios de aceptación | Relacionado con (Epic ID) |
-|---|---|---|---|---|
-| EP01 | Landing Page y Contenido Público | Como visitante, deseo conocer la propuesta de valor y los beneficios de Kinemo para decidir si utilizar la plataforma. | **Escenario 1:** Dado que el visitante accede al sitio público, cuando consulta la información disponible, entonces se presentan la propuesta de valor, los beneficios y los accesos a la aplicación.<br>**Escenario 2:** Dado que la información solicitada no está disponible, cuando el visitante intenta consultarla, entonces se informa la situación sin mostrar información incorrecta. | - |
-| EP02 | Gestión de identidades y accesos | Como usuario, deseo administrar mi identidad y acceder de forma segura a Kinemo para proteger la información autorizada. | **Escenario 1:** Dado que el usuario proporciona información válida, cuando solicita registrarse o autenticarse, entonces se valida su identidad y se aplican los permisos correspondientes.<br>**Escenario 2:** Dado que la información proporcionada es inválida, cuando solicita acceder, entonces se rechaza la operación y se informa el resultado. | - |
-| EP03 | Gestión del perfil infantil y red de cuidado | Como padre o tutor, deseo administrar el perfil infantil y su red de cuidado para coordinar el acceso autorizado a la información del niño. | **Escenario 1:** Dado que el tutor dispone de permisos, cuando gestiona los datos del niño o su red de cuidado, entonces se guardan los cambios autorizados.<br>**Escenario 2:** Dado que un usuario no dispone de permisos, cuando intenta modificar información, entonces se rechaza la operación. | - |
-| EP04 | Gestión de alertas de crisis | Como cuidador autorizado, deseo gestionar alertas de crisis para comunicar oportunamente los episodios a la red de cuidado. | **Escenario 1:** Dado que el cuidador está autorizado, cuando activa una alerta, entonces se registra el episodio y se gestiona su notificación.<br>**Escenario 2:** Dado que el usuario no está autorizado, cuando intenta gestionar una alerta, entonces se rechaza la operación. | - |
-| EP05 | Orientación clínica y gestión de rutinas | Como cuidador o profesional autorizado, deseo gestionar pautas y rutinas para proporcionar un acompañamiento cotidiano estructurado. | **Escenario 1:** Dado que el usuario cuenta con autorización, cuando consulta o administra pautas y rutinas, entonces se muestra o actualiza la información permitida.<br>**Escenario 2:** Dado que el usuario carece de permisos, cuando intenta modificar información restringida, entonces se rechaza la operación. | - |
-| EP06 | Gestión de observaciones e historial de crisis | Como cuidador o profesional autorizado, deseo registrar y consultar observaciones e incidentes para facilitar el seguimiento del niño. | **Escenario 1:** Dado que el usuario está autorizado, cuando registra o consulta observaciones, entonces se procesa la información asociada al niño.<br>**Escenario 2:** Dado que el usuario no está autorizado, cuando solicita información restringida, entonces se deniega el acceso. | - |
-| EP07 | API RESTful e infraestructura técnica | Como Developer, deseo disponer de servicios RESTful para integrar los componentes de Kinemo mediante operaciones seguras y consistentes. | **Escenario 1:** Dado que un cliente realiza una solicitud válida y autorizada, cuando el servicio la procesa, entonces devuelve una respuesta JSON y un código HTTP apropiado.<br>**Escenario 2:** Dado que la solicitud es inválida o no autorizada, cuando se procesa, entonces se devuelve el error correspondiente sin realizar modificaciones indebidas. | - |
-| US01 | Visualización de propuesta de valor | Como visitante, deseo conocer el propósito de Kinemo para entender su utilidad para la red de cuidado. | **Escenario 1:** Dado que el visitante accede al sitio público, cuando consulta la información inicial, entonces se presentan la misión y las funcionalidades principales.<br>**Escenario 2:** Dado que el contenido no está disponible, cuando el visitante lo consulta, entonces se informa que no está disponible sin mostrar datos incorrectos. | EP01 |
-| US02 | Beneficios por segmento | Como visitante, deseo consultar los beneficios según mi segmento para identificar el valor de Kinemo para mi rol. | **Escenario 1:** Dado que existen beneficios para los segmentos, cuando el visitante consulta uno, entonces se muestran los beneficios correspondientes.<br>**Escenario 2:** Dado que se solicita un segmento no reconocido, cuando se procesa la consulta, entonces se rechaza la selección y se mantienen los segmentos válidos. | EP01 |
-| US03 | Preguntas frecuentes | Como visitante, deseo consultar respuestas a preguntas frecuentes para resolver dudas sobre el servicio. | **Escenario 1:** Dado que existen preguntas frecuentes publicadas, cuando el visitante consulta una pregunta, entonces se presenta su respuesta.<br>**Escenario 2:** Dado que no existen preguntas publicadas, cuando se consulta la sección, entonces se informa que no hay preguntas disponibles. | EP01 |
-| US04 | Redirección a la aplicación web | Como visitante, deseo acceder al registro o al inicio de sesión para comenzar a utilizar Kinemo. | **Escenario 1:** Dado que el visitante elige registrarse, cuando solicita el acceso, entonces se dirige a la ruta de registro.<br>**Escenario 2:** Dado que el visitante elige iniciar sesión, cuando solicita el acceso, entonces se dirige a la ruta de autenticación. | EP01 |
-| US05 | Formulario de registro | Como usuario no registrado, deseo crear una cuenta con un rol válido para acceder a Kinemo. | **Escenario 1:** Dado que el usuario proporciona datos válidos y un correo no registrado, cuando solicita crear la cuenta, entonces se registra con un rol permitido.<br>**Escenario 2:** Dado que el correo ya está registrado, cuando intenta registrarse nuevamente, entonces se rechaza el registro duplicado. | EP02 |
-| US06 | Validación de registro | Como usuario no registrado, deseo recibir validación de mis datos para corregir información incorrecta. | **Escenario 1:** Dado que los datos tienen un formato válido, cuando se solicita el registro, entonces se aceptan para su procesamiento.<br>**Escenario 2:** Dado que faltan campos obligatorios o hay valores inválidos, cuando se solicita el registro, entonces se rechaza y se identifican los errores. | EP02 |
-| US07 | Inicio de sesión | Como usuario registrado, deseo autenticarme con mis credenciales para acceder a mis funciones autorizadas. | **Escenario 1:** Dado que la cuenta está activa y las credenciales son válidas, cuando solicita autenticarse, entonces se establece una sesión.<br>**Escenario 2:** Dado que las credenciales son incorrectas, cuando intenta autenticarse, entonces se rechaza el acceso. | EP02 |
-| US08 | Panel principal de rutinas | Como cuidador autorizado, deseo consultar las actividades del niño para identificar sus tareas pendientes. | **Escenario 1:** Dado que existen actividades programadas y el cuidador tiene acceso, cuando consulta el resumen, entonces se muestran las actividades y sus estados.<br>**Escenario 2:** Dado que no existen actividades para el periodo, cuando consulta el resumen, entonces se devuelve una colección vacía. | EP05 |
-| US09 | Perfil clínico del niño | Como cuidador autorizado, deseo consultar las necesidades y preferencias del niño para adaptar el acompañamiento. | **Escenario 1:** Dado que el cuidador tiene permisos sobre el perfil, cuando consulta sus datos, entonces se presentan los datos autorizados, detonantes y reguladores.<br>**Escenario 2:** Dado que carece de permisos, cuando solicita consultar el perfil, entonces se deniega el acceso. | EP03 |
-| US10 | Edición del perfil del niño | Como padre o tutor, deseo actualizar los datos del niño para mantener un perfil vigente. | **Escenario 1:** Dado que el tutor tiene permisos y proporciona datos válidos, cuando solicita actualizar el perfil, entonces los cambios quedan guardados.<br>**Escenario 2:** Dado que los datos incumplen las validaciones, cuando intenta actualizar el perfil, entonces se rechazan y se conserva la información anterior. | EP03 |
-| US11 | Búsqueda de guías prácticas | Como cuidador autorizado, deseo buscar guías por término o categoría para encontrar orientaciones pertinentes. | **Escenario 1:** Dado que existen guías coincidentes, cuando el cuidador realiza una búsqueda, entonces se muestran las guías correspondientes.<br>**Escenario 2:** Dado que no existen coincidencias, cuando realiza la búsqueda, entonces se informa que no hay resultados. | EP05 |
-| US12 | Consulta de guía rápida | Como cuidador autorizado, deseo consultar indicaciones de una guía para seguir pautas acordadas con un profesional. | **Escenario 1:** Dado que existe una guía asociada al niño, cuando un cuidador autorizado la consulta, entonces se presentan las instrucciones en su orden registrado.<br>**Escenario 2:** Dado que la guía no está asociada al niño autorizado, cuando intenta consultarla, entonces se restringe el acceso. | EP05 |
-| US13 | Visualización de rutina | Como cuidador autorizado, deseo consultar la secuencia diaria y sus apoyos visuales para anticipar las actividades. | **Escenario 1:** Dado que existe una rutina programada, cuando se consulta la fecha, entonces se muestra la secuencia ordenada con sus apoyos visuales.<br>**Escenario 2:** Dado que no existe una rutina asignada, cuando se consulta la fecha, entonces se informa que no hay actividades. | EP05 |
-| US14 | Marcado de actividad completada | Como cuidador autorizado, deseo marcar actividades realizadas para mantener el avance de la rutina. | **Escenario 1:** Dado que una actividad está pendiente, cuando el cuidador la completa, entonces cambia su estado y se conserva la hora de actualización.<br>**Escenario 2:** Dado que ya está completada, cuando intenta completarla nuevamente, entonces no se duplica el registro. | EP05 |
-| US15 | Creación de rutina | Como padre, tutor o profesional autorizado, deseo crear una rutina personalizada para organizar el día del niño. | **Escenario 1:** Dado que el usuario está autorizado y proporciona una secuencia válida, cuando guarda la rutina, entonces se crea y se asocia al niño.<br>**Escenario 2:** Dado que faltan actividades obligatorias, cuando intenta guardarla, entonces se rechaza la creación. | EP05 |
-| US16 | Temporizador de transición | Como cuidador autorizado, deseo activar un temporizador para una actividad para anticipar cambios de rutina. | **Escenario 1:** Dado que existe una duración positiva configurada, cuando inicia el temporizador, entonces comienza la cuenta regresiva y se emite el aviso configurado.<br>**Escenario 2:** Dado que la duración es inválida, cuando intenta iniciarlo, entonces se impide su ejecución. | EP05 |
-| US17 | Registro de observación | Como cuidador autorizado, deseo registrar una observación del niño para facilitar el seguimiento. | **Escenario 1:** Dado que el cuidador tiene acceso y registra información válida, cuando guarda la observación, entonces se almacena con niño, autor y fecha.<br>**Escenario 2:** Dado que falta información obligatoria, cuando intenta registrar la observación, entonces se rechaza la operación. | EP06 |
-| US18 | Visualización de red de cuidado | Como padre o tutor, deseo consultar los miembros de la red para conocer sus permisos de acceso. | **Escenario 1:** Dado que el tutor está autorizado, cuando consulta la red, entonces se muestran los integrantes y sus permisos.<br>**Escenario 2:** Dado que un tercero no autorizado intenta consultar la red, cuando solicita sus integrantes, entonces se deniega el acceso. | EP03 |
-| US19 | Redacción de pautas clínicas | Como psicólogo autorizado, deseo registrar pautas individualizadas para orientar a los cuidadores. | **Escenario 1:** Dado que el profesional está vinculado al niño y proporciona una pauta válida, cuando la registra, entonces queda disponible para los usuarios autorizados.<br>**Escenario 2:** Dado que un usuario sin rol profesional intenta registrar una pauta, cuando realiza la solicitud, entonces se rechaza por falta de permisos. | EP05 |
-| US20 | Recuperación de contraseña | Como usuario registrado, deseo restablecer mi contraseña para recuperar mi acceso. | **Escenario 1:** Dado que existe una cuenta asociada al correo, cuando solicita recuperar su contraseña, entonces se genera un enlace temporal y se envían instrucciones.<br>**Escenario 2:** Dado que el enlace está vencido, cuando intenta utilizarlo, entonces se rechaza y se solicita uno nuevo. | EP02 |
-| US21 | Edición de perfil de usuario | Como usuario autenticado, deseo actualizar mis datos de contacto para mantener mi cuenta vigente. | **Escenario 1:** Dado que el usuario proporciona datos válidos para su cuenta, cuando solicita actualizarlos, entonces se guardan los cambios.<br>**Escenario 2:** Dado que intenta modificar una cuenta ajena, cuando solicita la actualización, entonces se rechaza por falta de autorización. | EP02 |
-| US22 | Cierre de sesión seguro | Como usuario autenticado, deseo finalizar mi sesión para impedir su reutilización no autorizada. | **Escenario 1:** Dado que existe una sesión activa, cuando el usuario la cierra, entonces queda invalidada.<br>**Escenario 2:** Dado que una sesión fue invalidada, cuando se intenta acceder a recursos protegidos, entonces se rechaza la solicitud. | EP02 |
-| US23 | Invitación a red de cuidado | Como padre o tutor, deseo invitar cuidadores o profesionales para ampliar la red de cuidado. | **Escenario 1:** Dado que el tutor tiene permisos y proporciona un destinatario válido, cuando envía una invitación, entonces se registra como pendiente.<br>**Escenario 2:** Dado que existe una invitación pendiente para el mismo destinatario, cuando intenta duplicarla, entonces se evita la duplicación. | EP03 |
-| US24 | Aceptación de invitación | Como cuidador o profesional invitado, deseo aceptar una invitación para vincularme al niño autorizado. | **Escenario 1:** Dado que la invitación es válida y vigente, cuando se acepta, entonces el usuario queda vinculado con los permisos asignados.<br>**Escenario 2:** Dado que la invitación está vencida o revocada, cuando intenta aceptarla, entonces se rechaza la vinculación. | EP03 |
-| US25 | Revocación de accesos | Como padre o tutor, deseo revocar permisos de un integrante para proteger los datos del niño. | **Escenario 1:** Dado que el tutor administra la red, cuando retira a un integrante, entonces se revocan sus permisos.<br>**Escenario 2:** Dado que un usuario sin permisos intenta revocar accesos, cuando solicita la operación, entonces se deniega. | EP03 |
-| US26 | Visualización de pacientes | Como psicólogo autorizado, deseo consultar los niños vinculados a mi cuenta para realizar seguimiento autorizado. | **Escenario 1:** Dado que el profesional tiene vínculos vigentes, cuando consulta sus pacientes, entonces se muestran únicamente los niños autorizados.<br>**Escenario 2:** Dado que no tiene pacientes vinculados, cuando realiza la consulta, entonces se devuelve un listado vacío. | EP03 |
-| US27 | Subida de apoyos visuales | Como padre, tutor o profesional autorizado, deseo incorporar imágenes o pictogramas para personalizar las actividades. | **Escenario 1:** Dado que el usuario está autorizado y el archivo cumple las restricciones, cuando lo carga, entonces queda disponible para asociarlo a actividades.<br>**Escenario 2:** Dado que el archivo incumple el formato o tamaño permitido, cuando intenta cargarlo, entonces se rechaza. | EP05 |
-| US28 | Duplicación de rutinas | Como padre o tutor, deseo duplicar una rutina existente para reutilizar su estructura. | **Escenario 1:** Dado que el tutor tiene permisos sobre la rutina, cuando solicita duplicarla, entonces se crea una copia independiente.<br>**Escenario 2:** Dado que carece de acceso a la rutina original, cuando intenta duplicarla, entonces se deniega la operación. | EP05 |
-| US29 | Eliminación de rutinas | Como padre o tutor, deseo retirar rutinas que ya no se usan para mantener ordenada la planificación. | **Escenario 1:** Dado que el tutor administra una rutina activa, cuando solicita eliminarla, entonces queda inactiva.<br>**Escenario 2:** Dado que la rutina ya está inactiva, cuando intenta eliminarla nuevamente, entonces se mantiene su estado. | EP05 |
-| US30 | Marcado de actividad omitida | Como cuidador autorizado, deseo registrar una actividad omitida para reflejar cambios en la ejecución. | **Escenario 1:** Dado que una actividad está pendiente, cuando se marca como omitida, entonces se actualiza su estado.<br>**Escenario 2:** Dado que ya está completada, cuando intenta marcarla como omitida, entonces se impiden estados contradictorios. | EP05 |
-| US31 | Configuración de avisos del temporizador | Como cuidador autorizado, deseo elegir avisos visuales o sonoros para adaptarlos a la sensibilidad del niño. | **Escenario 1:** Dado que existen modos configurables, cuando el cuidador selecciona uno válido, entonces se guarda la preferencia.<br>**Escenario 2:** Dado que selecciona un modo inexistente, cuando intenta guardarlo, entonces se rechaza el valor. | EP05 |
-| US32 | Categorización de crisis | Como cuidador autorizado, deseo clasificar la intensidad de una crisis registrada para facilitar el análisis del historial. | **Escenario 1:** Dado que el cuidador selecciona una categoría válida, cuando registra el incidente, entonces se guarda la intensidad asociada.<br>**Escenario 2:** Dado que la categoría no está permitida, cuando intenta registrar el incidente, entonces se rechaza el valor. | EP06 |
-| US33 | Adjuntar evidencia visual | Como cuidador autorizado, deseo vincular evidencia a una observación para aportar contexto para su seguimiento. | **Escenario 1:** Dado que existe una observación accesible y un archivo válido, cuando se adjunta, entonces queda vinculado a la observación.<br>**Escenario 2:** Dado que el archivo incumple las restricciones, cuando intenta adjuntarse, entonces se rechaza sin modificar la observación. | EP06 |
-| US34 | Comentarios del psicólogo | Como psicólogo autorizado, deseo comentar observaciones de cuidadores para ofrecer retroalimentación profesional. | **Escenario 1:** Dado que el psicólogo tiene acceso y proporciona un comentario válido, cuando lo registra, entonces queda asociado al autor y fecha.<br>**Escenario 2:** Dado que un usuario no autorizado intenta comentar, cuando solicita la operación, entonces se deniega. | EP06 |
-| US35 | Filtro de observaciones e historial de crisis | Como psicólogo autorizado, deseo filtrar registros por fecha, tipo o intensidad para consultar eventos relevantes. | **Escenario 1:** Dado que existen registros coincidentes, cuando el profesional aplica filtros, entonces se devuelven los registros correspondientes.<br>**Escenario 2:** Dado que no hay coincidencias, cuando se aplica el filtro, entonces se devuelve una colección vacía. | EP06 |
-| US36 | Exportación de reporte | Como psicólogo autorizado, deseo exportar observaciones e historial para apoyar el seguimiento profesional. | **Escenario 1:** Dado que el profesional tiene acceso y selecciona un periodo válido, cuando solicita exportar, entonces se genera un reporte PDF con registros autorizados.<br>**Escenario 2:** Dado que intenta exportar información de un niño no vinculado, cuando realiza la solicitud, entonces se deniega la exportación. | EP06 |
-| US37 | Endpoint POST Registro de Usuario | Como Developer, deseo implementar el registro REST de cuentas para permitir la creación segura de usuarios. | **Escenario 1:** Dado que se envía POST con datos válidos y correo único, cuando la API procesa la solicitud, entonces responde HTTP 201 Created sin exponer contraseñas.<br>**Escenario 2:** Dado que el correo ya existe, cuando se realiza POST, entonces responde HTTP 409 Conflict. | EP07 |
-| US38 | Endpoint POST Autenticación | Como Developer, deseo implementar un endpoint de autenticación para permitir sesiones autenticadas. | **Escenario 1:** Dado que se envían credenciales válidas, cuando la API las verifica, entonces responde HTTP 200 OK con un token válido.<br>**Escenario 2:** Dado que las credenciales son inválidas, cuando la API procesa la solicitud, entonces responde HTTP 401 Unauthorized sin token. | EP07 |
-| US39 | Endpoint GET Perfil del Niño | Como Developer, deseo implementar la consulta REST del perfil infantil para exponer datos autorizados. | **Escenario 1:** Dado que el cliente está autorizado, cuando solicita GET del perfil, entonces la API responde HTTP 200 OK con el JSON correspondiente.<br>**Escenario 2:** Dado que el cliente no tiene acceso al niño, cuando solicita el perfil, entonces responde HTTP 403 Forbidden. | EP07 |
-| US40 | Endpoint PUT Actualización de Perfil | Como Developer, deseo implementar la actualización REST del niño para mantener datos actualizados. | **Escenario 1:** Dado que el cliente autorizado envía datos válidos, cuando realiza PUT, entonces la API responde HTTP 200 OK con el recurso actualizado.<br>**Escenario 2:** Dado que los campos son inválidos, cuando realiza PUT, entonces responde HTTP 400 Bad Request y conserva la información anterior. | EP07 |
-| US41 | Endpoint GET Rutinas | Como Developer, deseo implementar la consulta REST de rutinas para entregar actividades de cada niño. | **Escenario 1:** Dado que el cliente está autorizado, cuando solicita GET de rutinas, entonces responde HTTP 200 OK con una colección JSON.<br>**Escenario 2:** Dado que no tiene permisos sobre el niño, cuando solicita GET, entonces responde HTTP 403 Forbidden. | EP07 |
-| US42 | Endpoint POST Crear Rutina | Como Developer, deseo implementar la creación REST de rutinas para registrar planificación personalizada. | **Escenario 1:** Dado que el cliente autorizado envía una rutina válida, cuando realiza POST, entonces la API responde HTTP 201 Created con el identificador.<br>**Escenario 2:** Dado que faltan actividades obligatorias, cuando se procesa POST, entonces responde HTTP 400 Bad Request. | EP07 |
-| US43 | Endpoint DELETE Eliminar Rutina | Como Developer, deseo implementar la desactivación REST de rutinas para retirar planificación no vigente. | **Escenario 1:** Dado que el cliente está autorizado y la rutina está activa, cuando realiza DELETE, entonces responde HTTP 204 No Content.<br>**Escenario 2:** Dado que la rutina no existe, cuando realiza DELETE, entonces responde HTTP 404 Not Found. | EP07 |
-| US44 | Endpoint POST Observaciones | Como Developer, deseo implementar el registro REST de observaciones para conservar información de seguimiento. | **Escenario 1:** Dado que el cliente autorizado envía una observación válida, cuando realiza POST, entonces la API responde HTTP 201 Created con su identificador.<br>**Escenario 2:** Dado que la observación está incompleta, cuando realiza POST, entonces responde HTTP 400 Bad Request. | EP07 |
-| US45 | Endpoint GET Filtro de Observaciones | Como Developer, deseo implementar consultas REST filtradas para recuperar observaciones según criterios. | **Escenario 1:** Dado que el cliente autorizado proporciona filtros válidos, cuando realiza GET, entonces responde HTTP 200 OK con resultados filtrados.<br>**Escenario 2:** Dado que el rango de fechas es inválido, cuando realiza GET, entonces responde HTTP 400 Bad Request. | EP07 |
-| US46 | Endpoint POST Pautas Clínicas | Como Developer, deseo implementar el registro REST de pautas clínicas para almacenar recomendaciones profesionales. | **Escenario 1:** Dado que un profesional autorizado envía una pauta válida, cuando realiza POST, entonces la API responde HTTP 201 Created.<br>**Escenario 2:** Dado que el cliente no tiene rol profesional autorizado, cuando realiza POST, entonces responde HTTP 403 Forbidden. | EP07 |
-| US47 | Endpoint POST Invitación Red | Como Developer, deseo implementar invitaciones REST a la red de cuidado para permitir vínculos autorizados. | **Escenario 1:** Dado que el tutor autorizado envía un destinatario válido, cuando realiza POST, entonces responde HTTP 201 Created con estado pendiente.<br>**Escenario 2:** Dado que existe una invitación pendiente duplicada, cuando realiza POST, entonces responde HTTP 409 Conflict. | EP07 |
-| US48 | Endpoint DELETE Integrante Red | Como Developer, deseo implementar la revocación REST de integrantes para administrar permisos de acceso. | **Escenario 1:** Dado que el tutor autorizado solicita revocar una vinculación, cuando realiza DELETE, entonces responde HTTP 204 No Content.<br>**Escenario 2:** Dado que el solicitante no tiene permisos, cuando realiza DELETE, entonces responde HTTP 403 Forbidden. | EP07 |
-| US49 | Integración API de notificaciones de crisis | Como Developer, deseo integrar el envío de alertas con un proveedor externo para notificar a cuidadores autorizados. | **Escenario 1:** Dado que BC03 genera una alerta y el proveedor acepta la solicitud, cuando se envía la notificación, entonces se registra el envío como aceptado sin afirmar su entrega final.<br>**Escenario 2:** Dado que el proveedor devuelve un error, cuando se intenta notificar, entonces se registra el fallo sin marcar la operación como exitosa. | EP07 |
-| US50 | Activación de alerta de crisis | Como cuidador autorizado, deseo activar una alerta de crisis para avisar a la red de cuidado. | **Escenario 1:** Dado que el cuidador está autorizado sobre el niño, cuando activa una alerta, entonces se crea un registro activo con niño, autor y fecha.<br>**Escenario 2:** Dado que carece de permisos, cuando intenta activar una alerta, entonces se rechaza su creación. | EP04 |
-| US51 | Notificación de crisis | Como padre o cuidador autorizado, deseo recibir alertas del niño para enterarme de una crisis a tiempo. | **Escenario 1:** Dado que se activa una alerta con destinatarios autorizados, cuando se procesan las notificaciones, entonces se solicita notificar solamente a dichas personas.<br>**Escenario 2:** Dado que un integrante perdió su autorización, cuando se genera una alerta, entonces no se incluye como destinatario. | EP04 |
-| US52 | Consulta del estado de alerta | Como integrante autorizado de la red de cuidado, deseo conocer el estado de una alerta para coordinar la atención. | **Escenario 1:** Dado que existe una alerta y el usuario tiene permisos, cuando consulta su estado, entonces se devuelve la información y fecha de actualización.<br>**Escenario 2:** Dado que no tiene autorización, cuando consulta la alerta, entonces se deniega el acceso. | EP04 |
-| US53 | Finalización de alerta de crisis | Como cuidador autorizado, deseo cerrar una alerta atendida para mantener actualizada su situación. | **Escenario 1:** Dado que existe una alerta activa y el cuidador está autorizado, cuando solicita cerrarla, entonces se actualiza su estado y fecha de cierre.<br>**Escenario 2:** Dado que la alerta ya está cerrada o el usuario no tiene autorización, cuando intenta finalizarla, entonces no se realiza un cierre indebido. | EP04 |
+| Epic / Story ID  | Título                                         | Descripción                                                                                                                                 | Criterios de aceptación                                                                                                                                                                                                                                                                                                                                                                        | Relacionado con (Epic ID)  |
+|------------------|------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------|
+| EP01             | Landing Page y Contenido Público               | Como visitante, deseo conocer la propuesta de valor y los beneficios de Kinemo para decidir si utilizar la plataforma.                      | **Escenario 1:** Dado que el visitante accede al sitio público, cuando consulta la información disponible, entonces se presentan la propuesta de valor, los beneficios y los accesos a la aplicación.<br>**Escenario 2:** Dado que la información solicitada no está disponible, cuando el visitante intenta consultarla, entonces se informa la situación sin mostrar información incorrecta. | -                          |
+| EP02             | Gestión de identidades y accesos               | Como usuario, deseo administrar mi identidad y acceder de forma segura a Kinemo para proteger la información autorizada.                    | **Escenario 1:** Dado que el usuario proporciona información válida, cuando solicita registrarse o autenticarse, entonces se valida su identidad y se aplican los permisos correspondientes.<br>**Escenario 2:** Dado que la información proporcionada es inválida, cuando solicita acceder, entonces se rechaza la operación y se informa el resultado.                                       | -                          |
+| EP03             | Gestión del perfil infantil y red de cuidado   | Como padre o tutor, deseo administrar el perfil infantil y su red de cuidado para coordinar el acceso autorizado a la información del niño. | **Escenario 1:** Dado que el tutor dispone de permisos, cuando gestiona los datos del niño o su red de cuidado, entonces se guardan los cambios autorizados.<br>**Escenario 2:** Dado que un usuario no dispone de permisos, cuando intenta modificar información, entonces se rechaza la operación.                                                                                           | -                          |
+| EP04             | Gestión de alertas de crisis                   | Como cuidador autorizado, deseo gestionar alertas de crisis para comunicar oportunamente los episodios a la red de cuidado.                 | **Escenario 1:** Dado que el cuidador está autorizado, cuando activa una alerta, entonces se registra el episodio y se gestiona su notificación.<br>**Escenario 2:** Dado que el usuario no está autorizado, cuando intenta gestionar una alerta, entonces se rechaza la operación.                                                                                                            | -                          |
+| EP05             | Orientación clínica y gestión de rutinas       | Como cuidador o profesional autorizado, deseo gestionar pautas y rutinas para proporcionar un acompañamiento cotidiano estructurado.        | **Escenario 1:** Dado que el usuario cuenta con autorización, cuando consulta o administra pautas y rutinas, entonces se muestra o actualiza la información permitida.<br>**Escenario 2:** Dado que el usuario carece de permisos, cuando intenta modificar información restringida, entonces se rechaza la operación.                                                                         | -                          |
+| EP06             | Gestión de observaciones e historial de crisis | Como cuidador o profesional autorizado, deseo registrar y consultar observaciones e incidentes para facilitar el seguimiento del niño.      | **Escenario 1:** Dado que el usuario está autorizado, cuando registra o consulta observaciones, entonces se procesa la información asociada al niño.<br>**Escenario 2:** Dado que el usuario no está autorizado, cuando solicita información restringida, entonces se deniega el acceso.                                                                                                       | -                          |
+| EP07             | API RESTful e infraestructura técnica          | Como Developer, deseo disponer de servicios RESTful para integrar los componentes de Kinemo mediante operaciones seguras y consistentes.    | **Escenario 1:** Dado que un cliente realiza una solicitud válida y autorizada, cuando el servicio la procesa, entonces devuelve una respuesta JSON y un código HTTP apropiado.<br>**Escenario 2:** Dado que la solicitud es inválida o no autorizada, cuando se procesa, entonces se devuelve el error correspondiente sin realizar modificaciones indebidas.                                 | -                          |
+| US01             | Visualización de propuesta de valor            | Como visitante, deseo conocer el propósito de Kinemo para entender su utilidad para la red de cuidado.                                      | **Escenario 1:** Dado que el visitante accede al sitio público, cuando consulta la información inicial, entonces se presentan la misión y las funcionalidades principales.<br>**Escenario 2:** Dado que el contenido no está disponible, cuando el visitante lo consulta, entonces se informa que no está disponible sin mostrar datos incorrectos.                                            | EP01                       |
+| US02             | Beneficios por segmento                        | Como visitante, deseo consultar los beneficios según mi segmento para identificar el valor de Kinemo para mi rol.                           | **Escenario 1:** Dado que existen beneficios para los segmentos, cuando el visitante consulta uno, entonces se muestran los beneficios correspondientes.<br>**Escenario 2:** Dado que se solicita un segmento no reconocido, cuando se procesa la consulta, entonces se rechaza la selección y se mantienen los segmentos válidos.                                                             | EP01                       |
+| US03             | Preguntas frecuentes                           | Como visitante, deseo consultar respuestas a preguntas frecuentes para resolver dudas sobre el servicio.                                    | **Escenario 1:** Dado que existen preguntas frecuentes publicadas, cuando el visitante consulta una pregunta, entonces se presenta su respuesta.<br>**Escenario 2:** Dado que no existen preguntas publicadas, cuando se consulta la sección, entonces se informa que no hay preguntas disponibles.                                                                                            | EP01                       |
+| US04             | Redirección a la aplicación web                | Como visitante, deseo acceder al registro o al inicio de sesión para comenzar a utilizar Kinemo.                                            | **Escenario 1:** Dado que el visitante elige registrarse, cuando solicita el acceso, entonces se dirige a la ruta de registro.<br>**Escenario 2:** Dado que el visitante elige iniciar sesión, cuando solicita el acceso, entonces se dirige a la ruta de autenticación.                                                                                                                       | EP01                       |
+| US05             | Formulario de registro                         | Como usuario no registrado, deseo crear una cuenta con un rol válido para acceder a Kinemo.                                                 | **Escenario 1:** Dado que el usuario proporciona datos válidos y un correo no registrado, cuando solicita crear la cuenta, entonces se registra con un rol permitido.<br>**Escenario 2:** Dado que el correo ya está registrado, cuando intenta registrarse nuevamente, entonces se rechaza el registro duplicado.                                                                             | EP02                       |
+| US06             | Validación de registro                         | Como usuario no registrado, deseo recibir validación de mis datos para corregir información incorrecta.                                     | **Escenario 1:** Dado que los datos tienen un formato válido, cuando se solicita el registro, entonces se aceptan para su procesamiento.<br>**Escenario 2:** Dado que faltan campos obligatorios o hay valores inválidos, cuando se solicita el registro, entonces se rechaza y se identifican los errores.                                                                                    | EP02                       |
+| US07             | Inicio de sesión                               | Como usuario registrado, deseo autenticarme con mis credenciales para acceder a mis funciones autorizadas.                                  | **Escenario 1:** Dado que la cuenta está activa y las credenciales son válidas, cuando solicita autenticarse, entonces se establece una sesión.<br>**Escenario 2:** Dado que las credenciales son incorrectas, cuando intenta autenticarse, entonces se rechaza el acceso.                                                                                                                     | EP02                       |
+| US08             | Panel principal de rutinas                     | Como cuidador autorizado, deseo consultar las actividades del niño para identificar sus tareas pendientes.                                  | **Escenario 1:** Dado que existen actividades programadas y el cuidador tiene acceso, cuando consulta el resumen, entonces se muestran las actividades y sus estados.<br>**Escenario 2:** Dado que no existen actividades para el periodo, cuando consulta el resumen, entonces se devuelve una colección vacía.                                                                               | EP05                       |
+| US09             | Perfil clínico del niño                        | Como cuidador autorizado, deseo consultar las necesidades y preferencias del niño para adaptar el acompañamiento.                           | **Escenario 1:** Dado que el cuidador tiene permisos sobre el perfil, cuando consulta sus datos, entonces se presentan los datos autorizados, detonantes y reguladores.<br>**Escenario 2:** Dado que carece de permisos, cuando solicita consultar el perfil, entonces se deniega el acceso.                                                                                                   | EP03                       |
+| US10             | Edición del perfil del niño                    | Como padre o tutor, deseo actualizar los datos del niño para mantener un perfil vigente.                                                    | **Escenario 1:** Dado que el tutor tiene permisos y proporciona datos válidos, cuando solicita actualizar el perfil, entonces los cambios quedan guardados.<br>**Escenario 2:** Dado que los datos incumplen las validaciones, cuando intenta actualizar el perfil, entonces se rechazan y se conserva la información anterior.                                                                | EP03                       |
+| US11             | Búsqueda de guías prácticas                    | Como cuidador autorizado, deseo buscar guías por término o categoría para encontrar orientaciones pertinentes.                              | **Escenario 1:** Dado que existen guías coincidentes, cuando el cuidador realiza una búsqueda, entonces se muestran las guías correspondientes.<br>**Escenario 2:** Dado que no existen coincidencias, cuando realiza la búsqueda, entonces se informa que no hay resultados.                                                                                                                  | EP05                       |
+| US12             | Consulta de guía rápida                        | Como cuidador autorizado, deseo consultar indicaciones de una guía para seguir pautas acordadas con un profesional.                         | **Escenario 1:** Dado que existe una guía asociada al niño, cuando un cuidador autorizado la consulta, entonces se presentan las instrucciones en su orden registrado.<br>**Escenario 2:** Dado que la guía no está asociada al niño autorizado, cuando intenta consultarla, entonces se restringe el acceso.                                                                                  | EP05                       |
+| US13             | Visualización de rutina                        | Como cuidador autorizado, deseo consultar la secuencia diaria y sus apoyos visuales para anticipar las actividades.                         | **Escenario 1:** Dado que existe una rutina programada, cuando se consulta la fecha, entonces se muestra la secuencia ordenada con sus apoyos visuales.<br>**Escenario 2:** Dado que no existe una rutina asignada, cuando se consulta la fecha, entonces se informa que no hay actividades.                                                                                                   | EP05                       |
+| US14             | Marcado de actividad completada                | Como cuidador autorizado, deseo marcar actividades realizadas para mantener el avance de la rutina.                                         | **Escenario 1:** Dado que una actividad está pendiente, cuando el cuidador la completa, entonces cambia su estado y se conserva la hora de actualización.<br>**Escenario 2:** Dado que ya está completada, cuando intenta completarla nuevamente, entonces no se duplica el registro.                                                                                                          | EP05                       |
+| US15             | Creación de rutina                             | Como padre, tutor o profesional autorizado, deseo crear una rutina personalizada para organizar el día del niño.                            | **Escenario 1:** Dado que el usuario está autorizado y proporciona una secuencia válida, cuando guarda la rutina, entonces se crea y se asocia al niño.<br>**Escenario 2:** Dado que faltan actividades obligatorias, cuando intenta guardarla, entonces se rechaza la creación.                                                                                                               | EP05                       |
+| US16             | Temporizador de transición                     | Como cuidador autorizado, deseo activar un temporizador para una actividad para anticipar cambios de rutina.                                | **Escenario 1:** Dado que existe una duración positiva configurada, cuando inicia el temporizador, entonces comienza la cuenta regresiva y se emite el aviso configurado.<br>**Escenario 2:** Dado que la duración es inválida, cuando intenta iniciarlo, entonces se impide su ejecución.                                                                                                     | EP05                       |
+| US17             | Registro de observación                        | Como cuidador autorizado, deseo registrar una observación del niño para facilitar el seguimiento.                                           | **Escenario 1:** Dado que el cuidador tiene acceso y registra información válida, cuando guarda la observación, entonces se almacena con niño, autor y fecha.<br>**Escenario 2:** Dado que falta información obligatoria, cuando intenta registrar la observación, entonces se rechaza la operación.                                                                                           | EP06                       |
+| US18             | Visualización de red de cuidado                | Como padre o tutor, deseo consultar los miembros de la red para conocer sus permisos de acceso.                                             | **Escenario 1:** Dado que el tutor está autorizado, cuando consulta la red, entonces se muestran los integrantes y sus permisos.<br>**Escenario 2:** Dado que un tercero no autorizado intenta consultar la red, cuando solicita sus integrantes, entonces se deniega el acceso.                                                                                                               | EP03                       |
+| US19             | Redacción de pautas clínicas                   | Como psicólogo autorizado, deseo registrar pautas individualizadas para orientar a los cuidadores.                                          | **Escenario 1:** Dado que el profesional está vinculado al niño y proporciona una pauta válida, cuando la registra, entonces queda disponible para los usuarios autorizados.<br>**Escenario 2:** Dado que un usuario sin rol profesional intenta registrar una pauta, cuando realiza la solicitud, entonces se rechaza por falta de permisos.                                                  | EP05                       |
+| US20             | Recuperación de contraseña                     | Como usuario registrado, deseo restablecer mi contraseña para recuperar mi acceso.                                                          | **Escenario 1:** Dado que existe una cuenta asociada al correo, cuando solicita recuperar su contraseña, entonces se genera un enlace temporal y se envían instrucciones.<br>**Escenario 2:** Dado que el enlace está vencido, cuando intenta utilizarlo, entonces se rechaza y se solicita uno nuevo.                                                                                         | EP02                       |
+| US21             | Edición de perfil de usuario                   | Como usuario autenticado, deseo actualizar mis datos de contacto para mantener mi cuenta vigente.                                           | **Escenario 1:** Dado que el usuario proporciona datos válidos para su cuenta, cuando solicita actualizarlos, entonces se guardan los cambios.<br>**Escenario 2:** Dado que intenta modificar una cuenta ajena, cuando solicita la actualización, entonces se rechaza por falta de autorización.                                                                                               | EP02                       |
+| US22             | Cierre de sesión seguro                        | Como usuario autenticado, deseo finalizar mi sesión para impedir su reutilización no autorizada.                                            | **Escenario 1:** Dado que existe una sesión activa, cuando el usuario la cierra, entonces queda invalidada.<br>**Escenario 2:** Dado que una sesión fue invalidada, cuando se intenta acceder a recursos protegidos, entonces se rechaza la solicitud.                                                                                                                                         | EP02                       |
+| US23             | Invitación a red de cuidado                    | Como padre o tutor, deseo invitar cuidadores o profesionales para ampliar la red de cuidado.                                                | **Escenario 1:** Dado que el tutor tiene permisos y proporciona un destinatario válido, cuando envía una invitación, entonces se registra como pendiente.<br>**Escenario 2:** Dado que existe una invitación pendiente para el mismo destinatario, cuando intenta duplicarla, entonces se evita la duplicación.                                                                                | EP03                       |
+| US24             | Aceptación de invitación                       | Como cuidador o profesional invitado, deseo aceptar una invitación para vincularme al niño autorizado.                                      | **Escenario 1:** Dado que la invitación es válida y vigente, cuando se acepta, entonces el usuario queda vinculado con los permisos asignados.<br>**Escenario 2:** Dado que la invitación está vencida o revocada, cuando intenta aceptarla, entonces se rechaza la vinculación.                                                                                                               | EP03                       |
+| US25             | Revocación de accesos                          | Como padre o tutor, deseo revocar permisos de un integrante para proteger los datos del niño.                                               | **Escenario 1:** Dado que el tutor administra la red, cuando retira a un integrante, entonces se revocan sus permisos.<br>**Escenario 2:** Dado que un usuario sin permisos intenta revocar accesos, cuando solicita la operación, entonces se deniega.                                                                                                                                        | EP03                       |
+| US26             | Visualización de pacientes                     | Como psicólogo autorizado, deseo consultar los niños vinculados a mi cuenta para realizar seguimiento autorizado.                           | **Escenario 1:** Dado que el profesional tiene vínculos vigentes, cuando consulta sus pacientes, entonces se muestran únicamente los niños autorizados.<br>**Escenario 2:** Dado que no tiene pacientes vinculados, cuando realiza la consulta, entonces se devuelve un listado vacío.                                                                                                         | EP03                       |
+| US27             | Subida de apoyos visuales                      | Como padre, tutor o profesional autorizado, deseo incorporar imágenes o pictogramas para personalizar las actividades.                      | **Escenario 1:** Dado que el usuario está autorizado y el archivo cumple las restricciones, cuando lo carga, entonces queda disponible para asociarlo a actividades.<br>**Escenario 2:** Dado que el archivo incumple el formato o tamaño permitido, cuando intenta cargarlo, entonces se rechaza.                                                                                             | EP05                       |
+| US28             | Duplicación de rutinas                         | Como padre o tutor, deseo duplicar una rutina existente para reutilizar su estructura.                                                      | **Escenario 1:** Dado que el tutor tiene permisos sobre la rutina, cuando solicita duplicarla, entonces se crea una copia independiente.<br>**Escenario 2:** Dado que carece de acceso a la rutina original, cuando intenta duplicarla, entonces se deniega la operación.                                                                                                                      | EP05                       |
+| US29             | Eliminación de rutinas                         | Como padre o tutor, deseo retirar rutinas que ya no se usan para mantener ordenada la planificación.                                        | **Escenario 1:** Dado que el tutor administra una rutina activa, cuando solicita eliminarla, entonces queda inactiva.<br>**Escenario 2:** Dado que la rutina ya está inactiva, cuando intenta eliminarla nuevamente, entonces se mantiene su estado.                                                                                                                                           | EP05                       |
+| US30             | Marcado de actividad omitida                   | Como cuidador autorizado, deseo registrar una actividad omitida para reflejar cambios en la ejecución.                                      | **Escenario 1:** Dado que una actividad está pendiente, cuando se marca como omitida, entonces se actualiza su estado.<br>**Escenario 2:** Dado que ya está completada, cuando intenta marcarla como omitida, entonces se impiden estados contradictorios.                                                                                                                                     | EP05                       |
+| US31             | Configuración de avisos del temporizador       | Como cuidador autorizado, deseo elegir avisos visuales o sonoros para adaptarlos a la sensibilidad del niño.                                | **Escenario 1:** Dado que existen modos configurables, cuando el cuidador selecciona uno válido, entonces se guarda la preferencia.<br>**Escenario 2:** Dado que selecciona un modo inexistente, cuando intenta guardarlo, entonces se rechaza el valor.                                                                                                                                       | EP05                       |
+| US32             | Categorización de crisis                       | Como cuidador autorizado, deseo clasificar la intensidad de una crisis registrada para facilitar el análisis del historial.                 | **Escenario 1:** Dado que el cuidador selecciona una categoría válida, cuando registra el incidente, entonces se guarda la intensidad asociada.<br>**Escenario 2:** Dado que la categoría no está permitida, cuando intenta registrar el incidente, entonces se rechaza el valor.                                                                                                              | EP06                       |
+| US33             | Adjuntar evidencia visual                      | Como cuidador autorizado, deseo vincular evidencia a una observación para aportar contexto para su seguimiento.                             | **Escenario 1:** Dado que existe una observación accesible y un archivo válido, cuando se adjunta, entonces queda vinculado a la observación.<br>**Escenario 2:** Dado que el archivo incumple las restricciones, cuando intenta adjuntarse, entonces se rechaza sin modificar la observación.                                                                                                 | EP06                       |
+| US34             | Comentarios del psicólogo                      | Como psicólogo autorizado, deseo comentar observaciones de cuidadores para ofrecer retroalimentación profesional.                           | **Escenario 1:** Dado que el psicólogo tiene acceso y proporciona un comentario válido, cuando lo registra, entonces queda asociado al autor y fecha.<br>**Escenario 2:** Dado que un usuario no autorizado intenta comentar, cuando solicita la operación, entonces se deniega.                                                                                                               | EP06                       |
+| US35             | Filtro de observaciones e historial de crisis  | Como psicólogo autorizado, deseo filtrar registros por fecha, tipo o intensidad para consultar eventos relevantes.                          | **Escenario 1:** Dado que existen registros coincidentes, cuando el profesional aplica filtros, entonces se devuelven los registros correspondientes.<br>**Escenario 2:** Dado que no hay coincidencias, cuando se aplica el filtro, entonces se devuelve una colección vacía.                                                                                                                 | EP06                       |
+| US36             | Exportación de reporte                         | Como psicólogo autorizado, deseo exportar observaciones e historial para apoyar el seguimiento profesional.                                 | **Escenario 1:** Dado que el profesional tiene acceso y selecciona un periodo válido, cuando solicita exportar, entonces se genera un reporte PDF con registros autorizados.<br>**Escenario 2:** Dado que intenta exportar información de un niño no vinculado, cuando realiza la solicitud, entonces se deniega la exportación.                                                               | EP06                       |
+| US37             | Endpoint POST Registro de Usuario              | Como Developer, deseo implementar el registro REST de cuentas para permitir la creación segura de usuarios.                                 | **Escenario 1:** Dado que se envía POST con datos válidos y correo único, cuando la API procesa la solicitud, entonces responde HTTP 201 Created sin exponer contraseñas.<br>**Escenario 2:** Dado que el correo ya existe, cuando se realiza POST, entonces responde HTTP 409 Conflict.                                                                                                       | EP07                       |
+| US38             | Endpoint POST Autenticación                    | Como Developer, deseo implementar un endpoint de autenticación para permitir sesiones autenticadas.                                         | **Escenario 1:** Dado que se envían credenciales válidas, cuando la API las verifica, entonces responde HTTP 200 OK con un token válido.<br>**Escenario 2:** Dado que las credenciales son inválidas, cuando la API procesa la solicitud, entonces responde HTTP 401 Unauthorized sin token.                                                                                                   | EP07                       |
+| US39             | Endpoint GET Perfil del Niño                   | Como Developer, deseo implementar la consulta REST del perfil infantil para exponer datos autorizados.                                      | **Escenario 1:** Dado que el cliente está autorizado, cuando solicita GET del perfil, entonces la API responde HTTP 200 OK con el JSON correspondiente.<br>**Escenario 2:** Dado que el cliente no tiene acceso al niño, cuando solicita el perfil, entonces responde HTTP 403 Forbidden.                                                                                                      | EP07                       |
+| US40             | Endpoint PUT Actualización de Perfil           | Como Developer, deseo implementar la actualización REST del niño para mantener datos actualizados.                                          | **Escenario 1:** Dado que el cliente autorizado envía datos válidos, cuando realiza PUT, entonces la API responde HTTP 200 OK con el recurso actualizado.<br>**Escenario 2:** Dado que los campos son inválidos, cuando realiza PUT, entonces responde HTTP 400 Bad Request y conserva la información anterior.                                                                                | EP07                       |
+| US41             | Endpoint GET Rutinas                           | Como Developer, deseo implementar la consulta REST de rutinas para entregar actividades de cada niño.                                       | **Escenario 1:** Dado que el cliente está autorizado, cuando solicita GET de rutinas, entonces responde HTTP 200 OK con una colección JSON.<br>**Escenario 2:** Dado que no tiene permisos sobre el niño, cuando solicita GET, entonces responde HTTP 403 Forbidden.                                                                                                                           | EP07                       |
+| US42             | Endpoint POST Crear Rutina                     | Como Developer, deseo implementar la creación REST de rutinas para registrar planificación personalizada.                                   | **Escenario 1:** Dado que el cliente autorizado envía una rutina válida, cuando realiza POST, entonces la API responde HTTP 201 Created con el identificador.<br>**Escenario 2:** Dado que faltan actividades obligatorias, cuando se procesa POST, entonces responde HTTP 400 Bad Request.                                                                                                    | EP07                       |
+| US43             | Endpoint DELETE Eliminar Rutina                | Como Developer, deseo implementar la desactivación REST de rutinas para retirar planificación no vigente.                                   | **Escenario 1:** Dado que el cliente está autorizado y la rutina está activa, cuando realiza DELETE, entonces responde HTTP 204 No Content.<br>**Escenario 2:** Dado que la rutina no existe, cuando realiza DELETE, entonces responde HTTP 404 Not Found.                                                                                                                                     | EP07                       |
+| US44             | Endpoint POST Observaciones                    | Como Developer, deseo implementar el registro REST de observaciones para conservar información de seguimiento.                              | **Escenario 1:** Dado que el cliente autorizado envía una observación válida, cuando realiza POST, entonces la API responde HTTP 201 Created con su identificador.<br>**Escenario 2:** Dado que la observación está incompleta, cuando realiza POST, entonces responde HTTP 400 Bad Request.                                                                                                   | EP07                       |
+| US45             | Endpoint GET Filtro de Observaciones           | Como Developer, deseo implementar consultas REST filtradas para recuperar observaciones según criterios.                                    | **Escenario 1:** Dado que el cliente autorizado proporciona filtros válidos, cuando realiza GET, entonces responde HTTP 200 OK con resultados filtrados.<br>**Escenario 2:** Dado que el rango de fechas es inválido, cuando realiza GET, entonces responde HTTP 400 Bad Request.                                                                                                              | EP07                       |
+| US46             | Endpoint POST Pautas Clínicas                  | Como Developer, deseo implementar el registro REST de pautas clínicas para almacenar recomendaciones profesionales.                         | **Escenario 1:** Dado que un profesional autorizado envía una pauta válida, cuando realiza POST, entonces la API responde HTTP 201 Created.<br>**Escenario 2:** Dado que el cliente no tiene rol profesional autorizado, cuando realiza POST, entonces responde HTTP 403 Forbidden.                                                                                                            | EP07                       |
+| US47             | Endpoint POST Invitación Red                   | Como Developer, deseo implementar invitaciones REST a la red de cuidado para permitir vínculos autorizados.                                 | **Escenario 1:** Dado que el tutor autorizado envía un destinatario válido, cuando realiza POST, entonces responde HTTP 201 Created con estado pendiente.<br>**Escenario 2:** Dado que existe una invitación pendiente duplicada, cuando realiza POST, entonces responde HTTP 409 Conflict.                                                                                                    | EP07                       |
+| US48             | Endpoint DELETE Integrante Red                 | Como Developer, deseo implementar la revocación REST de integrantes para administrar permisos de acceso.                                    | **Escenario 1:** Dado que el tutor autorizado solicita revocar una vinculación, cuando realiza DELETE, entonces responde HTTP 204 No Content.<br>**Escenario 2:** Dado que el solicitante no tiene permisos, cuando realiza DELETE, entonces responde HTTP 403 Forbidden.                                                                                                                      | EP07                       |
+| US49             | Integración API de notificaciones de crisis    | Como Developer, deseo integrar el envío de alertas con un proveedor externo para notificar a cuidadores autorizados.                        | **Escenario 1:** Dado que BC03 genera una alerta y el proveedor acepta la solicitud, cuando se envía la notificación, entonces se registra el envío como aceptado sin afirmar su entrega final.<br>**Escenario 2:** Dado que el proveedor devuelve un error, cuando se intenta notificar, entonces se registra el fallo sin marcar la operación como exitosa.                                  | EP07                       |
+| US50             | Activación de alerta de crisis                 | Como cuidador autorizado, deseo activar una alerta de crisis para avisar a la red de cuidado.                                               | **Escenario 1:** Dado que el cuidador está autorizado sobre el niño, cuando activa una alerta, entonces se crea un registro activo con niño, autor y fecha.<br>**Escenario 2:** Dado que carece de permisos, cuando intenta activar una alerta, entonces se rechaza su creación.                                                                                                               | EP04                       |
+| US51             | Notificación de crisis                         | Como padre o cuidador autorizado, deseo recibir alertas del niño para enterarme de una crisis a tiempo.                                     | **Escenario 1:** Dado que se activa una alerta con destinatarios autorizados, cuando se procesan las notificaciones, entonces se solicita notificar solamente a dichas personas.<br>**Escenario 2:** Dado que un integrante perdió su autorización, cuando se genera una alerta, entonces no se incluye como destinatario.                                                                     | EP04                       |
+| US52             | Consulta del estado de alerta                  | Como integrante autorizado de la red de cuidado, deseo conocer el estado de una alerta para coordinar la atención.                          | **Escenario 1:** Dado que existe una alerta y el usuario tiene permisos, cuando consulta su estado, entonces se devuelve la información y fecha de actualización.<br>**Escenario 2:** Dado que no tiene autorización, cuando consulta la alerta, entonces se deniega el acceso.                                                                                                                | EP04                       |
+| US53             | Finalización de alerta de crisis               | Como cuidador autorizado, deseo cerrar una alerta atendida para mantener actualizada su situación.                                          | **Escenario 1:** Dado que existe una alerta activa y el cuidador está autorizado, cuando solicita cerrarla, entonces se actualiza su estado y fecha de cierre.<br>**Escenario 2:** Dado que la alerta ya está cerrada o el usuario no tiene autorización, cuando intenta finalizarla, entonces no se realiza un cierre indebido.                                                               | EP04                       |
 
 ### 3.2 Impact Mapping
 
@@ -1013,7 +1011,6 @@ En NeuroSync, esta herramienta permite identificar cómo las familias y cuidador
 **Impact Mapping de NeuroSync**
 
 ![Impact Mapping de NeuroSync](NeuroSync/assets/img/3_2-impact-mapping/impact-map.png)
-
 
 ### 3.3. Product Backlog
 
@@ -1029,61 +1026,61 @@ Las estimaciones de Story Points utilizan la escala 1, 2, 3, 5 y 8, y podrán aj
 
 A continuación, se presenta el Product Backlog actualizado del proyecto.
 
-| # Orden | User Story ID | Título | Descripción | Story Points |
-|---|---|---|---|---|
-| 1 | US01 | Visualización de propuesta de valor | Como visitante, deseo conocer el propósito de Kinemo para entender su utilidad para la red de cuidado. | 3 |
-| 2 | US02 | Beneficios por segmento | Como visitante, deseo consultar los beneficios según mi segmento para identificar el valor de Kinemo para mi rol. | 3 |
-| 3 | US04 | Redirección a la aplicación web | Como visitante, deseo acceder al registro o al inicio de sesión para comenzar a utilizar Kinemo. | 2 |
-| 4 | US50 | Activación de alerta de crisis | Como cuidador autorizado, deseo activar una alerta de crisis para avisar a la red de cuidado. | 5 |
-| 5 | US51 | Notificación de crisis | Como padre o cuidador autorizado, deseo recibir alertas del niño para enterarme oportunamente de una crisis. | 5 |
-| 6 | US52 | Consulta del estado de alerta | Como integrante autorizado de la red de cuidado, deseo conocer el estado de una alerta para coordinar la atención. | 3 |
-| 7 | US53 | Finalización de alerta de crisis | Como cuidador autorizado, deseo cerrar una alerta atendida para mantener actualizada su situación. | 3 |
-| 8 | US09 | Perfil clínico del niño | Como cuidador autorizado, deseo consultar las necesidades y preferencias del niño para adaptar su acompañamiento. | 5 |
-| 9 | US12 | Consulta de guía rápida | Como cuidador autorizado, deseo consultar una guía rápida para seguir pautas acordadas con un profesional. | 5 |
-| 10 | US19 | Redacción de pautas clínicas | Como psicólogo autorizado, deseo registrar pautas individualizadas para orientar a los cuidadores. | 5 |
-| 11 | US23 | Invitación a red de cuidado | Como padre o tutor, deseo invitar cuidadores o profesionales para ampliar la red de cuidado. | 5 |
-| 12 | US24 | Aceptación de invitación | Como cuidador invitado, deseo aceptar una invitación para vincularme al perfil del niño. | 3 |
-| 13 | US18 | Visualización de red de cuidado | Como padre o tutor, deseo consultar los integrantes de la red para conocer sus permisos de acceso. | 3 |
-| 14 | US25 | Revocación de accesos | Como padre o tutor, deseo revocar el acceso de un integrante para proteger la información del niño. | 5 |
-| 15 | US17 | Registro de observación | Como cuidador, deseo registrar observaciones del niño para facilitar su seguimiento. | 5 |
-| 16 | US35 | Filtro de observaciones | Como profesional, deseo filtrar el historial de observaciones para consultar eventos relevantes. | 3 |
-| 17 | US34 | Comentarios del psicólogo | Como psicólogo, deseo comentar observaciones de los cuidadores para ofrecer retroalimentación profesional. | 5 |
-| 18 | US32 | Categorización de crisis | Como cuidador, deseo clasificar la intensidad de una crisis registrada para facilitar su análisis. | 3 |
-| 19 | US10 | Edición del perfil del niño | Como padre o tutor, deseo actualizar la información del perfil del niño para mantener sus datos vigentes. | 5 |
-| 20 | US26 | Visualización de pacientes | Como psicólogo, deseo consultar los pacientes vinculados a mi cuenta para realizar su seguimiento autorizado. | 3 |
-| 21 | US11 | Búsqueda de guías prácticas | Como cuidador autorizado, deseo buscar guías por término o categoría para encontrar orientaciones pertinentes. | 3 |
-| 22 | US15 | Creación de rutina | Como padre o profesional autorizado, deseo crear una rutina personalizada para organizar el día del niño. | 5 |
-| 23 | US13 | Visualización de rutina | Como cuidador, deseo visualizar la rutina diaria y sus apoyos visuales para anticipar las actividades. | 5 |
-| 24 | US08 | Panel principal | Como cuidador autorizado, deseo consultar el resumen de rutinas del niño para identificar tareas pendientes. | 5 |
-| 25 | US14 | Marcado de actividad completada | Como cuidador, deseo marcar las actividades realizadas para mantener el avance de la rutina. | 3 |
-| 26 | US16 | Temporizador de transición | Como cuidador, deseo utilizar un temporizador de transición para anticipar cambios de actividad. | 3 |
-| 27 | US27 | Subida de apoyos visuales | Como padre o profesional, deseo incorporar imágenes o pictogramas para personalizar las actividades. | 5 |
-| 28 | US33 | Adjuntar evidencia visual | Como cuidador, deseo adjuntar evidencia visual a una observación para aportar contexto a su seguimiento. | 5 |
-| 29 | US36 | Exportación de reporte | Como psicólogo, deseo exportar el historial de observaciones para apoyar el seguimiento profesional. | 5 |
-| 30 | US03 | Preguntas frecuentes | Como visitante, deseo consultar respuestas a preguntas frecuentes para resolver dudas sobre el servicio. | 2 |
-| 31 | US05 | Formulario de registro | Como usuario no registrado, deseo crear una cuenta con un rol válido para acceder a Kinemo. | 5 |
-| 32 | US06 | Validación de registro | Como usuario no registrado, deseo recibir validación de mis datos para corregir información incorrecta. | 3 |
-| 33 | US07 | Inicio de sesión | Como usuario registrado, deseo iniciar sesión con mis credenciales para acceder a mis funciones autorizadas. | 5 |
-| 34 | US22 | Cierre de sesión seguro | Como usuario autenticado, deseo cerrar mi sesión para impedir su reutilización no autorizada. | 2 |
-| 35 | US20 | Recuperación de contraseña | Como usuario registrado, deseo restablecer mi contraseña para recuperar el acceso a mi cuenta. | 5 |
-| 36 | US21 | Edición de perfil de usuario | Como usuario registrado, deseo actualizar mi información de contacto para mantener mis datos vigentes. | 3 |
-| 37 | US28 | Duplicación de rutinas | Como padre o tutor, deseo duplicar una rutina existente para reutilizar su estructura. | 3 |
-| 38 | US29 | Eliminación de rutinas | Como padre o tutor, deseo eliminar rutinas que ya no se utilizan para mantener ordenada la planificación. | 3 |
-| 39 | US30 | Marcado de actividad omitida | Como cuidador, deseo marcar una actividad como omitida para reflejar cambios en la ejecución de la rutina. | 2 |
-| 40 | US31 | Configuración de avisos del temporizador | Como cuidador, deseo configurar avisos visuales o sonoros del temporizador para adaptarlos a las necesidades del niño. | 3 |
-| 41 | US49 | Integración API de notificaciones de crisis | Como Developer, deseo integrar las alertas con un proveedor externo para notificar a cuidadores autorizados. | 8 |
-| 42 | US39 | Endpoint GET Perfil del Niño | Como Developer, deseo implementar la consulta REST del perfil infantil para exponer datos autorizados. | 5 |
-| 43 | US40 | Endpoint PUT Actualización Perfil | Como Developer, deseo implementar la actualización REST del perfil infantil para mantener sus datos vigentes. | 5 |
-| 44 | US46 | Endpoint POST Pautas Clínicas | Como Developer, deseo implementar el registro REST de pautas clínicas para almacenar recomendaciones profesionales. | 5 |
-| 45 | US47 | Endpoint POST Invitación Red | Como Developer, deseo implementar invitaciones REST a la red de cuidado para permitir vínculos autorizados. | 5 |
-| 46 | US48 | Endpoint DELETE Integrante Red | Como Developer, deseo implementar la revocación REST de integrantes para administrar permisos de acceso. | 5 |
-| 47 | US44 | Endpoint POST Observaciones | Como Developer, deseo implementar el registro REST de observaciones para conservar información de seguimiento. | 5 |
-| 48 | US45 | Endpoint GET Filtro de Observaciones | Como Developer, deseo implementar consultas REST filtradas para recuperar observaciones según criterios. | 5 |
-| 49 | US37 | Endpoint POST Registro de Usuario | Como Developer, deseo implementar el registro REST de cuentas para permitir la creación segura de usuarios. | 5 |
-| 50 | US38 | Endpoint POST Autenticación | Como Developer, deseo implementar la autenticación REST para permitir sesiones de usuarios autorizados. | 8 |
-| 51 | US42 | Endpoint POST Crear Rutina | Como Developer, deseo implementar la creación REST de rutinas para guardar actividades programadas. | 5 |
-| 52 | US41 | Endpoint GET Rutinas | Como Developer, deseo implementar la consulta REST de rutinas para recuperar las actividades de cada niño. | 3 |
-| 53 | US43 | Endpoint DELETE Eliminar Rutina | Como Developer, deseo implementar la eliminación REST de rutinas para retirar planificación no vigente. | 3 |
+| # Orden  | User Story ID  | Título                                      | Descripción                                                                                                            | Story Points  |
+|----------|----------------|---------------------------------------------|------------------------------------------------------------------------------------------------------------------------|---------------|
+| 1        | US01           | Visualización de propuesta de valor         | Como visitante, deseo conocer el propósito de Kinemo para entender su utilidad para la red de cuidado.                 | 3             |
+| 2        | US02           | Beneficios por segmento                     | Como visitante, deseo consultar los beneficios según mi segmento para identificar el valor de Kinemo para mi rol.      | 3             |
+| 3        | US04           | Redirección a la aplicación web             | Como visitante, deseo acceder al registro o al inicio de sesión para comenzar a utilizar Kinemo.                       | 2             |
+| 4        | US50           | Activación de alerta de crisis              | Como cuidador autorizado, deseo activar una alerta de crisis para avisar a la red de cuidado.                          | 5             |
+| 5        | US51           | Notificación de crisis                      | Como padre o cuidador autorizado, deseo recibir alertas del niño para enterarme oportunamente de una crisis.           | 5             |
+| 6        | US52           | Consulta del estado de alerta               | Como integrante autorizado de la red de cuidado, deseo conocer el estado de una alerta para coordinar la atención.     | 3             |
+| 7        | US53           | Finalización de alerta de crisis            | Como cuidador autorizado, deseo cerrar una alerta atendida para mantener actualizada su situación.                     | 3             |
+| 8        | US09           | Perfil clínico del niño                     | Como cuidador autorizado, deseo consultar las necesidades y preferencias del niño para adaptar su acompañamiento.      | 5             |
+| 9        | US12           | Consulta de guía rápida                     | Como cuidador autorizado, deseo consultar una guía rápida para seguir pautas acordadas con un profesional.             | 5             |
+| 10       | US19           | Redacción de pautas clínicas                | Como psicólogo autorizado, deseo registrar pautas individualizadas para orientar a los cuidadores.                     | 5             |
+| 11       | US23           | Invitación a red de cuidado                 | Como padre o tutor, deseo invitar cuidadores o profesionales para ampliar la red de cuidado.                           | 5             |
+| 12       | US24           | Aceptación de invitación                    | Como cuidador invitado, deseo aceptar una invitación para vincularme al perfil del niño.                               | 3             |
+| 13       | US18           | Visualización de red de cuidado             | Como padre o tutor, deseo consultar los integrantes de la red para conocer sus permisos de acceso.                     | 3             |
+| 14       | US25           | Revocación de accesos                       | Como padre o tutor, deseo revocar el acceso de un integrante para proteger la información del niño.                    | 5             |
+| 15       | US17           | Registro de observación                     | Como cuidador, deseo registrar observaciones del niño para facilitar su seguimiento.                                   | 5             |
+| 16       | US35           | Filtro de observaciones                     | Como profesional, deseo filtrar el historial de observaciones para consultar eventos relevantes.                       | 3             |
+| 17       | US34           | Comentarios del psicólogo                   | Como psicólogo, deseo comentar observaciones de los cuidadores para ofrecer retroalimentación profesional.             | 5             |
+| 18       | US32           | Categorización de crisis                    | Como cuidador, deseo clasificar la intensidad de una crisis registrada para facilitar su análisis.                     | 3             |
+| 19       | US10           | Edición del perfil del niño                 | Como padre o tutor, deseo actualizar la información del perfil del niño para mantener sus datos vigentes.              | 5             |
+| 20       | US26           | Visualización de pacientes                  | Como psicólogo, deseo consultar los pacientes vinculados a mi cuenta para realizar su seguimiento autorizado.          | 3             |
+| 21       | US11           | Búsqueda de guías prácticas                 | Como cuidador autorizado, deseo buscar guías por término o categoría para encontrar orientaciones pertinentes.         | 3             |
+| 22       | US15           | Creación de rutina                          | Como padre o profesional autorizado, deseo crear una rutina personalizada para organizar el día del niño.              | 5             |
+| 23       | US13           | Visualización de rutina                     | Como cuidador, deseo visualizar la rutina diaria y sus apoyos visuales para anticipar las actividades.                 | 5             |
+| 24       | US08           | Panel principal                             | Como cuidador autorizado, deseo consultar el resumen de rutinas del niño para identificar tareas pendientes.           | 5             |
+| 25       | US14           | Marcado de actividad completada             | Como cuidador, deseo marcar las actividades realizadas para mantener el avance de la rutina.                           | 3             |
+| 26       | US16           | Temporizador de transición                  | Como cuidador, deseo utilizar un temporizador de transición para anticipar cambios de actividad.                       | 3             |
+| 27       | US27           | Subida de apoyos visuales                   | Como padre o profesional, deseo incorporar imágenes o pictogramas para personalizar las actividades.                   | 5             |
+| 28       | US33           | Adjuntar evidencia visual                   | Como cuidador, deseo adjuntar evidencia visual a una observación para aportar contexto a su seguimiento.               | 5             |
+| 29       | US36           | Exportación de reporte                      | Como psicólogo, deseo exportar el historial de observaciones para apoyar el seguimiento profesional.                   | 5             |
+| 30       | US03           | Preguntas frecuentes                        | Como visitante, deseo consultar respuestas a preguntas frecuentes para resolver dudas sobre el servicio.               | 2             |
+| 31       | US05           | Formulario de registro                      | Como usuario no registrado, deseo crear una cuenta con un rol válido para acceder a Kinemo.                            | 5             |
+| 32       | US06           | Validación de registro                      | Como usuario no registrado, deseo recibir validación de mis datos para corregir información incorrecta.                | 3             |
+| 33       | US07           | Inicio de sesión                            | Como usuario registrado, deseo iniciar sesión con mis credenciales para acceder a mis funciones autorizadas.           | 5             |
+| 34       | US22           | Cierre de sesión seguro                     | Como usuario autenticado, deseo cerrar mi sesión para impedir su reutilización no autorizada.                          | 2             |
+| 35       | US20           | Recuperación de contraseña                  | Como usuario registrado, deseo restablecer mi contraseña para recuperar el acceso a mi cuenta.                         | 5             |
+| 36       | US21           | Edición de perfil de usuario                | Como usuario registrado, deseo actualizar mi información de contacto para mantener mis datos vigentes.                 | 3             |
+| 37       | US28           | Duplicación de rutinas                      | Como padre o tutor, deseo duplicar una rutina existente para reutilizar su estructura.                                 | 3             |
+| 38       | US29           | Eliminación de rutinas                      | Como padre o tutor, deseo eliminar rutinas que ya no se utilizan para mantener ordenada la planificación.              | 3             |
+| 39       | US30           | Marcado de actividad omitida                | Como cuidador, deseo marcar una actividad como omitida para reflejar cambios en la ejecución de la rutina.             | 2             |
+| 40       | US31           | Configuración de avisos del temporizador    | Como cuidador, deseo configurar avisos visuales o sonoros del temporizador para adaptarlos a las necesidades del niño. | 3             |
+| 41       | US49           | Integración API de notificaciones de crisis | Como Developer, deseo integrar las alertas con un proveedor externo para notificar a cuidadores autorizados.           | 8             |
+| 42       | US39           | Endpoint GET Perfil del Niño                | Como Developer, deseo implementar la consulta REST del perfil infantil para exponer datos autorizados.                 | 5             |
+| 43       | US40           | Endpoint PUT Actualización Perfil           | Como Developer, deseo implementar la actualización REST del perfil infantil para mantener sus datos vigentes.          | 5             |
+| 44       | US46           | Endpoint POST Pautas Clínicas               | Como Developer, deseo implementar el registro REST de pautas clínicas para almacenar recomendaciones profesionales.    | 5             |
+| 45       | US47           | Endpoint POST Invitación Red                | Como Developer, deseo implementar invitaciones REST a la red de cuidado para permitir vínculos autorizados.            | 5             |
+| 46       | US48           | Endpoint DELETE Integrante Red              | Como Developer, deseo implementar la revocación REST de integrantes para administrar permisos de acceso.               | 5             |
+| 47       | US44           | Endpoint POST Observaciones                 | Como Developer, deseo implementar el registro REST de observaciones para conservar información de seguimiento.         | 5             |
+| 48       | US45           | Endpoint GET Filtro de Observaciones        | Como Developer, deseo implementar consultas REST filtradas para recuperar observaciones según criterios.               | 5             |
+| 49       | US37           | Endpoint POST Registro de Usuario           | Como Developer, deseo implementar el registro REST de cuentas para permitir la creación segura de usuarios.            | 5             |
+| 50       | US38           | Endpoint POST Autenticación                 | Como Developer, deseo implementar la autenticación REST para permitir sesiones de usuarios autorizados.                | 8             |
+| 51       | US42           | Endpoint POST Crear Rutina                  | Como Developer, deseo implementar la creación REST de rutinas para guardar actividades programadas.                    | 5             |
+| 52       | US41           | Endpoint GET Rutinas                        | Como Developer, deseo implementar la consulta REST de rutinas para recuperar las actividades de cada niño.             | 3             |
+| 53       | US43           | Endpoint DELETE Eliminar Rutina             | Como Developer, deseo implementar la eliminación REST de rutinas para retirar planificación no vigente.                | 3             |
 
 ## Capítulo IV: Product Design
 
@@ -1264,7 +1261,6 @@ Iconografía:
 
 > _Pendiente — completar en `feature/web-app-ux`._
 
-
 #### 4.4.2. Web Applications Wireflow Diagrams
 
 El Wireflow Diagram representa la relación entre las principales interfaces de Kinemo y las acciones que permiten pasar de una pantalla a otra. El flujo comienza con los procesos de autenticación y registro y, una vez iniciada la sesión, conduce al Panel principal.
@@ -1303,10 +1299,7 @@ Desde el Dashboard, el usuario puede acceder a las funcionalidades correspondien
 
 ### 4.7 Software Object-Oriented Design
 
-
-
 #### 4.7.1. Class Diagrams
-
 
 ### 4.8 Database Design
 
@@ -1422,12 +1415,12 @@ GitHub Organization:
 
 [https://github.com/orgs/Open-SourceHelper/repositories](https://github.com/orgs/Open-SourceHelper/repositories)
 
-| Producto | Repositorio |
-| --- | --- |
-| Startup / Project Report | [Report](https://github.com/Open-SourceHelper/Report) |
-| Landing Page | [Landing-Page](https://github.com/Open-SourceHelper/Landing-Page) |
+| Producto                 | Repositorio                                                                       |
+|--------------------------|-----------------------------------------------------------------------------------|
+| Startup / Project Report | [Report](https://github.com/Open-SourceHelper/Report)                             |
+| Landing Page             | [Landing-Page](https://github.com/Open-SourceHelper/Landing-Page)                 |
 | Frontend Web Application | [Frontend-Application](https://github.com/Open-SourceHelper/Frontend-Application) |
-| RESTful Web Services | [Backend-Application](https://github.com/Open-SourceHelper/Backend-Application) |
+| RESTful Web Services     | [Backend-Application](https://github.com/Open-SourceHelper/Backend-Application)   |
 
 Para la gestión del código fuente se adopta un flujo de trabajo basado en GitFlow, separando las diferentes etapas de desarrollo mediante ramas específicas:
 
@@ -1443,15 +1436,15 @@ Conventional Commits
 
 Los mensajes de commit seguirán el estándar Conventional Commits utilizando principalmente los siguientes prefijos:
 
-| Prefijo | Uso |
-| --- | --- |
-| feat: | Nueva funcionalidad |
-| fix: | Corrección de error |
-| docs: | Cambios de documentación |
-| style: | Cambios visuales o de formato |
+| Prefijo   | Uso                                         |
+|-----------|---------------------------------------------|
+| feat:     | Nueva funcionalidad                         |
+| fix:      | Corrección de error                         |
+| docs:     | Cambios de documentación                    |
+| style:    | Cambios visuales o de formato               |
 | refactor: | Reestructuración sin cambiar comportamiento |
-| test: | Pruebas |
-| chore: | Configuración y mantenimiento |
+| test:     | Pruebas                                     |
+| chore:    | Configuración y mantenimiento               |
 
 La captura evidencia la estructura de ramas utilizada durante el desarrollo, permitiendo distinguir el código estable y las ramas empleadas por los integrantes para implementar las funcionalidades asignadas.
 
@@ -1475,15 +1468,15 @@ La indentación será consistente en todo el proyecto.
 
 Nomenclatura
 
-| Elemento | Convención | Ejemplo |
-| --- | --- | --- |
-| Variables | camelCase | childProfile |
-| Funciones | camelCase | getDailyRoutine() |
-| Clases | PascalCase | ChildProfile |
-| Interfaces | PascalCase | CareNetwork |
-| Constantes | UPPER_SNAKE_CASE | API_URL |
-| Archivos web | kebab-case | child-profile.component.ts |
-| Clases CSS | kebab-case | routine-card |
+| Elemento     | Convención       | Ejemplo                    |
+|--------------|------------------|----------------------------|
+| Variables    | camelCase        | childProfile               |
+| Funciones    | camelCase        | getDailyRoutine()          |
+| Clases       | PascalCase       | ChildProfile               |
+| Interfaces   | PascalCase       | CareNetwork                |
+| Constantes   | UPPER_SNAKE_CASE | API_URL                    |
+| Archivos web | kebab-case       | child-profile.component.ts |
+| Clases CSS   | kebab-case       | routine-card               |
 
 HTML
 
@@ -1511,13 +1504,13 @@ Esta sección describe la configuración utilizada para publicar los productos d
 
 Landing Page
 
-| Elemento | Tecnología |
-| --- | --- |
-| Estructura | HTML5 |
-| Estilos | CSS3 |
-| Interactividad | JavaScript |
-| Version Control | Git / GitHub |
-| Hosting | GitHub Pages |
+| Elemento        | Tecnología    |
+|-----------------|---------------|
+| Estructura      | HTML5         |
+| Estilos         | CSS3          |
+| Interactividad  | JavaScript    |
+| Version Control | Git / GitHub  |
+| Hosting         | GitHub Pages  |
 
 **Configuración de la versión actual.** La landing de HTML, CSS y JavaScript se publica mediante GitHub Pages desde la rama main y la raíz del repositorio. URL: https://open-sourcehelper.github.io/Landing-Page/. La landing enlaza a la demo Angular en https://frontend-application-1.onrender.com. El despliegue previo de Firebase se conserva como evidencia histórica del Sprint 2. El backend Spring Boot usa Java 21 y Maven; su perfil local usa H2 en memoria y expone OpenAPI en /v3/api-docs y Swagger UI en /swagger-ui/index.html. El README indica que los perfiles dev y prod requieren configuración de base de datos. La URL de la demo Angular no acredita un despliegue público del backend integrado.
 
@@ -1533,14 +1526,14 @@ El alcance prioriza las funcionalidades públicas necesarias para comunicar la p
 
 ##### 5.2.1.1. Sprint Planning 1
 
-| Campo | Información |
-| --- | --- |
-| Sprint # | Sprint 1 |
-| upDate | [fecha real de su reunión] |
-| Time | [hora] |
-| Location | Reunión virtual |
-| Prepared By | [integrante responsable] |
-| Attendees | Felipe Huamanchumo, Gabriel Vilchez, Fabricio Flores, Matthew Shinko Okuhama Diaz, Cristian Trigoso |
+| Campo       | Información                                                                                         |
+|-------------|-----------------------------------------------------------------------------------------------------|
+| Sprint #    | Sprint 1                                                                                            |
+| upDate      | [fecha real de su reunión]                                                                          |
+| Time        | [hora]                                                                                              |
+| Location    | Reunión virtual                                                                                     |
+| Prepared By | [integrante responsable]                                                                            |
+| Attendees   | Felipe Huamanchumo, Gabriel Vilchez, Fabricio Flores, Matthew Shinko Okuhama Diaz, Cristian Trigoso |
 
 Sprint 0 Review Summary
 
@@ -1554,9 +1547,9 @@ Sprint Goal
 
 Implementar y desplegar la primera versión funcional y responsive de la Landing Page de Kinemo, permitiendo comunicar la propuesta de valor, los beneficios para cada segmento objetivo, las preguntas frecuentes, los planes de suscripción y el acceso hacia la Web Application.
 
-| Campo | Valor |
-| --- | --- |
-| Sprint 1 Velocity | 13 Story Points |
+| Campo               | Valor           |
+|---------------------|-----------------|
+| Sprint 1 Velocity   | 13 Story Points |
 | Sum of Story Points | 13 Story Points |
 
 ##### 5.2.1.2. Aspect Leaders and Collaborators
@@ -1565,13 +1558,13 @@ En esta sección se presenta la matriz de liderazgo y colaboración correspondie
 
 Para este Sprint se consideran tres aspectos principales: Landing Page, UX/UI & Responsive Design y Git
 
-| Team Member | GitHub Username | Landing Page | UX/UI & Responsive | GitHub & Deployment |
-| --- | --- | --- | --- | --- |
-| Huamanchumo Chicchon, Felipe Marcelo | Ferdwar | L/C | L/C | L/C |
-| Vilchez Vite, Gabriel Alejandro | GZ-99 | L/C | L/C | L/C |
-| Flores Chavez, Fabricio | Elmiau2341 | L/C | L/C | L/C |
-| Shinko Okuhama Diaz, Matthew | okudiaz124 | L/C | L/C | L/C |
-| Trigoso Garrido, Cristian Joseph | Crzzz30<br>] | L/C | L/C | L/C |
+| Team Member                          | GitHub Username  | Landing Page  | UX/UI & Responsive  | GitHub & Deployment  |
+|--------------------------------------|------------------|---------------|---------------------|----------------------|
+| Huamanchumo Chicchon, Felipe Marcelo | Ferdwar          | L/C           | L/C                 | L/C                  |
+| Vilchez Vite, Gabriel Alejandro      | GZ-99            | L/C           | L/C                 | L/C                  |
+| Flores Chavez, Fabricio              | Elmiau2341       | L/C           | L/C                 | L/C                  |
+| Shinko Okuhama Diaz, Matthew         | okudiaz124       | L/C           | L/C                 | L/C                  |
+| Trigoso Garrido, Cristian Joseph     | Crzzz30<br>]     | L/C           | L/C                 | L/C                  |
 
 Hub & Deployment.
 
@@ -1581,26 +1574,26 @@ El Sprint Backlog 1 reúne las tareas necesarias para implementar las User Stori
 
 US01 – Visualización de propuesta de valor
 
-| Task ID | Title | Description | Estimation | Assigned To | Status |
-| --- | --- | --- | --- | --- | --- |
-| T001 | Estructura base HTML | Crear la estructura semántica principal de la Landing Page. | 3h | [Asignado] | Done |
-| T002 | Hero Section | Implementar el título, descripción y CTA principal de Kinemo. | 3h | [Asignado] | Done |
-| T003 | Estilos del Hero | Aplicar tipografía, colores y distribución responsive. | 3h | [Asignado] | Done |
+| Task ID  | Title                | Description                                                   | Estimation  | Assigned To  | Status  |
+|----------|----------------------|---------------------------------------------------------------|-------------|--------------|---------|
+| T001     | Estructura base HTML | Crear la estructura semántica principal de la Landing Page.   | 3h          | [Asignado]   | Done    |
+| T002     | Hero Section         | Implementar el título, descripción y CTA principal de Kinemo. | 3h          | [Asignado]   | Done    |
+| T003     | Estilos del Hero     | Aplicar tipografía, colores y distribución responsive.        | 3h          | [Asignado]   | Done    |
 
 US02 – Beneficios por segmento
 
-| Task ID | Title | Description | Estimation | Assigned To | Status |
-| --- | --- | --- | --- | --- | --- |
-| T004 | Cards de segmentos | Crear tarjetas para Padre/Tutor, Cuidador y Psicólogo. | 4h | [Asignado] | Done |
-| T005 | Contenido por rol | Incorporar los beneficios específicos de cada segmento. | 3h | [Asignado] | Done |
-| T006 | Diseño responsive | Adaptar las tarjetas para móvil, tablet y desktop. | 3h | [Asignado] | Done |
+| Task ID  | Title              | Description                                             | Estimation  | Assigned To  | Status  |
+|----------|--------------------|---------------------------------------------------------|-------------|--------------|---------|
+| T004     | Cards de segmentos | Crear tarjetas para Padre/Tutor, Cuidador y Psicólogo.  | 4h          | [Asignado]   | Done    |
+| T005     | Contenido por rol  | Incorporar los beneficios específicos de cada segmento. | 3h          | [Asignado]   | Done    |
+| T006     | Diseño responsive  | Adaptar las tarjetas para móvil, tablet y desktop.      | 3h          | [Asignado]   | Done    |
 
 US03 – Preguntas frecuentes
 
-| Task ID | Title | Description | Estimation | Assigned To | Status |
-| --- | --- | --- | --- | --- | --- |
-| T007 | Estructura FAQ | Crear el listado de preguntas y respuestas frecuentes. | 3h | [Asignado] | Done |
-| T008 | Interacción del FAQ | Implementar expansión y colapso de las respuestas mediante JavaScript. | 3h | [Asignado] | Done |
+| Task ID  | Title               | Description                                                            | Estimation  | Assigned To  | Status  |
+|----------|---------------------|------------------------------------------------------------------------|-------------|--------------|---------|
+| T007     | Estructura FAQ      | Crear el listado de preguntas y respuestas frecuentes.                 | 3h          | [Asignado]   | Done    |
+| T008     | Interacción del FAQ | Implementar expansión y colapso de las respuestas mediante JavaScript. | 3h          | [Asignado]   | Done    |
 
 US04 – Redirección a la aplicación web
 
@@ -1611,11 +1604,11 @@ US04 – Redirección a la aplicación web
 
 US37 – Visualización de planes
 
-| Task ID | Title | Description | Estimation | Assigned To | Status |
-| --- | --- | --- | --- | --- | --- |
-| T011 | Sección de planes | Implementar las tarjetas correspondientes a los planes Familiar y Profesional. | 4h | [Asignado] | Done |
-| T012 | Estilos de planes | Aplicar la identidad visual de Kinemo a las tarjetas de precios. | 3h | [Asignado] | Done |
-| T013 | Responsive de planes | Adaptar la sección de planes a diferentes tamaños de pantalla. | 2h | [Asignado] | Done |
+| Task ID  | Title                | Description                                                                    | Estimation  | Assigned To  | Status  |
+|----------|----------------------|--------------------------------------------------------------------------------|-------------|--------------|---------|
+| T011     | Sección de planes    | Implementar las tarjetas correspondientes a los planes Familiar y Profesional. | 4h          | [Asignado]   | Done    |
+| T012     | Estilos de planes    | Aplicar la identidad visual de Kinemo a las tarjetas de precios.               | 3h          | [Asignado]   | Done    |
+| T013     | Responsive de planes | Adaptar la sección de planes a diferentes tamaños de pantalla.                 | 2h          | [Asignado]   | Done    |
 
 Las historias seleccionadas para este Sprint corresponden a funcionalidades públicas de la Landing Page, incluyendo la propuesta de valor, los beneficios por segmento, FAQ, redirección hacia la aplicación y visualización de planes.
 
@@ -1627,12 +1620,12 @@ Los principales avances estuvieron relacionados con la implementación de la est
 
 Para mantener la trazabilidad del desarrollo, los cambios realizados fueron registrados mediante commits dentro del repositorio correspondiente.
 
-| Repository | Branch | Commit ID | Commit Message | Committed On |
-| --- | --- | --- | --- | --- |
-| [Repositorio] | [Branch] | [SHA] | [Commit real] | [Fecha] |
-| [Repositorio] | [Branch] | [SHA] | [Commit real] | [Fecha] |
-| [Repositorio] | [Branch] | [SHA] | [Commit real] | [Fecha] |
-| [Repositorio] | [Branch] | [SHA] | [Commit real] | [Fecha] |
+| Repository    | Branch   | Commit ID  | Commit Message  | Committed On  |
+|---------------|----------|------------|-----------------|---------------|
+| [Repositorio] | [Branch] | [SHA]      | [Commit real]   | [Fecha]       |
+| [Repositorio] | [Branch] | [SHA]      | [Commit real]   | [Fecha]       |
+| [Repositorio] | [Branch] | [SHA]      | [Commit real]   | [Fecha]       |
+| [Repositorio] | [Branch] | [SHA]      | [Commit real]   | [Fecha]       |
 
 Aquí se deben colocar los commits reales obtenidos desde GitHub, indicando repositorio, rama, identificador del commit, mensaje y fecha.
 
@@ -1776,19 +1769,19 @@ Se empleó una arquitectura organizada en capas de dominio, aplicación, infraes
 
 Los avances se gestionaron mediante ramas de funcionalidades (feature branches), commits y procesos de integración en la rama develop.
 
-| Sprint # | Sprint 2 |
-| --- | --- |
-| Sprint Planning Background | — |
-| Date | Por confirmar: fecha real de la reunión del Sprint 2. |
-| Time | Por confirmar: hora real de la reunión. |
-| Location | Reunión virtual. |
-| Prepared By | Por confirmar: integrante responsable de elaborar el Sprint Planning 2. |
-| Attendees (to planning meeting) | Felipe Huamanchumo / Gabriel Vilchez / Fabricio Flores / Matthew Shinko Okuhama Diaz / Cristian Trigoso. |
-| Sprint 1 Review Summary | Durante el Sprint 1, el equipo NeuroSync desarrolló la primera versión funcional de la Landing Page de Kinemo utilizando HTML, CSS y JavaScript. Se implementaron secciones orientadas a presentar la propuesta de valor, los beneficios para los segmentos objetivo, los planes de suscripción y las preguntas frecuentes. Asimismo, se establecieron las bases de organización del proyecto y el control de versiones mediante GitHub. |
-| Sprint 1 Retrospective Summary | Como resultado del primer Sprint, se identificaron oportunidades de mejora relacionadas con la coordinación entre integrantes, la distribución de responsabilidades y la integración del trabajo en el repositorio. Para el Sprint 2, se propuso fortalecer la comunicación del equipo, mantener convenciones de desarrollo y organizar la implementación mediante ramas independientes por funcionalidad. |
-| Sprint Goal & User Stories | — |
-| Sprint 2 Goal | Implementar las funcionalidades principales del frontend de Kinemo mediante Angular y TypeScript, organizando el desarrollo en los módulos priorizados del prototipo. Se busca integrar progresivamente los módulos en la rama develop, mantener una arquitectura por capas y comprobar las operaciones principales mediante una API REST simulada con JSON Server. Como criterio de cumplimiento, se considerará la implementación e integración de las funcionalidades priorizadas en el Sprint Backlog 2. |
-| Sprint 2 Velocity | Por definir según la suma de Story Points de las User Stories comprometidas en el Sprint Backlog 2. |
+| Sprint #                        | Sprint 2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+|---------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Sprint Planning Background      | —                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| Date                            | Por confirmar: fecha real de la reunión del Sprint 2.                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Time                            | Por confirmar: hora real de la reunión.                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Location                        | Reunión virtual.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Prepared By                     | Por confirmar: integrante responsable de elaborar el Sprint Planning 2.                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Attendees (to planning meeting) | Felipe Huamanchumo / Gabriel Vilchez / Fabricio Flores / Matthew Shinko Okuhama Diaz / Cristian Trigoso.                                                                                                                                                                                                                                                                                                                                                                                                     |
+| Sprint 1 Review Summary         | Durante el Sprint 1, el equipo NeuroSync desarrolló la primera versión funcional de la Landing Page de Kinemo utilizando HTML, CSS y JavaScript. Se implementaron secciones orientadas a presentar la propuesta de valor, los beneficios para los segmentos objetivo, los planes de suscripción y las preguntas frecuentes. Asimismo, se establecieron las bases de organización del proyecto y el control de versiones mediante GitHub.                                                                     |
+| Sprint 1 Retrospective Summary  | Como resultado del primer Sprint, se identificaron oportunidades de mejora relacionadas con la coordinación entre integrantes, la distribución de responsabilidades y la integración del trabajo en el repositorio. Para el Sprint 2, se propuso fortalecer la comunicación del equipo, mantener convenciones de desarrollo y organizar la implementación mediante ramas independientes por funcionalidad.                                                                                                   |
+| Sprint Goal & User Stories      | —                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| Sprint 2 Goal                   | Implementar las funcionalidades principales del frontend de Kinemo mediante Angular y TypeScript, organizando el desarrollo en los módulos priorizados del prototipo. Se busca integrar progresivamente los módulos en la rama develop, mantener una arquitectura por capas y comprobar las operaciones principales mediante una API REST simulada con JSON Server. Como criterio de cumplimiento, se considerará la implementación e integración de las funcionalidades priorizadas en el Sprint Backlog 2. |
+| Sprint 2 Velocity               | Por definir según la suma de Story Points de las User Stories comprometidas en el Sprint Backlog 2.                                                                                                                                                                                                                                                                                                                                                                                                          |
 
 Objetivo del Sprint
 
@@ -1798,12 +1791,12 @@ Alcance del Sprint
 
 La arquitectura vigente de Kinemo, consolidada después del Sprint 2 y alineada con el capítulo IV, comprende los siguientes cinco Bounded Contexts. Las evidencias del Sprint 2 conservan los nombres técnicos del prototipo anterior cuando son necesarios para rastrear el código.
 
-| Bounded Context | Responsabilidad funcional |
-| --- | --- |
-| BC01 — Identity & Access Management | Registro de usuarios, inicio de sesión y gestión de perfiles. |
+| Bounded Context                                | Responsabilidad funcional                                                        |
+|------------------------------------------------|----------------------------------------------------------------------------------|
+| BC01 — Identity & Access Management            | Registro de usuarios, inicio de sesión y gestión de perfiles.                    |
 | BC02 — Child Profile & Care Network Management | Perfiles de niños, información clínica, red de cuidado, invitaciones y permisos. |
-| BC03 — Crisis Alert Management | Activación, notificación, atención y cierre de alertas de crisis. |
-| BC04 — Clinical Guidance & Routine Management | Pautas clínicas, guías prácticas, rutinas y actividades. |
+| BC03 — Crisis Alert Management                 | Activación, notificación, atención y cierre de alertas de crisis.                |
+| BC04 — Clinical Guidance & Routine Management  | Pautas clínicas, guías prácticas, rutinas y actividades.                         |
 | BC05 — Observation & Crisis History Management | Registro y consulta de episodios, historial, comentarios y revisión profesional. |
 
 Estrategia de desarrollo
@@ -1840,13 +1833,13 @@ Las responsabilidades técnicas incluyeron el desarrollo de componentes Angular,
 
 Participación verificable en GitHub
 
-| Integrante | Evidencia de participación |
-| --- | --- |
-| Felipe Huamanchumo | Commits relacionados con Dashboard & Reporting, integración de rutas y módulos en develop. |
-| Fabricio Flores | Commits relacionados con Routine & Activity Management, Subscription & Payment Management y configuración de servicios. |
-| Matthew Shinko Okuhama Diaz | Implementación e integración del módulo histórico de observaciones y crisis, antecedente del BC05 vigente. |
-| Gabriel Vilchez | Participación en el repositorio compartido, con cambios registrados bajo el usuario GZ-99. La asignación específica de su trabajo en el Sprint 2 debe confirmarse. |
-| Cristian Trigoso | Participación en la implementación e integración registrada con el usuario Crzzz30. La distribución formal de responsabilidades debe confirmarse. |
+| Integrante                  | Evidencia de participación                                                                                                                                         |
+|-----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Felipe Huamanchumo          | Commits relacionados con Dashboard & Reporting, integración de rutas y módulos en develop.                                                                         |
+| Fabricio Flores             | Commits relacionados con Routine & Activity Management, Subscription & Payment Management y configuración de servicios.                                            |
+| Matthew Shinko Okuhama Diaz | Implementación e integración del módulo histórico de observaciones y crisis, antecedente del BC05 vigente.                                                         |
+| Gabriel Vilchez             | Participación en el repositorio compartido, con cambios registrados bajo el usuario GZ-99. La asignación específica de su trabajo en el Sprint 2 debe confirmarse. |
+| Cristian Trigoso            | Participación en la implementación e integración registrada con el usuario Crzzz30. La distribución formal de responsabilidades debe confirmarse.                  |
 
 Colaboración durante el Sprint
 
@@ -1860,20 +1853,20 @@ Pendiente de validación: confirmar con el equipo la designación formal de Aspe
 
 El Sprint Backlog 2 registra las tareas y los módulos históricos del prototipo. Sus nombres se conservan para facilitar la trazabilidad y no constituyen la lista de Bounded Contexts vigentes.
 
-| ID | Actividad | Evidencia técnica | Estado |
-| --- | --- | --- | --- |
-| SB2-01 | Implementación de Identity & Access Management | Código del módulo identity-access y rutas de autenticación. | Integrado en código |
-| SB2-02 | Implementación de Child Profile Management | Módulo child-profile y sus componentes de presentación. | Integrado en código |
-| SB2-03 | Implementación de Care Network Management | Módulo care-network-management y rutas de redes de cuidado. | Integrado en código |
-| SB2-04 | Implementación de Routine & Activity Management | Módulo routine-activity y configuración de rutas. | Integrado en código |
-| SB2-05 | Implementación de Clinical Guidance Management | Módulo clinical-guidance. | Integrado en código |
-| SB2-06 | Implementación de Observation & Crisis Management | Módulo observation-crisis, servicios y componentes. | Integrado y probado localmente |
-| SB2-07 | Implementación de Dashboard & Reporting | Módulo dashboard-reporting y rutas correspondientes. | Integrado en código |
-| SB2-08 | Implementación de Subscription & Payment Management | Módulo subscription-payment, componentes y rutas. | Integrado en código |
-| SB2-09 | Integración de funcionalidades en develop | Commits de integración de Bounded Contexts. | Realizado |
-| SB2-10 | Configuración de comunicación con servicios | Servicios HTTP, variables de entorno y JSON Server. | Configuración implementada |
-| SB2-11 | Verificación de compilación | Comando npm run build. | Verificado para la integración de perfiles infantiles y observaciones del prototipo |
-| SB2-12 | Documentación de evidencias del Sprint | Capturas, descripciones y registros en el repositorio Report. | En elaboración |
+| ID     | Actividad                                           | Evidencia técnica                                             | Estado                                                                              |
+|--------|-----------------------------------------------------|---------------------------------------------------------------|-------------------------------------------------------------------------------------|
+| SB2-01 | Implementación de Identity & Access Management      | Código del módulo identity-access y rutas de autenticación.   | Integrado en código                                                                 |
+| SB2-02 | Implementación de Child Profile Management          | Módulo child-profile y sus componentes de presentación.       | Integrado en código                                                                 |
+| SB2-03 | Implementación de Care Network Management           | Módulo care-network-management y rutas de redes de cuidado.   | Integrado en código                                                                 |
+| SB2-04 | Implementación de Routine & Activity Management     | Módulo routine-activity y configuración de rutas.             | Integrado en código                                                                 |
+| SB2-05 | Implementación de Clinical Guidance Management      | Módulo clinical-guidance.                                     | Integrado en código                                                                 |
+| SB2-06 | Implementación de Observation & Crisis Management   | Módulo observation-crisis, servicios y componentes.           | Integrado y probado localmente                                                      |
+| SB2-07 | Implementación de Dashboard & Reporting             | Módulo dashboard-reporting y rutas correspondientes.          | Integrado en código                                                                 |
+| SB2-08 | Implementación de Subscription & Payment Management | Módulo subscription-payment, componentes y rutas.             | Integrado en código                                                                 |
+| SB2-09 | Integración de funcionalidades en develop           | Commits de integración de Bounded Contexts.                   | Realizado                                                                           |
+| SB2-10 | Configuración de comunicación con servicios         | Servicios HTTP, variables de entorno y JSON Server.           | Configuración implementada                                                          |
+| SB2-11 | Verificación de compilación                         | Comando npm run build.                                        | Verificado para la integración de perfiles infantiles y observaciones del prototipo |
+| SB2-12 | Documentación de evidencias del Sprint              | Capturas, descripciones y registros en el repositorio Report. | En elaboración                                                                      |
 
 Los estados indicados representan avances comprobados en el código y no implican que todos los criterios de aceptación de las User Stories hayan superado pruebas funcionales completas.
 
@@ -2076,15 +2069,15 @@ El historial de GitHub evidencia integraciones realizadas sobre develop.
 
 Entre los registros identificables se encuentran:
 
-| Commit | Descripción |
-| --- | --- |
-| 3e3ac3e | Integración de Observation & Crisis Management en develop. |
-| 899fdf44 | Integración de Routine & Activity Management. |
-| 0171212d | Integración de Subscription & Payment Management. |
-| 1878d899 | Integración de Identity & Access Management. |
-| 957515c9 | Integración de Clinical Guidance Management. |
-| f56afa6a | Integración de Care Network Management. |
-| dbb9e012 | Integración de Dashboard & Reporting. |
+| Commit    | Descripción                                                |
+|-----------|------------------------------------------------------------|
+| 3e3ac3e   | Integración de Observation & Crisis Management en develop. |
+| 899fdf44  | Integración de Routine & Activity Management.              |
+| 0171212d  | Integración de Subscription & Payment Management.          |
+| 1878d899  | Integración de Identity & Access Management.               |
+| 957515c9  | Integración de Clinical Guidance Management.               |
+| f56afa6a  | Integración de Care Network Management.                    |
+| dbb9e012  | Integración de Dashboard & Reporting.                      |
 
 También se registraron commits posteriores destinados a corregir y ajustar la configuración compartida de la aplicación.
 
@@ -2241,18 +2234,18 @@ Asimismo, se recomienda completar la documentación técnica de los servicios de
 
 ### Anexo A. Videos de Exposiciones
 
-| Entrega | Título del video | Enlace |
-|---------|------------------|--------|
-| AV1 | Exposición parcial de NeuroSync | Pendiente de incorporar |
-| TB1 | Sprint Review 2 — Kinemo | Pendiente de incorporar |
+| Entrega | Título del video                | Enlace                   |
+|---------|---------------------------------|--------------------------|
+| AV1     | Exposición parcial de NeuroSync | Pendiente de incorporar  |
+| TB1     | Sprint Review 2 — Kinemo        | Pendiente de incorporar  |
 
 ### Anexo B. Repositorios del proyecto
 
-| Producto | Repositorio |
-|----------|-------------|
-| Reporte del proyecto | [https://github.com/Open-SourceHelper/Report](https://github.com/Open-SourceHelper/Report) |
+| Producto               | Repositorio                                                                                                            |
+|------------------------|------------------------------------------------------------------------------------------------------------------------|
+| Reporte del proyecto   | [https://github.com/Open-SourceHelper/Report](https://github.com/Open-SourceHelper/Report)                             |
 | Aplicación web Angular | [https://github.com/Open-SourceHelper/Frontend-Application](https://github.com/Open-SourceHelper/Frontend-Application) |
-| Landing Page | [https://github.com/Open-SourceHelper/Landing-Page](https://github.com/Open-SourceHelper/Landing-Page) |
+| Landing Page           | [https://github.com/Open-SourceHelper/Landing-Page](https://github.com/Open-SourceHelper/Landing-Page)                 |
 
 ### Anexo C. Evidencias de desarrollo y colaboración
 
@@ -2266,3 +2259,4 @@ Se deberá registrar la captura de la Landing Page publicada en GitHub Pages y, 
 
 **URL de Landing Page:** [https://open-sourcehelper.github.io/Landing-Page/](https://open-sourcehelper.github.io/Landing-Page/)
 
+**URL del Frontend:** [https://frontend-application-1.onrender.com/login](https://frontend-application-1.onrender.com/login)

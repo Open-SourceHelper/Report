@@ -2217,6 +2217,12 @@ Validación propuesta por segmento: una persona de familia, una cuidadora y una 
 
 Para cada sesión registrar código de participante, segmento, fecha, tareas realizadas, resultado, comentario relevante, enlace a la evidencia autorizada y acción de mejora. No se incorporan entrevistas como realizadas hasta contar con el registro o grabación del equipo.
 
+##### Entrevista de validación — Ximena Castillo
+
+**Participante:** Ximena Castillo.
+
+**Video de la entrevista:** [Ver entrevista en YouTube](https://youtu.be/loZ0si5hxtY).
+
 #### 5.3.3 Evaluaciones según heurísticas
 
 Pauta de revisión para la demo: comprobar la visibilidad del estado al cargar o fallar una consulta, la consistencia de nombres y botones entre landing y aplicación, la claridad de los mensajes de acceso y la recuperación al volver al menú. Para cada hallazgo documentar pantalla, paso para reproducirlo, heurística, severidad y recomendación. Los hallazgos y su severidad deben proceder de una revisión real.

@@ -2,33 +2,33 @@
 
 ![Logo UPC](NeuroSync/assets/cover/logo-upc.png)
 
-| Campo | Valor                                           |
-|---|-------------------------------------------------|
-| Universidad | Universidad Peruana de Ciencias Aplicadas (UPC) |
-| Carrera | Ingeniería de Software                          |
-| Ciclo | 2026-20                                         |
-| Código y Nombre del Curso | 1ASI0729 - Desarrollo de Aplicaciones Open Source                     |
-| NRC | 7793                                            |
-| Profesor | Ivan Robles Fernández                   |
-| Nombre del Startup | NeuroSync                               |
-| Nombre del Producto | Kinemo                                          |
-| año | 2026                                            |
+| Campo                     | Valor                                             |
+|---------------------------|---------------------------------------------------|
+| Universidad               | Universidad Peruana de Ciencias Aplicadas (UPC)   |
+| Carrera                   | Ingeniería de Software                            |
+| Ciclo                     | 2026-20                                           |
+| Código y Nombre del Curso | 1ASI0729 - Desarrollo de Aplicaciones Open Source |
+| NRC                       | 7793                                              |
+| Profesor                  | Ivan Robles Fernández                             |
+| Nombre del Startup        | NeuroSync                                         |
+| Nombre del Producto       | Kinemo                                            |
+| año                       | 2026                                              |
 
 **Integrantes**
 
-| Código     | Apellidos y Nombres        |
-|------------|----------------------------|
-|  u20241b932 | Huamanchumo Chicchon, Felipe Marcelo |
-|  u202416903 | Vilchez Vite, Gabriel Alejandro     |
-| u202212327 | Flores Chavez, Fabricio     |
-| u202419311 | Matthew Shinko Okuhama Diaz     |
-| u202318865 | Trigoso Garrido, Cristian Joseph     |
+| Código      | Apellidos y Nombres                  |
+|-------------|--------------------------------------|
+| u20241b932  | Huamanchumo Chicchon, Felipe Marcelo |
+| u202416903  | Vilchez Vite, Gabriel Alejandro      |
+| u202212327  | Flores Chavez, Fabricio              |
+| u202419311  | Matthew Shinko Okuhama Diaz          |
+| u202318865  | Trigoso Garrido, Cristian Joseph     |
 
 ## Registro de Versiones del Informe
 
-| Versión | Fecha | Autor | Descripción de modificación |
-|---|---|---|---|
-| AV1 | 4/20/26 | Felipe Marcelo Huamanchumo Chicchon |  |
+| Versión | Fecha    | Autor                                | Descripción de modificación |
+|---------|----------|--------------------------------------|-----------------------------|
+| AV1     | 4/20/26  | Felipe Marcelo Huamanchumo Chicchon  |                             |
 
 ## Project Report Collaboration Insights
 
@@ -50,7 +50,6 @@ Repositorio del Project Report:
             - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
             - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
     - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
-
 - [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
     - [2.1. Competidores](#21-competidores)
         - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
@@ -66,12 +65,10 @@ Repositorio del Project Report:
         - [2.3.4. Empathy Mapping](#234-empathy-mapping)
     - [2.4. Big Picture Event Storming](#24-big-picture-event-storming)
     - [2.5 Ubiquitous Language](#25-ubiquitous-language)
-
 - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
     - [3.1. User Stories](#31-user-stories)
     - [3.2. Impact Mapping](#32-impact-mapping)
     - [3.3. Product Backlog](#33-product-backlog)
-
 - [Capítulo IV: Product Design](#capítulo-iv-product-design)
     - [4.1. Style Guidelines](#41-style-guidelines)
         - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
@@ -99,7 +96,6 @@ Repositorio del Project Report:
         - [4.7.1. Class Diagrams](#471-class-diagrams)
     - [4.8. Database Design](#48-database-design)
         - [4.8.1. Database Diagrams](#481-database-diagrams)
-
 - [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
     - [5.1. Software Configuration Management](#51-software-configuration-management)
         - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
@@ -124,7 +120,6 @@ Repositorio del Project Report:
             - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
             - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
             - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
-
 - [Conclusiones](#conclusiones)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
@@ -138,10 +133,10 @@ Repositorio del Project Report:
 
 En el siguiente cuadro se describen las acciones realizadas y las conclusiones obtenidas durante el desarrollo del proyecto NeuroSync – Kinemo, las cuales permiten evidenciar el cumplimiento del Student Outcome 5.
 
-| Criterio específico | Acciones realizadas | Conclusiones |
-|---|---|---|
-| **Comunica oralmente con efectividad a diferentes rangos de audiencia.** | **Huamanchumo Chicchon, Felipe Marcelo**<br><br>**AV1:** Participé en la comunicación y coordinación con los integrantes del equipo durante el desarrollo del Capítulo I y las secciones de entrevistas del Capítulo II. Compartí información sobre la problemática, los segmentos objetivo y los resultados de las entrevistas para contribuir a una comprensión común de las necesidades de los usuarios de Kinemo.<br><br>**TB1:** Participé en la coordinación de las actividades relacionadas con la implementación frontend de los Bounded Contexts 3 (Care Network) y 7, comunicando los avances y las correcciones realizadas en las funcionalidades y en el reporte del proyecto. | **AV1:** Fortalecí mis habilidades de comunicación oral al compartir ideas y resultados de investigación con los integrantes del equipo, facilitando la coordinación y comprensión de los objetivos del proyecto.<br><br>**TB1:** Mejoré mi capacidad para comunicar avances técnicos y explicar las funcionalidades desarrolladas, contribuyendo a una mejor organización y coordinación del trabajo en equipo. |
-| **Comunica por escrito con efectividad a diferentes rangos de audiencia.** | **Huamanchumo Chicchon, Felipe Marcelo**<br><br>**AV1:** Desarrollé el Capítulo I del informe, incluyendo la descripción de la startup, los perfiles del equipo, los antecedentes y la problemática, el proceso Lean UX y los segmentos objetivo. Asimismo, elaboré las secciones correspondientes al diseño, registro y análisis de entrevistas del Capítulo II. También participé en la elaboración del diagrama de base de datos, representando las entidades y relaciones necesarias para la solución propuesta.<br><br>**TB1:** Desarrollé funcionalidades frontend de los Bounded Contexts 3 (Care Network) y 7, siguiendo la estructura y arquitectura establecida para el proyecto. Además, realicé correcciones y actualizaciones en el reporte, incorporando y organizando información en formato Markdown, mejorando la redacción y manteniendo la coherencia de la documentación con el desarrollo de la aplicación. | **AV1:** Fortalecí mis habilidades de comunicación escrita mediante la elaboración de documentación técnica y de investigación, organizando de manera clara la información de la startup, la problemática, las entrevistas y el diseño de la base de datos.<br><br>**TB1:** Mejoré mi capacidad para estructurar y documentar información técnica, relacionando las funcionalidades implementadas con la arquitectura del sistema. Asimismo, las correcciones del reporte me permitieron desarrollar mayor precisión y claridad en la presentación escrita de los avances del proyecto. |
+| Criterio específico                                                         | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | Conclusiones                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+|-----------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Comunica oralmente con efectividad a diferentes rangos de audiencia.**    | **Huamanchumo Chicchon, Felipe Marcelo**<br><br>**AV1:** Participé en la comunicación y coordinación con los integrantes del equipo durante el desarrollo del Capítulo I y las secciones de entrevistas del Capítulo II. Compartí información sobre la problemática, los segmentos objetivo y los resultados de las entrevistas para contribuir a una comprensión común de las necesidades de los usuarios de Kinemo.<br><br>**TB1:** Participé en la coordinación de las actividades relacionadas con la implementación frontend de los Bounded Contexts 3 (Care Network) y 7, comunicando los avances y las correcciones realizadas en las funcionalidades y en el reporte del proyecto.                                                                                                                                                                                                                                       | **AV1:** Fortalecí mis habilidades de comunicación oral al compartir ideas y resultados de investigación con los integrantes del equipo, facilitando la coordinación y comprensión de los objetivos del proyecto.<br><br>**TB1:** Mejoré mi capacidad para comunicar avances técnicos y explicar las funcionalidades desarrolladas, contribuyendo a una mejor organización y coordinación del trabajo en equipo.                                                                                                                                                                         |
+| **Comunica por escrito con efectividad a diferentes rangos de audiencia.**  | **Huamanchumo Chicchon, Felipe Marcelo**<br><br>**AV1:** Desarrollé el Capítulo I del informe, incluyendo la descripción de la startup, los perfiles del equipo, los antecedentes y la problemática, el proceso Lean UX y los segmentos objetivo. Asimismo, elaboré las secciones correspondientes al diseño, registro y análisis de entrevistas del Capítulo II. También participé en la elaboración del diagrama de base de datos, representando las entidades y relaciones necesarias para la solución propuesta.<br><br>**TB1:** Desarrollé funcionalidades frontend de los Bounded Contexts 3 (Care Network) y 7, siguiendo la estructura y arquitectura establecida para el proyecto. Además, realicé correcciones y actualizaciones en el reporte, incorporando y organizando información en formato Markdown, mejorando la redacción y manteniendo la coherencia de la documentación con el desarrollo de la aplicación. | **AV1:** Fortalecí mis habilidades de comunicación escrita mediante la elaboración de documentación técnica y de investigación, organizando de manera clara la información de la startup, la problemática, las entrevistas y el diseño de la base de datos.<br><br>**TB1:** Mejoré mi capacidad para estructurar y documentar información técnica, relacionando las funcionalidades implementadas con la arquitectura del sistema. Asimismo, las correcciones del reporte me permitieron desarrollar mayor precisión y claridad en la presentación escrita de los avances del proyecto.  |
 
 ## Capítulo I: Introducción
 
@@ -157,28 +152,27 @@ Misión: Facilitar la comunicación y coordinación entre familias, cuidadores y
 
 #### 1.1.2. Perfiles de integrantes del equipo
 
-| Ingeniería de Software | Fabricio Flores Chavez <br> U202212327 |
-|---|---|
+| Ingeniería de Software                                                                                                                                   | Fabricio Flores Chavez <br> U202212327                                                                |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
 | **Descripción:** Me gusta mucho seguir aprendiendo cosas nuevas y poder ser un gran profesional, y siempre poder ayudar a los demás en lo que necesiten. | ![Fabricio Flores Chavez](NeuroSync/assets/img/1_1_2-perfiles-de-integrantes-del-equipo/Fabricio.png) |
 
-| Ingeniería de Software | Felipe Marcelo Huamanchumo Chicchon <br> U20241B932 |
-|---|---|
+| Ingeniería de Software                                                                                                                                                                           | Felipe Marcelo Huamanchumo Chicchon <br> U20241B932                                                              |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
 | **Descripción:** Soy una persona que le busca la vuelta a los problemas, con ganas de salir adelante y de seguir aprendiendo cosas nuevas, siempre dando lo mejor de mí para alcanzar mis metas. | ![Felipe Marcelo Huamanchumo Chicchon](NeuroSync/assets/img/1_1_2-perfiles-de-integrantes-del-equipo/Felipe.png) |
 
-| Ingeniería de Software | Gabriel Alejandro Vilchez Vite <br> U202416903 |
-|---|---|
-| **Descripción:** Actualmente estudio la carrera de ingeniería de software y me considero una persona que no deja todos sus trabajos pendientes a última hora y que siempre trata de terminar todos sus trabajos a tiempo. Actualmente tengo conocimientos en matemáticas y en algunos lenguajes de programación como C++ y Matlab. Actualmente estoy estudiando Java. | ![Gabriel Alejandro Vilchez Vite](NeuroSync/assets/img/1_1_2-perfiles-de-integrantes-del-equipo/Gabriel.png) |
+| Ingeniería de Software                                                                                                                                                                                                                                                                                                                                                | Gabriel Alejandro Vilchez Vite <br> U202416903                                                                |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
+| **Descripción:** Actualmente estudio la carrera de ingeniería de software y me considero una persona que no deja todos sus trabajos pendientes a última hora y que siempre trata de terminar todos sus trabajos a tiempo. Actualmente tengo conocimientos en matemáticas y en algunos lenguajes de programación como C++ y Matlab. Actualmente estoy estudiando Java. | ![Gabriel Alejandro Vilchez Vite](NeuroSync/assets/img/1_1_2-perfiles-de-integrantes-del-equipo/Gabriel.png)  |
 
-| Ingeniería de Software | Matthew Shinko Okuhama Diaz <br> U202419311 |
-|---|---|
+| Ingeniería de Software                                                                                                                                                                       | Matthew Shinko Okuhama Diaz <br> U202419311                                                               |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | **Descripción:** Soy estudiante de ingeniería de software y me considero una persona estudiosa y trabajadora muy enfocado en sus estudios. Tengo conocimientos en programación (C++ y HTML). | ![Matthew Shinko Okuhama Diaz](NeuroSync/assets/img/1_1_2-perfiles-de-integrantes-del-equipo/Matthew.png) |
 
-| Ingeniería de Software | Cristian Joseph Trigoso Garrido <br> U202318865 |
-|---|---|
+| Ingeniería de Software                                                                                                                                                                                                                                       | Cristian Joseph Trigoso Garrido <br> U202318865                                                                |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | **Descripción:** Me gusta la superación personal y el aprendizaje continuo en el ámbito del desarrollo de software. Me motiva explorar y dominar nuevas herramientas tecnológicas para aportar soluciones creativas y de impacto en proyectos colaborativos. | ![Cristian Joseph Trigoso Garrido](NeuroSync/assets/img/1_1_2-perfiles-de-integrantes-del-equipo/Cristian.png) |
 
 ### 1.2 Solution Profile
-
 
 #### 1.2.1. Antecedentes y problemática
 
@@ -335,7 +329,6 @@ Criterio de validación: Al menos el 80 % de los profesionales participantes con
 
 **Link:**<br>https://miro.com/welcomeonboard/U1c5M2RpZDN6L211eTVJd2tCQXk4b2xDQk5LUVc2WmQ0c2ZkS1o4bHlNQ3FrTU4zQ052bkxkQTM4eFR2dDZJdzNOOFVpaC95UmwxTzkxRGdOeWNoWDF0RXpCbmQ0NHZBOWF3cWtMVmZhelRPam92WkV0Vm51cUJHL09seXBUMHF0R2lncW1vRmFBVnlLcVJzTmdFdlNRPT0hdjE=?share_link_id=680292650527
 
-
 ### 1.3. Segmentos objetivo
 
 Para el desarrollo del proyecto se han identificado dos segmentos objetivos principales, los cuales interactúan de manera complementaria dentro de la solución web:
@@ -451,7 +444,6 @@ Tácticas generales:
 * Evitar que la propuesta de valor dependa exclusivamente de funciones simples, fácilmente replicables (temporizadores, listas de actividades), reafirmar la coordinación de la red de cuidado y la personalización de las recomendaciones.
 
 ### 2.2 Entrevistas
-
 
 #### 2.2.1. Diseño de entrevistas
 
@@ -619,6 +611,27 @@ La entrevistada es una profesional de psicología especializada en atención inf
 
 Desde su experiencia, señala que las pautas terapéuticas suelen perder continuidad en el hogar cuando existen varios cuidadores que aplican estrategias diferentes. Para realizar el seguimiento, obtiene información de los padres y solicita registros de las crisis o episodios de desregulación cuando es necesario. También identifica dificultades para mantener el uso constante de materiales visuales como pictogramas y agendas. Considera útil una solución digital que centralice las recomendaciones y permita que todos los cuidadores sigan las mismas indicaciones de manera sencilla y organizada.
 
+---
+
+**Entrevista N°5:**
+
+**Nombre:** Rosa Angélica
+
+**Apellido:** Vite Luján
+
+**Edad:** 70 años
+
+**Distrito:** Lince
+
+![rosi](NeuroSync/assets/img/2_2_2-registro-de-entrevistas/rosi.png)
+
+**URL:** [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416903_upc_edu_pe/IQCv836zVxpPSKq1GJXNn9AGAb4NnYQsaf8xX-ggHyNf4SU?e=yGPKUb&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+**Resumen:**
+
+La entrevistada es una profesional de psicología educativa y clínica que brinda atención particular en modalidad mixta, combinando sesiones virtuales y presenciales. En su práctica utiliza principalmente herramientas como Word, Excel, Canva y Google, además de recursos audiovisuales de YouTube y Facebook. Aunque reconoce los beneficios de las herramientas digitales, señala que todavía tiene dificultades para dominarlas y que anteriormente realizaba sus registros de manera manual.
+
+Desde su experiencia, identifica que las pautas terapéuticas suelen perder continuidad en el hogar, especialmente durante las primeras semanas de intervención, debido a las dificultades de los padres para incorporar nuevas estrategias de crianza. Por ello, considera fundamental trabajar directamente con las familias y observar las dinámicas del hogar, incluyendo la participación de abuelos, niñeras y otros cuidadores. Para realizar el seguimiento, utiliza encuestas y registros diarios en Excel, donde los padres documentan las conductas y episodios del menor. También menciona que la elaboración de materiales visuales se ha facilitado gracias a la inteligencia artificial, aunque todavía requiere familiarizarse más con estas herramientas. Considera muy útil una solución digital que permita registrar información directamente, recibir los datos de manera rápida y centralizar las pautas terapéuticas para que todos los cuidadores sigan los mismos protocolos. Asimismo, propone incorporar espacios de comunidad donde padres y adolescentes con problemáticas similares puedan compartir experiencias y estrategias de apoyo.
 
 #### 2.2.3. Análisis de entrevistas
 
